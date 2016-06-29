@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (weak,nonatomic) IBOutlet UIBarButtonItem *menuButton;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *nextButton;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *backButton;
+
+@property (strong, nonatomic) IBOutlet UIWebView *webContent;
+
 
 @end
 

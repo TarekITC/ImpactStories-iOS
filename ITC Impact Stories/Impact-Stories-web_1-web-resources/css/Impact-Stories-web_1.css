@@ -1,0 +1,1053 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+td, th {
+	border-style:solid;
+	border-width:1px;
+}
+table {
+	border-collapse:collapse;
+}
+li {
+	display:block;
+}
+body {
+	font-size:12px;
+	-epub-hyphens:auto;
+}
+table.Basic-Table {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:-4px;
+	margin-top:4px;
+    margin-left:8px;
+    
+}
+p.Basic-Paragraph {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.Title-BASKET-K {
+	-epub-hyphens:none;
+	color:#ffffff;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:18px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.Country {
+	-epub-hyphens:none;
+	color:#00aeef;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:36px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:20px;
+	margin-right:0px;
+	margin-top:30px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.subtitle {
+	-epub-hyphens:none;
+	color:#88aaca;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:9px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.subtitle-Cyan {
+	-epub-hyphens:none;
+	color:#00aeef;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:20px;
+	margin-right:0px;
+	margin-top:9px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.infos {
+	-epub-hyphens:none;
+	color:#ffffff;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:9px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.subtitle-2 {
+	-epub-hyphens:none;
+	color:#404042;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:40px;
+	margin-top:0px;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.foreword {
+	-epub-hyphens:none;
+	color:#404042;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:16px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:3px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:20px;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.title-baskets {
+	-epub-hyphens:none;
+	color:#404042;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:24px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:9px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.text-brochure {
+	-epub-hyphens:none;
+	color:#404042;
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.383;
+	margin-bottom:9px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.ITC-text {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:Arial, sans-serif;
+	font-size:8px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.125;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.H2-UN-blue {
+	-epub-hyphens:none;
+	color:#88aaca;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:20px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.167;
+	margin-bottom:9px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:17px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.H2-Cyan {
+	-epub-hyphens:none;
+	color:#00aeef;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:20px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.167;
+	margin-bottom:9px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:17px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.Cyan-headlines-n03 {
+	-epub-hyphens:none;
+	color:#00aeef;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.3;
+	margin-bottom:6px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:17px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.Text-Body-Swiss {
+	-epub-hyphens:none;
+	color:#6A6A67; /*<!--#404030-->;*/
+	font-family:"Times New Roman", sans-serif;
+	font-size:16px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.3;
+	margin-bottom:6px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0px;
+}
+li.bullets-square {
+	-epub-hyphens:none;
+	color:#404042;
+	font-family:"Swis721 BT", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.118;
+	margin-bottom:1px;
+	margin-left:11px;
+	margin-right:28px;
+	margin-top:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:-11px;
+}
+p.quote-UN-blue {
+	-epub-hyphens:none;
+	color:#88aaca;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:10px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.368;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:14px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.quote-CYAN {
+	-epub-hyphens:none;
+	color:#00aeef;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:10px;
+	font-style:italic;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.368;
+	margin-bottom:0px;
+	margin-left:35px;
+	margin-right:35px;
+	margin-top:14px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+p.quote-name-UN-blue {
+	-epub-hyphens:none;
+	color:#404042;
+	font-family:"Swis721 BT", sans-serif;
+	font-size:8px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.429;
+	margin-bottom:6px;
+	margin-left:99px;
+	margin-right:35px;
+	margin-top:6px;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0px;
+}
+span.TOC---dark-blue {
+	color:#002a54;
+}
+span.TOC---purple {
+	color:#832a7c;
+}
+span.TOC--magenta {
+	color:#e50c62;
+}
+span.TOC--red {
+	color:#d22229;
+}
+span.UN-blue {
+	color:#88aaca;
+}
+span.bold {
+	font-style:normal;
+	font-weight:bold;
+}
+td.cell-style-override-1 {
+	background-color:#00aeef;
+	padding-bottom:11px;
+	padding-right:11px;
+	padding-top:11px;
+}
+td.cell-style-override-2 {
+	background-color:#ffffff;
+	padding-bottom:11px;
+	padding-left:11px;
+	padding-right:11px;
+	padding-top:11px;
+}
+td.cell-style-override-3 {
+	background-color:#e50c62;
+	padding-bottom:11px;
+	padding-right:11px;
+	padding-top:11px;
+}
+p.para-style-override-1 {
+	-epub-hyphens:none;
+	text-align:center;
+}
+p.para-style-override-2 {
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-3 {
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+	margin-top:3px;
+}
+p.para-style-override-4 {
+	margin-right:14px;
+	text-align:right;
+}
+p.para-style-override-5 {
+	color:#ffffff;
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-size:7px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-6 {
+	color:#ffffff;
+}
+p.para-style-override-7 {
+	color:#ffffff;
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-size:8px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-8 {
+	margin-top:6px;
+}
+p.para-style-override-9 {
+	margin-left:79px;
+}
+p.para-style-override-10 {
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:bold;
+	margin-top:8px;
+}
+p.para-style-override-11 {
+	margin-top:0px;
+}
+p.para-style-override-12 {
+	margin-top:11px;
+}
+p.para-style-override-13 {
+	font-family:"Swis721 BT", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+	margin-top:11px;
+}
+p.para-style-override-14 {
+	color:#6d6e71;
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-size:7px;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-15 {
+	color:#ffffff;
+	font-family:"Swis721 BT", sans-serif;
+	font-size:8px;
+	font-style:normal;
+	font-weight:bold;
+	margin-bottom:3px;
+	margin-left:6px;
+	text-transform:uppercase;
+}
+p.para-style-override-16 {
+	font-size:9px;
+}
+p.para-style-override-17 {
+	break-after:column;
+}
+li.para-style-override-18 {
+	margin-right:17px;
+}
+p.para-style-override-19 {
+	margin-left:0px;
+}
+p.para-style-override-20 {
+	font-size:10px;
+}
+p.para-style-override-21 {
+	color:#832a7c;
+}
+p.para-style-override-22 {
+	margin-bottom:0px;
+}
+p.para-style-override-23 {
+	margin-top:23px;
+}
+p.para-style-override-24 {
+	margin-left:60px;
+}
+p.para-style-override-25 {
+	margin-top:9px;
+}
+p.para-style-override-26 {
+	font-style:normal;
+	font-weight:bold;
+	margin-left:60px;
+}
+p.para-style-override-27 {
+	margin-bottom:3px;
+	margin-left:6px;
+}
+p.para-style-override-28 {
+	color:#221e1f;
+	font-family:"Minion Pro", serif;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-29 {
+	color:#e50c62;
+}
+p.para-style-override-30 {
+	margin-left:60px;
+	margin-top:0px;
+}
+p.para-style-override-31 {
+	break-after:column;
+	margin-left:60px;
+}
+li.para-style-override-32 {
+	margin-bottom:3px;
+}
+p.para-style-override-33 {
+	font-family:"Swis721 BT", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+p.para-style-override-34 {
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:bold;
+	margin-top:0px;
+}
+p.para-style-override-35 {
+	color:#d22229;
+}
+p.para-style-override-36 {
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-size:7px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-1 {
+	color:#6d6e71;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:18px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-2 {
+	color:#6d6e71;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:32px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-3 {
+	color:#6d6e71;
+	font-family:"GeoSlab703 Lt BT", serif;
+	font-size:15px;
+	font-style:italic;
+	font-weight:normal;
+}
+span.char-style-override-4 {
+	font-family:"Swis721 BT", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-5 {
+	font-size:9px;
+}
+span.char-style-override-6 {
+	font-family:Wingdings, sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-7 {
+	color:#ffffff;
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-size:7px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-8 {
+	color:#ffffff;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:18px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-9 {
+	color:#ffffff;
+}
+span.char-style-override-10 {
+	font-family:"GeoSlab703 Md BT", serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-11 {
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.char-style-override-12 {
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:32px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.char-style-override-13 {
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.char-style-override-14 {
+	font-family:"Swis721 BT", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-15 {
+	font-family:"Swis721 BT", sans-serif;
+	font-size:7px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-16 {
+	color:#002a54;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-17 {
+	display:inline-block;
+	text-indent:0;
+	white-space:pre-wrap;
+	width:11.338582677165356px;
+}
+span.char-style-override-18 {
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-19 {
+	color:#88aaca;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-20 {
+	font-style:normal;
+	font-weight:bold;
+}
+span.char-style-override-21 {
+	font-size:10px;
+}
+span.char-style-override-22 {
+	font-size:11px;
+}
+span.char-style-override-23 {
+	font-size:12px;
+}
+span.char-style-override-24 {
+	color:#88aaca;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:12px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-25 {
+	font-family:"Swis721 Lt BT", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-26 {
+	color:#832a7c;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-27 {
+	color:#832a7c;
+}
+span.char-style-override-28 {
+	font-family:"GeoSlab703 Md BT", serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+span.char-style-override-29 {
+	color:#e50c62;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-30 {
+	color:#e50c62;
+}
+span.char-style-override-31 {
+	color:#ffffff;
+	font-family:"Swis721 BT", sans-serif;
+	font-size:8px;
+	font-style:normal;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+span.char-style-override-32 {
+	font-family:"Swis721 BT", sans-serif;
+	font-style:normal;
+	font-weight:bold;
+}
+span.char-style-override-33 {
+	color:#d22229;
+	font-family:"GeoSlab703 Md BT", serif;
+	font-style:normal;
+	font-weight:normal;
+}
+img.frame-1 {
+	height:150px;
+	width:161px;
+}
+div.frame-2 {
+	margin:0px auto 0px auto;
+	text-align:center;
+}
+img.frame-3 {
+	height:160px;
+	width:161px;
+}
+img.frame-4 {
+	height:50px;
+	width:120px;
+}
+img.frame-5 {
+	height:150px;
+	width:150px;
+}
+img.frame-6 {
+	height:160px;
+	width:150px;
+}
+img.frame-7 {
+	height:23px;
+	width:104px;
+}
+img.frame-8 {
+	height:187px;
+	width:280px;
+}
+img.frame-9 {
+	height:54px;
+	width:90px;
+}
+img.frame-10 {
+    height:377px;
+    width:381px;
+}
+img.frame-9-a {
+	height:280px;
+	width:279px;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+img.frame-11 {
+	height:240px;
+	width:476px;
+}
+img.frame-12 {
+	height:187px;
+	width:280px;
+}
+img.frame-13 {
+    height:187px;
+    width:280px;
+}
+img.frame-14 {
+    height:187px;
+    width:280px;
+}
+img.frame-15 {
+    height:187px;
+    width:280px;
+}
+img.frame-16 {
+    height:187px;
+    width:280px;
+}
+img.frame-17 {
+    height:187px;
+    width:280px;
+}
+img.frame-18 {
+    height:187px;
+    width:280px;
+}
+img.frame-19 {
+	height:138px;
+	width:187px;
+}
+img.frame-20 {
+	height:249px;
+	width:187px;
+}
+img.frame-21 {
+	height:237px;
+	width:227px;
+}
+img.frame-22 {
+	height:158px;
+	width:280px;
+}
+img.frame-23 {
+	height:237px;
+	width:237px;
+}
+img.frame-24 {
+	height:179px;
+	width:229px;
+}
+col.Row-Column-25 {
+	width:356px;
+}
+tr.Row-Column-26 {
+	min-height:30px;
+}
+tr.Row-Column-27 {
+	min-height:292px;
+}
+img.frame-28 {
+	height:180px;
+	width:260px;
+}
+img.frame-29 {
+    height:180px;
+    width:280px;
+}
+img.frame-30 {
+    height:180px;
+    width:260px;
+}
+img.frame-31 {
+    height:108px;
+    width:280px;
+}
+img.frame-32 {
+    height:180px;
+    width:260px;
+}
+img.frame-33 {
+	height:187px;
+	width:280px;
+}
+img.frame-34 {
+	height:210px;
+	width:280px;
+}
+img.frame-35 {
+	height:210px;
+	width:280px;
+}
+img.frame-36 {
+	height:189px;
+	width:280px;
+}
+img.frame-37 {
+	height:158px;
+	width:326px;
+}
+img.frame-38 {
+	height:185px;
+	width:280px;
+}
+img.frame-39 {
+	height:144px;
+	width:233px;
+}
+img.frame-40 {
+
+}
+img.frame-41 {
+
+}
+img.frame-42 {
+	height:121px;
+	width:258px;
+}
+img.frame-43 {
+	height:247px;
+	width:464px;
+}
+img.frame-44 {
+	height:238px;
+	width:238px;
+}
+img.frame-45 {
+	height:476px;
+	width:229px;
+}
+img.frame-46 {
+	height:245px;
+	width:225px;
+}
+img.frame-47 {
+	height:238px;
+	width:225px;
+}
+img.frame-48 {
+	height:237px;
+	width:239px;
+}
+img.frame-49 {
+	height:238px;
+	width:239px;
+}
+img.frame-50 {
+	height:180px;
+	width:280px;
+}
+img.frame-51 {
+    height:180px;
+    width:280px;
+}
+img.frame-52 {
+    height:180px;
+    width:280px;
+}
+img.frame-53 {
+	height:138px;
+	width:341px;
+}
+img.frame-54 {
+	height:237px;
+	width:228px;
+}
+tr.Row-Column-55 {
+	min-height:280px;
+}
+img.frame-56 {
+	height:132px;
+	width:310px;
+}
+img.frame-57 {
+	height:190px;
+	width:230px;
+}
+img.frame-58 {
+	height:192px;
+	width:235px;
+}
+img.frame-59 {
+	height:98px;
+	width:358px;
+}
+img.frame-60 {
+	height:183px;
+	width:235px;
+}
+img.frame-61 {
+	height:185px;
+	width:230px;
+}
+img.frame-62 {
+	height:183px;
+	width:230px;
+}
+img.frame-63 {
+	height:185px;
+	width:235px;
+}
+img.frame-64 {
+	height:235px;
+	width:228px;
+}
+img.frame-65 {
+	height:248px;
+	width:464px;
+}
+img.frame-66 {
+	height:235px;
+	width:236px;
+}
+img.frame-67 {
+	height:118px;
+	width:262px;
+}
+tr.Row-Column-68 {
+	min-height:327px;
+}
+img.frame-69 {
+	height:230px;
+	width:464px;
+}
+img.frame-70 {
+	height:112px;
+	width:299px;
+}
+img.frame-71 {
+	height:239px;
+	width:228px;
+}
+img.frame-72 {
+	height:241px;
+	width:234px;
+}
+img.frame-73 {
+	height:483px;
+	width:464px;
+}
+img.frame-74 {
+	height:102px;
+	width:264px;
+}
+img.frame-75 {
+	height:237px;
+	width:250px;
+}
+img.frame-76 {
+	height:240px;
+	width:464px;
+}
+img.frame-77 {
+	height:236px;
+	width:212px;
+}
+img.frame-78 {
+	height:239px;
+	width:464px;
+}
+img.frame-79 {
+	height:238px;
+	width:236px;
+}
+img.frame-80 {
+	height:238px;
+	width:228px;
+}
+img.frame-81 {
+	height:44px;
+	width:36px;
+}
+img.frame-82 {
+	height:56px;
+	width:205px;
+}
