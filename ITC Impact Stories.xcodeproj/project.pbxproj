@@ -18,6 +18,8 @@
 		9F09DF5B1D24062F00C13459 /* kyrgistan-1.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F09DF5A1D24062F00C13459 /* kyrgistan-1.html */; };
 		9F09DF5D1D24063D00C13459 /* Cote_divoire_2.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F09DF5C1D24063D00C13459 /* Cote_divoire_2.html */; };
 		9F09DF5F1D24064300C13459 /* mauritius.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F09DF5E1D24064300C13459 /* mauritius.html */; };
+		9F12B16D1D2512D400BB6FED /* ViewControllerFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F12B16C1D2512D400BB6FED /* ViewControllerFive.m */; };
+		9F12B1701D25478F00BB6FED /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F12B16F1D25478F00BB6FED /* SettingsViewController.m */; };
 		9F6C2A291D1FB681004704BE /* icon-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A281D1FB681004704BE /* icon-menu.png */; };
 		9F6C2A2B1D1FB699004704BE /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A2A1D1FB699004704BE /* previous.png */; };
 		9F6C2A2D1D1FB6B6004704BE /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A2C1D1FB6B6004704BE /* next.png */; };
@@ -27,7 +29,7 @@
 		9F6C2AAA1D1FCD81004704BE /* 4-Nigeria.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A321D1FCD81004704BE /* 4-Nigeria.html */; };
 		9F6C2AAB1D1FCD81004704BE /* Cote_dIvoire.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A331D1FCD81004704BE /* Cote_dIvoire.html */; };
 		9F6C2AAC1D1FCD81004704BE /* Impact-Stories-web_1.css in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A351D1FCD81004704BE /* Impact-Stories-web_1.css */; };
-		9F6C2AAD1D1FCD81004704BE /* foreward.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A361D1FCD81004704BE /* foreward.html */; };
+		9F6C2AAD1D1FCD81004704BE /* foreword.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A361D1FCD81004704BE /* foreword.html */; };
 		9F6C2AAE1D1FCD81004704BE /* 04 Sewing workshop Wom_opt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A381D1FCD81004704BE /* 04 Sewing workshop Wom_opt.jpeg */; };
 		9F6C2AAF1D1FCD81004704BE /* 043_opt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A391D1FCD81004704BE /* 043_opt.jpeg */; };
 		9F6C2AB01D1FCD81004704BE /* 1104.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6C2A3A1D1FCD81004704BE /* 1104.png */; };
@@ -196,6 +198,10 @@
 		9F09DF5A1D24062F00C13459 /* kyrgistan-1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "kyrgistan-1.html"; sourceTree = "<group>"; };
 		9F09DF5C1D24063D00C13459 /* Cote_divoire_2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Cote_divoire_2.html; sourceTree = "<group>"; };
 		9F09DF5E1D24064300C13459 /* mauritius.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mauritius.html; sourceTree = "<group>"; };
+		9F12B16B1D2512D400BB6FED /* ViewControllerFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerFive.h; path = ../ViewControllerFive.h; sourceTree = "<group>"; };
+		9F12B16C1D2512D400BB6FED /* ViewControllerFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerFive.m; path = ../ViewControllerFive.m; sourceTree = "<group>"; };
+		9F12B16E1D25478F00BB6FED /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9F12B16F1D25478F00BB6FED /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		9F6C2A281D1FB681004704BE /* icon-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-menu.png"; sourceTree = "<group>"; };
 		9F6C2A2A1D1FB699004704BE /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
 		9F6C2A2C1D1FB6B6004704BE /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
@@ -205,7 +211,7 @@
 		9F6C2A321D1FCD81004704BE /* 4-Nigeria.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "4-Nigeria.html"; sourceTree = "<group>"; };
 		9F6C2A331D1FCD81004704BE /* Cote_dIvoire.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Cote_dIvoire.html; sourceTree = "<group>"; };
 		9F6C2A351D1FCD81004704BE /* Impact-Stories-web_1.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "Impact-Stories-web_1.css"; sourceTree = "<group>"; };
-		9F6C2A361D1FCD81004704BE /* foreward.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = foreward.html; sourceTree = "<group>"; };
+		9F6C2A361D1FCD81004704BE /* foreword.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = foreword.html; sourceTree = "<group>"; };
 		9F6C2A381D1FCD81004704BE /* 04 Sewing workshop Wom_opt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 Sewing workshop Wom_opt.jpeg"; sourceTree = "<group>"; };
 		9F6C2A391D1FCD81004704BE /* 043_opt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 043_opt.jpeg; sourceTree = "<group>"; };
 		9F6C2A3A1D1FCD81004704BE /* 1104.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1104.png; sourceTree = "<group>"; };
@@ -403,7 +409,7 @@
 				9F6C2A321D1FCD81004704BE /* 4-Nigeria.html */,
 				9F6C2A331D1FCD81004704BE /* Cote_dIvoire.html */,
 				9F6C2A341D1FCD81004704BE /* css */,
-				9F6C2A361D1FCD81004704BE /* foreward.html */,
+				9F6C2A361D1FCD81004704BE /* foreword.html */,
 				9F6C2A371D1FCD81004704BE /* image */,
 				9F6C2AA41D1FCD81004704BE /* Impact-Stories-web_2.html */,
 				9F6C2AA51D1FCD81004704BE /* Market_Intelligence.html */,
@@ -582,20 +588,22 @@
 				9FC068A21D1DB40D00DA1EFA /* SWRevealViewController.m */,
 				9FC0686E1D1DB3F500DA1EFA /* AppDelegate.h */,
 				9FC0686F1D1DB3F500DA1EFA /* AppDelegate.m */,
-				9FC068711D1DB3F500DA1EFA /* ViewController.h */,
-				9FC068721D1DB3F500DA1EFA /* ViewController.m */,
 				9FC068741D1DB3F500DA1EFA /* Main.storyboard */,
 				9FC0687A1D1DB3F500DA1EFA /* Assets.xcassets */,
 				9FC0687C1D1DB3F500DA1EFA /* LaunchScreen.storyboard */,
 				9FC0687F1D1DB3F500DA1EFA /* Info.plist */,
 				9FC068771D1DB3F500DA1EFA /* ITC_Impact_Stories.xcdatamodeld */,
 				9FC0686B1D1DB3F500DA1EFA /* Supporting Files */,
+				9FC068711D1DB3F500DA1EFA /* ViewController.h */,
+				9FC068721D1DB3F500DA1EFA /* ViewController.m */,
 				9FC068A71D1E59BA00DA1EFA /* ViewControllerTwo.h */,
 				9FC068A81D1E59BA00DA1EFA /* ViewControllerTwo.m */,
 				9FC068AA1D1E59CF00DA1EFA /* ViewControllerThree.h */,
 				9FC068AB1D1E59CF00DA1EFA /* ViewControllerThree.m */,
 				9FC068AD1D1E5DE900DA1EFA /* ViewControllerFour.h */,
 				9FC068AE1D1E5DE900DA1EFA /* ViewControllerFour.m */,
+				9F12B16B1D2512D400BB6FED /* ViewControllerFive.h */,
+				9F12B16C1D2512D400BB6FED /* ViewControllerFive.m */,
 				9FC068B01D1E675D00DA1EFA /* RightToLeftSegue.h */,
 				9FC068B11D1E675D00DA1EFA /* RightToLeftSegue.m */,
 				9F6C2B1D1D1FD560004704BE /* PageTwo.h */,
@@ -604,10 +612,12 @@
 				9F6C2B211D1FF472004704BE /* BackgroundLayer.m */,
 				9FFF7DE51D216C060041E3DB /* PageThree.h */,
 				9FFF7DE61D216C060041E3DB /* PageThree.m */,
-				9F09DF481D234B9900C13459 /* PageFive.h */,
-				9F09DF491D234B9900C13459 /* PageFive.m */,
 				9F09DF4B1D234BD200C13459 /* PageFour.h */,
 				9F09DF4C1D234BD200C13459 /* PageFour.m */,
+				9F09DF481D234B9900C13459 /* PageFive.h */,
+				9F09DF491D234B9900C13459 /* PageFive.m */,
+				9F12B16E1D25478F00BB6FED /* SettingsViewController.h */,
+				9F12B16F1D25478F00BB6FED /* SettingsViewController.m */,
 			);
 			path = "ITC Impact Stories";
 			sourceTree = "<group>";
@@ -825,7 +835,7 @@
 				9F6C2AB71D1FCD81004704BE /* 2252.png in Resources */,
 				9F6C2B171D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt2.png in Resources */,
 				9F6C2AF21D1FCD81004704BE /* MAR-video_opt.jpeg in Resources */,
-				9F6C2AAD1D1FCD81004704BE /* foreward.html in Resources */,
+				9F6C2AAD1D1FCD81004704BE /* foreword.html in Resources */,
 				9FC068761D1DB3F500DA1EFA /* Main.storyboard in Resources */,
 				9F6C2AAB1D1FCD81004704BE /* Cote_dIvoire.html in Resources */,
 				9F6C2A291D1FB681004704BE /* icon-menu.png in Resources */,
@@ -913,6 +923,8 @@
 				9F6C2B221D1FF472004704BE /* BackgroundLayer.m in Sources */,
 				9FC068A61D1DBCE200DA1EFA /* NavigationViewController.m in Sources */,
 				9FC068A31D1DB40D00DA1EFA /* SWRevealViewController.m in Sources */,
+				9F12B16D1D2512D400BB6FED /* ViewControllerFive.m in Sources */,
+				9F12B1701D25478F00BB6FED /* SettingsViewController.m in Sources */,
 				9FC068A91D1E59BA00DA1EFA /* ViewControllerTwo.m in Sources */,
 				9F09DF4D1D234BD200C13459 /* PageFour.m in Sources */,
 				9FC068701D1DB3F500DA1EFA /* AppDelegate.m in Sources */,

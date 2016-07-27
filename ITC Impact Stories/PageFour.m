@@ -10,6 +10,7 @@
 #import "SWRevealViewController.h"
 #import "ViewController.h"
 #import "ViewControllerThree.h"
+#import "ViewControllerFive.h"
 
 @interface PageFour ()
 
@@ -24,7 +25,7 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 40.0f)];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     
-    UIImage * logo = [UIImage imageNamed:@"ITC-logo-high.png"];
+    UIImage * logo = [UIImage imageNamed:@"5912.png"];
     
     [imageView setImage:logo];
     
@@ -87,7 +88,7 @@
     transition.type = kCATransitionFade;
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
-    ViewController *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"VC1"];
+    ViewControllerFive *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"VC5"];
     [self.navigationController pushViewController:nextViewController animated:NO];
     
     

@@ -1,22 +1,19 @@
 //
-//  PageFive.h
+//  ViewControllerFive.h
 //  ITC Impact Stories
 //
-//  Created by Tarek Benoudina on 29/06/16.
+//  Created by Tarek Benoudina on 30/06/16.
 //  Copyright © 2016 ITC/United Nations. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface PageFive : UIViewController
-
+@interface ViewControllerFive : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *menuButton;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *backButton;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *nextButton;
-@property (weak, nonatomic) IBOutlet UIWebView *webContent;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedHeader;
-@property (weak, nonatomic) IBOutlet UIButton *titleButton;
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

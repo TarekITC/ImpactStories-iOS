@@ -1,22 +1,24 @@
 //
-//  ViewControllerFour.m
+//  ViewControllerFive.m
 //  ITC Impact Stories
 //
-//  Created by Tarek Benoudina on 25/06/16.
+//  Created by Tarek Benoudina on 30/06/16.
 //  Copyright © 2016 ITC/United Nations. All rights reserved.
 //
 
+#import "ViewControllerFive.h"
 #import "ViewControllerFour.h"
 #import "SWRevealViewController.h"
 #import "ViewControllerThree.h"
-#import "ViewControllerFive.h"
-#import "PageFour.h"
+#import "ViewController.h"
+#import "PageFive.h"
 
-@interface ViewControllerFour ()
+
+@interface ViewControllerFive ()
 
 @end
 
-@implementation ViewControllerFour
+@implementation ViewControllerFive
 
 @synthesize menuButton,nextButton,backButton,scrollView;
 
@@ -28,7 +30,7 @@
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-   
+    
     
     // Setting the image title in the navigation bar
     
@@ -53,7 +55,7 @@
     
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
-
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,7 +78,7 @@
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
     
-    ViewControllerThree *nextVC =[self.storyboard instantiateViewControllerWithIdentifier:@"VC3"];
+    ViewControllerFour *nextVC =[self.storyboard instantiateViewControllerWithIdentifier:@"VC4"];
     [self.navigationController pushViewController:nextVC animated:NO];
 }
 
@@ -90,7 +92,7 @@
     transition.type = kCATransitionFade;
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
-    ViewControllerFive *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"VC5"];
+    ViewController *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"VC1"];
     [self.navigationController pushViewController:nextViewController animated:NO];
     
     
@@ -98,10 +100,10 @@
 
 
 
-- (IBAction)unwindToViewControllerFour:(UIStoryboardSegue *)unwindSegue
+- (IBAction)unwindToViewControllerFive:(UIStoryboardSegue *)unwindSegue
 {
     
-    UIViewController* sourceViewController = unwindSegue.sourceViewController;
+    //UIViewController* sourceViewController = unwindSegue.sourceViewController;
     
 }
 
@@ -113,7 +115,7 @@
     transition.type = kCATransitionFromLeft;
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
-    PageFour *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Page4"];
+    PageFive *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Page5"];
     [nextViewController.segmentedHeader setSelectedSegmentIndex:0];
     [self.navigationController pushViewController:nextViewController animated:NO];
     
@@ -127,41 +129,9 @@
     transition.type = kCATransitionFromLeft;//kCATransitionFade;
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
-    PageFour *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Page4"];
+    PageFive *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Page5"];
     [nextViewController.segmentedHeader setSelectedSegmentIndex:1];
     [self.navigationController pushViewController:nextViewController animated:NO];
     
 }
-
-
-
-//
-//-(void) viewDidAppear{
-//   //[self.scrollView setScrollEnabled:YES];
-//}
-//
-//-(void) viewWillAppear:(BOOL)animated{
-//
-//    [self.scrollView setScrollEnabled:YES];
-//    [self.scrollView setContentSize:CGSizeMake(375,661)];
-//
-//
-//}
-//
-//-(void) viewDidAppear:(BOOL)animated{
-//    [super viewDidAppear:animated];
-//    [self.scrollView setScrollEnabled:YES];
-//    [self.scrollView setContentSize:CGSizeMake(375,661)];
-//}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

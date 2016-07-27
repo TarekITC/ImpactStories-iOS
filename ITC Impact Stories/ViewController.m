@@ -26,7 +26,7 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 40.0f)];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     
-    UIImage * logo = [UIImage imageNamed:@"ITC-logo-high.png"];
+    UIImage * logo = [UIImage imageNamed:@"5912.png"];
     
     [imageView setImage:logo];
     
@@ -54,7 +54,7 @@
     
     
     // Loading webContent view
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"foreward" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"foreword" ofType:@"html"];
     NSURL * url = [NSURL fileURLWithPath:path];
     NSMutableURLRequest * urlRequest = [NSMutableURLRequest requestWithURL:url];
     [self.webContent loadRequest:urlRequest];

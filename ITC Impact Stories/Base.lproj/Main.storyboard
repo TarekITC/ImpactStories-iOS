@@ -39,7 +39,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="c6O-VI-qXU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.98211049827318431" green="0.52723841514412273" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="first" textLabel="ym4-Zo-6Qc" rowHeight="67" style="IBUITableViewCellStyleDefault" id="nIR-Fh-AVW">
                                 <rect key="frame" x="0.0" y="92" width="375" height="67"/>
@@ -132,7 +132,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="cKE-TR-2WV" kind="custom" customClass="SWRevealViewControllerSegue" id="ICg-eK-LVG"/>
+                                    <segue destination="4Dm-8y-dwL" kind="custom" customClass="SWRevealViewControllerSegue" id="Gpd-rD-trt"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="five" textLabel="qba-jU-5A5" rowHeight="80" style="IBUITableViewCellStyleDefault" id="8dt-MF-af2">
@@ -154,6 +154,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="cKE-TR-2WV" kind="custom" customClass="SWRevealViewControllerSegue" id="Z8H-IQ-iqn"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="six" textLabel="Alo-E2-Xcy" rowHeight="80" style="IBUITableViewCellStyleDefault" id="D9U-bD-ciI">
                                 <rect key="frame" x="0.0" y="479" width="375" height="80"/>
@@ -195,6 +198,29 @@
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="eight" textLabel="Ims-6b-OBm" rowHeight="80" style="IBUITableViewCellStyleDefault" id="nV6-5k-aYX">
+                                <rect key="frame" x="0.0" y="639" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nV6-5k-aYX" id="iuT-gl-GS4">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ims-6b-OBm">
+                                            <rect key="frame" x="15" y="0.0" width="345" height="79"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                            <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular">
+                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                            </variation>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Ghs-8v-ytO" kind="custom" customClass="SWRevealViewControllerSegue" id="sSy-dK-Vwk"/>
+                                </connections>
+                            </tableViewCell>
                         </prototypes>
                         <sections/>
                         <connections>
@@ -224,10 +250,10 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YL3-Df-efD">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_139420757_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="y7k-gZ-kTq">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_121967665_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="y7k-gZ-kTq">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="491" width="177" height="96"/>
+                                            <rect key="frame" x="36" y="497" width="177" height="96"/>
                                         </variation>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC_6573_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wga-Z1-egT">
@@ -238,30 +264,30 @@
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHT-6M-ndh">
                                         <rect key="frame" x="231" y="444" width="79" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <state key="normal" title="Read more">
-                                            <color key="titleColor" red="0.0" green="0.16862745100000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="232" y="324" width="79" height="30"/>
+                                            <rect key="frame" x="245" y="328" width="79" height="30"/>
                                         </variation>
                                         <connections>
                                             <action selector="readStoryOne:" destination="cKE-TR-2WV" eventType="touchUpInside" id="vVw-8c-mLx"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connecting to value chains:SME competitiveness, and links to export markets " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogV-2o-mCM">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strengthening trade and investment support institutions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogV-2o-mCM">
                                         <rect key="frame" x="35" y="128" width="233" height="21"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="10" y="44" width="359" height="84"/>
+                                            <rect key="frame" x="10" y="51" width="359" height="84"/>
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TPO benchmarking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UxX-PH-7Ce">
                                         <rect key="frame" x="35" y="367" width="275" height="21"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular" fixedFrame="YES">
                                             <rect key="frame" x="36" y="412" width="275" height="21"/>
@@ -269,8 +295,8 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Improved quality translates into exports for Nigerian shea butter" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDu-VZ-lBB">
                                         <rect key="frame" x="35" y="241" width="275" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.24555739246711411" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular" fixedFrame="YES">
                                             <rect key="frame" x="36" y="196" width="275" height="49"/>
@@ -279,7 +305,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAj-rb-1Fm">
                                         <rect key="frame" x="35" y="376" width="275" height="16"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular" fixedFrame="YES">
                                             <rect key="frame" x="36" y="422" width="275" height="16"/>
@@ -287,8 +313,8 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helping trade and investment support institutions AIM higher" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hC8-Mx-oRt">
                                         <rect key="frame" x="35" y="396" width="275" height="40"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.2455573925" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular" fixedFrame="YES">
                                             <rect key="frame" x="36" y="443" width="275" height="40"/>
@@ -297,7 +323,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8h-lU-MN3">
                                         <rect key="frame" x="35" y="219" width="275" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular" fixedFrame="YES">
                                             <rect key="frame" x="36" y="179" width="275" height="16"/>
@@ -305,8 +331,8 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nigeria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzz-CY-Tfk">
                                         <rect key="frame" x="35" y="212" width="275" height="21"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <color key="textColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular" fixedFrame="YES">
                                             <rect key="frame" x="36" y="169" width="275" height="21"/>
@@ -314,12 +340,12 @@
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8W-2T-Sxl">
                                         <rect key="frame" x="231" y="289" width="79" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Read more">
-                                            <color key="titleColor" red="0.094930075109999998" green="0.30777651070000001" blue="0.63070154190000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="232" y="550" width="79" height="30"/>
+                                            <rect key="frame" x="246" y="555" width="79" height="30"/>
                                         </variation>
                                         <connections>
                                             <action selector="readStoryTwo:" destination="cKE-TR-2WV" eventType="touchUpInside" id="htH-Zy-xH1"/>
@@ -359,11 +385,11 @@
                                 </variation>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="YL3-Df-efD" secondAttribute="bottom" constant="-59" id="AYb-pa-mO6"/>
                             <constraint firstItem="YL3-Df-efD" firstAttribute="leading" secondItem="C10-bn-VRy" secondAttribute="leading" id="C8i-Fv-DEz"/>
-                            <constraint firstItem="YL3-Df-efD" firstAttribute="firstBaseline" relation="lessThanOrEqual" secondItem="v7u-NP-QdR" secondAttribute="bottom" constant="1" id="NEj-Bw-ckW"/>
+                            <constraint firstItem="YL3-Df-efD" firstAttribute="firstBaseline" relation="lessThanOrEqual" secondItem="v7u-NP-QdR" secondAttribute="bottom" constant="1" id="P9I-nM-4eV"/>
                             <constraint firstAttribute="trailing" secondItem="YL3-Df-efD" secondAttribute="trailing" id="a9H-Zj-DjN"/>
                         </constraints>
                         <variation key="default">
@@ -373,7 +399,6 @@
                             <mask key="constraints">
                                 <exclude reference="AYb-pa-mO6"/>
                                 <exclude reference="C8i-Fv-DEz"/>
-                                <exclude reference="NEj-Bw-ckW"/>
                                 <exclude reference="a9H-Zj-DjN"/>
                             </mask>
                         </variation>
@@ -384,7 +409,6 @@
                             <mask key="constraints">
                                 <include reference="AYb-pa-mO6"/>
                                 <include reference="C8i-Fv-DEz"/>
-                                <include reference="NEj-Bw-ckW"/>
                                 <include reference="a9H-Zj-DjN"/>
                             </mask>
                         </variation>
@@ -416,6 +440,347 @@
             </objects>
             <point key="canvasLocation" x="2884.5" y="1456.125"/>
         </scene>
+        <!--View Controller Five-->
+        <scene sceneID="KRN-DW-KFQ">
+            <objects>
+                <viewController storyboardIdentifier="VC5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Dm-8y-dwL" customClass="ViewControllerFive" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="POm-FK-a4G"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ebu-WR-8uK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ddb-EF-VKQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S6f-Jf-iIO">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC04253_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="b3c-Ob-iQl">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="36" y="481" width="177" height="96"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lila-Style-02_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Cev-D7-bJj">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="36" y="232" width="177" height="106"/>
+                                        </variation>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQZ-1H-TMj">
+                                        <rect key="frame" x="231" y="444" width="79" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <state key="normal" title="Read more">
+                                            <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="245" y="290" width="79" height="47"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="readStoryOne:" destination="4Dm-8y-dwL" eventType="touchUpInside" id="5rv-ye-iTo"/>
+                                            <action selector="readStoryOne:" destination="cKE-TR-2WV" eventType="touchUpInside" id="PaO-Ax-3ya"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nun-sa-Oig">
+                                        <rect key="frame" x="35" y="128" width="233" height="21"/>
+                                        <string key="text">Connecting to value chains: 
+SME competitiveness, diversification and 
+links to export markets</string>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="10" y="8" width="359" height="105"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cambodia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQM-4w-SL2">
+                                        <rect key="frame" x="35" y="367" width="275" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="36" y="378" width="275" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boosting quality and exports in Kyrgyzstan" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUK-JL-CNY">
+                                        <rect key="frame" x="35" y="241" width="275" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="36" y="175" width="275" height="49"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4f4-Ch-MO2">
+                                        <rect key="frame" x="35" y="376" width="275" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="36" y="388" width="275" height="16"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTM-q9-Iko">
+                                        <rect key="frame" x="35" y="396" width="275" height="40"/>
+                                        <string key="text">Soft to the touch: Cambodian silk producers find 
+new buyers, increase profits</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="36" y="409" width="275" height="62"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKh-tT-pkS">
+                                        <rect key="frame" x="35" y="219" width="275" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="36" y="158" width="275" height="16"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyrgyzstan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSF-aJ-GKA">
+                                        <rect key="frame" x="35" y="212" width="275" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="36" y="148" width="275" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eb3-zG-A7V">
+                                        <rect key="frame" x="231" y="289" width="79" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Read more">
+                                            <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="heightClass=regular" fixedFrame="YES">
+                                            <rect key="frame" x="246" y="553" width="79" height="30"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="readStoryTwo:" destination="cKE-TR-2WV" eventType="touchUpInside" id="hWG-cw-78W"/>
+                                            <action selector="readStoryTwo:" destination="4Dm-8y-dwL" eventType="touchUpInside" id="wyq-VX-RrI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="b3c-Ob-iQl"/>
+                                        <exclude reference="Cev-D7-bJj"/>
+                                        <exclude reference="AQZ-1H-TMj"/>
+                                        <exclude reference="nun-sa-Oig"/>
+                                        <exclude reference="FQM-4w-SL2"/>
+                                        <exclude reference="kUK-JL-CNY"/>
+                                        <exclude reference="4f4-Ch-MO2"/>
+                                        <exclude reference="WTM-q9-Iko"/>
+                                        <exclude reference="lKh-tT-pkS"/>
+                                        <exclude reference="KSF-aJ-GKA"/>
+                                        <exclude reference="eb3-zG-A7V"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="80" width="375" height="665"/>
+                                    <mask key="subviews">
+                                        <include reference="b3c-Ob-iQl"/>
+                                        <include reference="Cev-D7-bJj"/>
+                                        <include reference="AQZ-1H-TMj"/>
+                                        <include reference="nun-sa-Oig"/>
+                                        <include reference="FQM-4w-SL2"/>
+                                        <include reference="kUK-JL-CNY"/>
+                                        <include reference="4f4-Ch-MO2"/>
+                                        <include reference="WTM-q9-Iko"/>
+                                        <include reference="lKh-tT-pkS"/>
+                                        <include reference="KSF-aJ-GKA"/>
+                                        <include reference="eb3-zG-A7V"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53333333333333333" green="0.66666666666666663" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="S6f-Jf-iIO"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="S6f-Jf-iIO"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="Bno-8m-9KA">
+                        <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="9M3-IA-4Gc"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="right-30.png" id="TqB-f2-i6v">
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="4Dm-8y-dwL" id="IvB-7A-eLJ"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="left-30.png" id="aNG-ss-U9s">
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="4Dm-8y-dwL" id="XIs-F1-2GS"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backButton" destination="aNG-ss-U9s" id="20x-hC-kN4"/>
+                        <outlet property="menuButton" destination="9M3-IA-4Gc" id="4Qy-bZ-401"/>
+                        <outlet property="nextButton" destination="TqB-f2-i6v" id="ta2-uy-H9A"/>
+                        <outlet property="scrollView" destination="S6f-Jf-iIO" id="KT9-hU-4RF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gJR-AB-t7p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2884.5" y="2088.375"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="G9j-F2-CHl">
+            <objects>
+                <viewController id="Ghs-8v-ytO" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KeQ-em-x9l"/>
+                        <viewControllerLayoutGuide type="bottom" id="FGp-so-v1P"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LMH-e9-mAS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fonts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzh-RV-ypT">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="47" y="111" width="96" height="38"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Languages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xi-MK-YPF">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="47" y="204" width="96" height="32"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Fzh-RV-ypT"/>
+                                <exclude reference="1xi-MK-YPF"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="Fzh-RV-ypT"/>
+                                <include reference="1xi-MK-YPF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="utd-0P-YGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2884.5" y="2740.125"/>
+        </scene>
+        <!--Page Five-->
+        <scene sceneID="ktV-WY-APs">
+            <objects>
+                <viewController storyboardIdentifier="Page5" id="ta0-LY-XP1" customClass="PageFive" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pOG-Ml-KeM"/>
+                        <viewControllerLayoutGuide type="bottom" id="QPC-W2-Qyo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sOc-0x-i7v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7U-Vd-Zd1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.66666666669999997" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Connecting to value chains">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="65" width="375" height="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="qmd-OX-8gf" kind="unwind" unwindAction="unwindToViewControllerFive:" id="w7D-5T-tw5"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyC-ib-kiM">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="135" width="375" height="533"/>
+                                </variation>
+                            </webView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fli-6K-cF0">
+                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <segments>
+                                    <segment title="Story 1"/>
+                                    <segment title="Story 2"/>
+                                </segments>
+                                <color key="tintColor" red="0.53333333329999999" green="0.66666666669999997" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="106" width="375" height="29"/>
+                                </variation>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="U7U-Vd-Zd1"/>
+                                <exclude reference="hyC-ib-kiM"/>
+                                <exclude reference="fli-6K-cF0"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="U7U-Vd-Zd1"/>
+                                <include reference="hyC-ib-kiM"/>
+                                <include reference="fli-6K-cF0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="5DV-yf-lK3">
+                        <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="39C-5t-pcf"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="right-30.png" id="ZLm-mF-OXS">
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="ta0-LY-XP1" id="w01-an-lOn"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="left-30.png" id="xg7-8H-GT8">
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="ta0-LY-XP1" id="9XP-Bq-OpH"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backButton" destination="xg7-8H-GT8" id="dUk-Z5-5P8"/>
+                        <outlet property="menuButton" destination="39C-5t-pcf" id="PsG-EA-gVU"/>
+                        <outlet property="nextButton" destination="ZLm-mF-OXS" id="NY4-av-IHx"/>
+                        <outlet property="segmentedHeader" destination="fli-6K-cF0" id="uMy-5L-VVm"/>
+                        <outlet property="titleButton" destination="U7U-Vd-Zd1" id="ukT-ID-fR5"/>
+                        <outlet property="webContent" destination="hyC-ib-kiM" id="2JP-bf-ufc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vK1-9i-XjV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="qmd-OX-8gf" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3414.5" y="2088.375"/>
+        </scene>
         <!--Page Four-->
         <scene sceneID="guU-P1-JG6">
             <objects>
@@ -425,13 +790,14 @@
                         <viewControllerLayoutGuide type="bottom" id="OTz-WE-Skg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="G9j-de-4tm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d57-gi-IzV">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.51372549019607838" green="0.16470588235294117" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Connecting to value chains">
+                                <state key="normal" title="Strengthening and investment ">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="heightClass=regular" fixedFrame="YES">
@@ -656,7 +1022,6 @@
                             <barButtonItem image="right-30.png" id="5JA-jb-9ld">
                                 <connections>
                                     <action selector="nextButtonTapped:" destination="JsP-tc-mWx" id="TRB-rq-HFR"/>
-                                    <segue destination="cKE-TR-2WV" kind="push" id="sgu-Uy-lLM"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem image="left-30.png" id="tce-YU-DvM">
@@ -878,7 +1243,7 @@
                                 </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.6588235294117647" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
@@ -954,7 +1319,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I1-O9-mpS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.265625" green="0.65781756739999997" blue="0.82311765940000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Trade &amp; market intelligence">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -972,7 +1337,7 @@
                                     <segment title="Story 1"/>
                                     <segment title="Story 2"/>
                                 </segments>
-                                <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.265625" green="0.65781756739999997" blue="0.82311765940000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="106" width="375" height="29"/>
                                 </variation>
@@ -1110,18 +1475,20 @@
     </scenes>
     <resources>
         <image name="Cheese_opt.png" width="280" height="202"/>
+        <image name="DSC04253_opt.jpeg" width="280" height="210"/>
         <image name="DSC_6573_opt.jpeg" width="280" height="185"/>
         <image name="IMG_9126_opt.jpeg" width="280" height="187"/>
+        <image name="Lila-Style-02_opt.jpeg" width="280" height="187"/>
         <image name="left-30.png" width="30" height="30"/>
         <image name="menu-30.png" width="30" height="30"/>
         <image name="right-30.png" width="30" height="30"/>
+        <image name="shutterstock_121967665_opt.jpeg" width="280" height="166"/>
         <image name="shutterstock_139420757_opt.jpeg" width="280" height="187"/>
         <image name="shutterstock_151573184_opt.jpeg" width="187" height="138"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="M3B-cA-p2y"/>
         <segue reference="8w4-bD-3cD"/>
-        <segue reference="sgu-Uy-lLM"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
