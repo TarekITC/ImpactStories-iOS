@@ -17,6 +17,108 @@ body {
 	font-size:12px;
 	-epub-hyphens:auto;
 }
+p.Country {
+    -epub-hyphens:none;
+    color:#00aeef;
+    font-family:"Arial";
+    font-size:30px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:0px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
+p.subtitle-Cyan {
+    -epub-hyphens:none;
+    color:#00aeef;
+    font-family:"Arial";
+    font-size:20px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
+p.Text-Body-Swiss {
+    -epub-hyphens:none;
+    color:#404040; /*<!--#404030; #333333-->;*/
+    font-family:"Arial";
+    font-size:14px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
+p.Subtitle-story {
+    -epub-hyphens:none;
+    color:#00aeef;
+    font-family:"Arial";
+    font-size:20px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
+p.quote-word {
+    -epub-hyphens:none;
+    color:#404040;
+    font-family:"Arial";
+    font-size:14px;
+    font-style:italic;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:0px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
+p.quote-name {
+    -epub-hyphens:none;
+    color:#404040;
+    font-family:"Arial";
+    font-size:12px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:0px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:0px;
+    text-align:right;
+    text-decoration:none;
+    text-indent:0px;
+}
 table.Basic-Table {
 	border-color:#000000;
 	border-style:solid;
@@ -59,23 +161,6 @@ p.Title-BASKET-K {
 	text-decoration:none;
 	text-indent:0px;
 }
-p.Country {
-	-epub-hyphens:none;
-	color:#00aeef;
-	font-family:"GeoSlab703 Lt BT", serif;
-	font-size:30px;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:20px;
-	margin-left:20px;
-	margin-right:20px;
-	margin-top:20px;
-	text-align:left;
-	text-decoration:none;
-	text-indent:0px;
-}
 p.subtitle {
 	-epub-hyphens:none;
 	color:#88aaca;
@@ -88,23 +173,6 @@ p.subtitle {
 	margin-bottom:0px;
 	margin-left:20px;
 	margin-right:20px;
-	margin-top:9px;
-	text-align:left;
-	text-decoration:none;
-	text-indent:0px;
-}
-p.subtitle-Cyan {
-	-epub-hyphens:none;
-	color:#00aeef;
-	font-family:"GeoSlab703 Lt BT", serif;
-	font-size:20px;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:0px;
-	margin-left:20px;
-	margin-right:0px;
 	margin-top:9px;
 	text-align:left;
 	text-decoration:none;
@@ -263,23 +331,6 @@ p.Cyan-headlines-n03 {
 	text-decoration:none;
 	text-indent:0px;
 }
-p.Text-Body-Swiss {
-	-epub-hyphens:none;
-	color:#333333; /*<!--#404030-->;*/
-	font-family:"Times New Roman", sans-serif;
-	font-size:16px;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:20px;
-	margin-left:20px;
-	margin-right:20px;
-	margin-top:20px;
-	text-align:left;
-	text-decoration:none;
-	text-indent:0px;
-}
 li.bullets-square {
 	-epub-hyphens:none;
 	color:#404042;
@@ -316,17 +367,17 @@ p.quote-UN-blue {
 }
 p.quote-CYAN {
 	-epub-hyphens:none;
-	color:#00aeef;
-	font-family:"GeoSlab703 Md BT", serif;
-	font-size:10px;
+	color:#404040;
+	font-family:"Arial";
+	font-size:14px;
 	font-style:italic;
 	font-variant:normal;
 	font-weight:normal;
-	line-height:1.368;
-	margin-bottom:0px;
-	margin-left:35px;
-	margin-right:35px;
-	margin-top:14px;
+	line-height:1.4;
+	margin-bottom:10px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:0px;
 	text-align:left;
 	text-decoration:none;
 	text-indent:0px;
@@ -334,16 +385,16 @@ p.quote-CYAN {
 p.quote-name-UN-blue {
 	-epub-hyphens:none;
 	color:#404042;
-	font-family:"Swis721 BT", sans-serif;
-	font-size:8px;
+	font-family:"Arial";
+	font-size:12px;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
-	line-height:1.429;
-	margin-bottom:6px;
-	margin-left:99px;
-	margin-right:35px;
-	margin-top:6px;
+	line-height:1.2;
+	margin-bottom:0px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:0px;
 	text-align:right;
 	text-decoration:none;
 	text-indent:0px;
