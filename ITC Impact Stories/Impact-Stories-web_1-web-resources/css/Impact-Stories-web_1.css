@@ -403,7 +403,10 @@ p.para-style-override-3 {
 }
 p.para-style-override-4 {
 	margin-right:14px;
-	text-align:right;
+    text-align:right;
+}
+p.para-style-override-4-signature {
+        text-align:right;
 }
 p.para-style-override-5 {
 	color:#ffffff;
