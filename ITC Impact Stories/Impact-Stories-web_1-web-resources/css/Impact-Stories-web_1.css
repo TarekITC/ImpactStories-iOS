@@ -24,7 +24,7 @@ p.Country {
     font-size:30px;
     font-style:normal;
     font-variant:normal;
-    font-weight:normal;
+    font-weight:bold;
     line-height:1.4;
     margin-bottom:0px;
     margin-left:20px;
@@ -38,8 +38,8 @@ p.subtitle-Cyan {
     -epub-hyphens:none;
     color:#00aeef;
     font-family:"Arial";
-    font-size:20px;
-    font-style:normal;
+    font-size:16px;
+    font-style:italic;
     font-variant:normal;
     font-weight:normal;
     line-height:1.4;
@@ -119,6 +119,40 @@ p.quote-name {
     text-decoration:none;
     text-indent:0px;
 }
+p.info {
+    -epub-hyphens:none;
+    color:#404040;
+    font-family:"Arial";
+    font-size:12px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
+p.infos {
+    -epub-hyphens:none;
+    color:#404040;
+    font-family:"GeoSlab703 Lt BT", serif;
+    font-size:12px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.2;
+    margin-bottom:0px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:9px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
 table.Basic-Table {
 	border-color:#000000;
 	border-style:solid;
@@ -164,23 +198,6 @@ p.Title-BASKET-K {
 p.subtitle {
 	-epub-hyphens:none;
 	color:#88aaca;
-	font-family:"GeoSlab703 Lt BT", serif;
-	font-size:12px;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:normal;
-	line-height:1.2;
-	margin-bottom:0px;
-	margin-left:20px;
-	margin-right:20px;
-	margin-top:9px;
-	text-align:left;
-	text-decoration:none;
-	text-indent:0px;
-}
-p.infos {
-	-epub-hyphens:none;
-	color:#ffffff;
 	font-family:"GeoSlab703 Lt BT", serif;
 	font-size:12px;
 	font-style:normal;
