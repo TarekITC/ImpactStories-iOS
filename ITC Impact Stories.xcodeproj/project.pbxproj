@@ -438,15 +438,15 @@
 				9F09DF5C1D24063D00C13459 /* Cote_divoire_2.html */,
 				9F6C2A301D1FCD81004704BE /* 2-Egypt.html */,
 				9F09DF5A1D24062F00C13459 /* kyrgistan-1.html */,
+				9F6C2A361D1FCD81004704BE /* foreword.html */,
 				9F09DF5E1D24064300C13459 /* mauritius.html */,
+				9F6C2AA51D1FCD81004704BE /* Market_Intelligence.html */,
+				9F6C2AA41D1FCD81004704BE /* Impact-Stories-web_2.html */,
 				9F6C2A311D1FCD81004704BE /* 2-Mekong-region.html */,
 				9F6C2A321D1FCD81004704BE /* 4-Nigeria.html */,
 				9F6C2A331D1FCD81004704BE /* Cote_dIvoire.html */,
 				9F6C2A341D1FCD81004704BE /* css */,
-				9F6C2A361D1FCD81004704BE /* foreword.html */,
 				9F6C2A371D1FCD81004704BE /* image */,
-				9F6C2AA41D1FCD81004704BE /* Impact-Stories-web_2.html */,
-				9F6C2AA51D1FCD81004704BE /* Market_Intelligence.html */,
 			);
 			path = "Impact-Stories-web_1-web-resources";
 			sourceTree = "<group>";

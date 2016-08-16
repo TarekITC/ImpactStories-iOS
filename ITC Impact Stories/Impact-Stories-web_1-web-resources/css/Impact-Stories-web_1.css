@@ -102,6 +102,23 @@ p.quote-word {
     text-decoration:none;
     text-indent:0px;
 }
+p.quote-word-1 {
+    -epub-hyphens:none;
+    color:#404040;
+    font-family:"Arial";
+    font-size:14px;
+    font-style:italic;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:0px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:0px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
 p.quote-name {
     -epub-hyphens:none;
     color:#404040;
