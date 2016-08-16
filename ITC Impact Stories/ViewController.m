@@ -54,7 +54,7 @@
     
     
     // Loading webContent view
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"mauritius" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"CaseStudy10" ofType:@"html"];
     NSURL * url = [NSURL fileURLWithPath:path];
     NSMutableURLRequest * urlRequest = [NSMutableURLRequest requestWithURL:url];
     [self.webContent loadRequest:urlRequest];

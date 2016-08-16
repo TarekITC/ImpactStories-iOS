@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60CC114D1D62068200B37716 /* idGeneratedStyles.css in Resources */ = {isa = PBXBuildFile; fileRef = 60CC114C1D62068200B37716 /* idGeneratedStyles.css */; };
+		60CC114F1D62079C00B37716 /* IMG_5262.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CC114E1D62079C00B37716 /* IMG_5262.jpg */; };
+		60CC115A1D6218BC00B37716 /* CaseStudy1.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11501D6218BC00B37716 /* CaseStudy1.html */; };
+		60CC115B1D6218BC00B37716 /* CaseStudy2.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11511D6218BC00B37716 /* CaseStudy2.html */; };
+		60CC115C1D6218BC00B37716 /* CaseStudy3.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11521D6218BC00B37716 /* CaseStudy3.html */; };
+		60CC115D1D6218BC00B37716 /* CaseStudy4.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11531D6218BC00B37716 /* CaseStudy4.html */; };
+		60CC115E1D6218BC00B37716 /* CaseStudy5.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11541D6218BC00B37716 /* CaseStudy5.html */; };
+		60CC115F1D6218BC00B37716 /* CaseStudy6.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11551D6218BC00B37716 /* CaseStudy6.html */; };
+		60CC11601D6218BC00B37716 /* CaseStudy7.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11561D6218BC00B37716 /* CaseStudy7.html */; };
+		60CC11611D6218BC00B37716 /* CaseStudy8.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11571D6218BC00B37716 /* CaseStudy8.html */; };
+		60CC11621D6218BC00B37716 /* CaseStudy9.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11581D6218BC00B37716 /* CaseStudy9.html */; };
+		60CC11631D6218BC00B37716 /* CaseStudy10.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11591D6218BC00B37716 /* CaseStudy10.html */; };
 		9F09DF4A1D234B9900C13459 /* PageFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09DF491D234B9900C13459 /* PageFive.m */; };
 		9F09DF4D1D234BD200C13459 /* PageFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09DF4C1D234BD200C13459 /* PageFour.m */; };
 		9F09DF4F1D2405FF00C13459 /* TPO_benchmarking.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F09DF4E1D2405FF00C13459 /* TPO_benchmarking.html */; };
@@ -185,6 +197,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60CC114C1D62068200B37716 /* idGeneratedStyles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = idGeneratedStyles.css; sourceTree = "<group>"; };
+		60CC114E1D62079C00B37716 /* IMG_5262.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5262.jpg; sourceTree = "<group>"; };
+		60CC11501D6218BC00B37716 /* CaseStudy1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy1.html; sourceTree = "<group>"; };
+		60CC11511D6218BC00B37716 /* CaseStudy2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy2.html; sourceTree = "<group>"; };
+		60CC11521D6218BC00B37716 /* CaseStudy3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy3.html; sourceTree = "<group>"; };
+		60CC11531D6218BC00B37716 /* CaseStudy4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy4.html; sourceTree = "<group>"; };
+		60CC11541D6218BC00B37716 /* CaseStudy5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy5.html; sourceTree = "<group>"; };
+		60CC11551D6218BC00B37716 /* CaseStudy6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy6.html; sourceTree = "<group>"; };
+		60CC11561D6218BC00B37716 /* CaseStudy7.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy7.html; sourceTree = "<group>"; };
+		60CC11571D6218BC00B37716 /* CaseStudy8.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy8.html; sourceTree = "<group>"; };
+		60CC11581D6218BC00B37716 /* CaseStudy9.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy9.html; sourceTree = "<group>"; };
+		60CC11591D6218BC00B37716 /* CaseStudy10.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy10.html; sourceTree = "<group>"; };
 		9F09DF481D234B9900C13459 /* PageFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageFive.h; sourceTree = "<group>"; };
 		9F09DF491D234B9900C13459 /* PageFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageFive.m; sourceTree = "<group>"; };
 		9F09DF4B1D234BD200C13459 /* PageFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageFour.h; sourceTree = "<group>"; };
@@ -398,6 +422,16 @@
 				9F6C2A2F1D1FCD81004704BE /* 1-Trade&market.html */,
 				9F09DF501D24061900C13459 /* Ethical fashion.html */,
 				9F09DF581D24062800C13459 /* Cambodia.html */,
+				60CC11501D6218BC00B37716 /* CaseStudy1.html */,
+				60CC11511D6218BC00B37716 /* CaseStudy2.html */,
+				60CC11521D6218BC00B37716 /* CaseStudy3.html */,
+				60CC11531D6218BC00B37716 /* CaseStudy4.html */,
+				60CC11541D6218BC00B37716 /* CaseStudy5.html */,
+				60CC11551D6218BC00B37716 /* CaseStudy6.html */,
+				60CC11561D6218BC00B37716 /* CaseStudy7.html */,
+				60CC11571D6218BC00B37716 /* CaseStudy8.html */,
+				60CC11581D6218BC00B37716 /* CaseStudy9.html */,
+				60CC11591D6218BC00B37716 /* CaseStudy10.html */,
 				9F09DF511D24061900C13459 /* Kenya.html */,
 				9F09DF521D24061900C13459 /* Papa new guinea.html */,
 				9F09DF531D24061900C13459 /* Peru.html */,
@@ -420,6 +454,7 @@
 		9F6C2A341D1FCD81004704BE /* css */ = {
 			isa = PBXGroup;
 			children = (
+				60CC114C1D62068200B37716 /* idGeneratedStyles.css */,
 				9F6C2A351D1FCD81004704BE /* Impact-Stories-web_1.css */,
 			);
 			path = css;
@@ -428,6 +463,7 @@
 		9F6C2A371D1FCD81004704BE /* image */ = {
 			isa = PBXGroup;
 			children = (
+				60CC114E1D62079C00B37716 /* IMG_5262.jpg */,
 				9F6C2A381D1FCD81004704BE /* 04 Sewing workshop Wom_opt.jpeg */,
 				9F6C2A391D1FCD81004704BE /* 043_opt.jpeg */,
 				9F6C2A3A1D1FCD81004704BE /* 1104.png */,
@@ -757,6 +793,7 @@
 				9F6C2B0D1D1FCD81004704BE /* Vivienne Westwood prod_opt.jpeg in Resources */,
 				9F6C2AEB1D1FCD81004704BE /* IMG_8676_opt.jpeg in Resources */,
 				9F6C2B1C1D1FCD81004704BE /* previous.png in Resources */,
+				60CC115F1D6218BC00B37716 /* CaseStudy6.html in Resources */,
 				9F6C2B121D1FCD81004704BE /* vlcsnap-2014-11-07-14h1_opt.png in Resources */,
 				9F6C2AE71D1FCD81004704BE /* IMG_6815_opt.jpeg in Resources */,
 				9F6C2B151D1FCD81004704BE /* vlcsnap-2014-11-17-12h3_opt.png in Resources */,
@@ -765,7 +802,9 @@
 				9F6C2ABB1D1FCD81004704BE /* 3804.png in Resources */,
 				9F6C2AB21D1FCD81004704BE /* 1370.png in Resources */,
 				9F6C2ACA1D1FCD81004704BE /* AFESIP 4_opt.jpeg in Resources */,
+				60CC11621D6218BC00B37716 /* CaseStudy9.html in Resources */,
 				9FC0687E1D1DB3F500DA1EFA /* LaunchScreen.storyboard in Resources */,
+				60CC115A1D6218BC00B37716 /* CaseStudy1.html in Resources */,
 				9F6C2AFB1D1FCD81004704BE /* shutterstock_121967665_opt.jpeg in Resources */,
 				9F6C2B2C1D213EA7004704BE /* right-30.png in Resources */,
 				9F6C2AE11D1FCD81004704BE /* IMG_2303_opt.jpeg in Resources */,
@@ -802,6 +841,7 @@
 				9F6C2AF61D1FCD81004704BE /* Photo B Panneau_opt.jpeg in Resources */,
 				9F6C2B241D20A163004704BE /* back_button.png in Resources */,
 				9F6C2ADD1D1FCD81004704BE /* IMG_0623_opt.jpeg in Resources */,
+				60CC11631D6218BC00B37716 /* CaseStudy10.html in Resources */,
 				9F6C2B111D1FCD81004704BE /* vlcsnap-2014-11-07-14h0_opt.png in Resources */,
 				9F09DF591D24062800C13459 /* Cambodia.html in Resources */,
 				9F6C2AAF1D1FCD81004704BE /* 043_opt.jpeg in Resources */,
@@ -809,6 +849,7 @@
 				9F6C2B031D1FCD81004704BE /* shutterstock_156792503_opt.jpeg in Resources */,
 				9F6C2B181D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt3.png in Resources */,
 				9F6C2AC11D1FCD81004704BE /* 5373.png in Resources */,
+				60CC11611D6218BC00B37716 /* CaseStudy8.html in Resources */,
 				9F6C2B1A1D1FCD81004704BE /* Impact-Stories-web_2.html in Resources */,
 				9F6C2AC31D1FCD81004704BE /* 5920.png in Resources */,
 				9F6C2B0A1D1FCD81004704BE /* tea_factory_1_opt.jpeg in Resources */,
@@ -825,6 +866,7 @@
 				9F6C2AF31D1FCD81004704BE /* P5100157_Jan Hoffmann__opt.jpeg in Resources */,
 				9F6C2AD01D1FCD81004704BE /* DSC01132_opt.jpeg in Resources */,
 				9F6C2AC01D1FCD81004704BE /* 5097.png in Resources */,
+				60CC115C1D6218BC00B37716 /* CaseStudy3.html in Resources */,
 				9F6C2AB31D1FCD81004704BE /* 1385.png in Resources */,
 				9F6C2B011D1FCD81004704BE /* shutterstock_143067595_opt.jpeg in Resources */,
 				9F6C2B061D1FCD81004704BE /* shutterstock_186754211_opt.jpeg in Resources */,
@@ -832,6 +874,7 @@
 				9F6C2AB51D1FCD81004704BE /* 1973.png in Resources */,
 				9F09DF541D24061900C13459 /* Ethical fashion.html in Resources */,
 				9F6C2B0F1D1FCD81004704BE /* vlcsnap-2013-07-12-12h0_opt.png in Resources */,
+				60CC114F1D62079C00B37716 /* IMG_5262.jpg in Resources */,
 				9F6C2AB71D1FCD81004704BE /* 2252.png in Resources */,
 				9F6C2B171D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt2.png in Resources */,
 				9F6C2AF21D1FCD81004704BE /* MAR-video_opt.jpeg in Resources */,
@@ -852,8 +895,10 @@
 				9F09DF571D24061900C13459 /* Peru.html in Resources */,
 				9F6C2AE01D1FCD81004704BE /* IMG_1959_opt.jpeg in Resources */,
 				9F6C2AD91D1FCD81004704BE /* GreenLandEgyptPicture5_opt.jpeg in Resources */,
+				60CC115B1D6218BC00B37716 /* CaseStudy2.html in Resources */,
 				9F6C2B101D1FCD81004704BE /* vlcsnap-2013-07-12-12h_opt1.png in Resources */,
 				9F6C2AFC1D1FCD81004704BE /* shutterstock_127078010_opt.jpeg in Resources */,
+				60CC115E1D6218BC00B37716 /* CaseStudy5.html in Resources */,
 				9F6C2ADE1D1FCD81004704BE /* IMG_0796_opt.jpeg in Resources */,
 				9F6C2AE31D1FCD81004704BE /* IMG_2832_Nicolas_Mugni_opt.jpeg in Resources */,
 				9F6C2AC71D1FCD81004704BE /* _DSC0115_opt.jpeg in Resources */,
@@ -868,11 +913,13 @@
 				9F6C2ACB1D1FCD81004704BE /* arancha.png in Resources */,
 				9F6C2ADC1D1FCD81004704BE /* IMG_0059_opt.jpeg in Resources */,
 				9F6C2ABF1D1FCD81004704BE /* 4620.png in Resources */,
+				60CC11601D6218BC00B37716 /* CaseStudy7.html in Resources */,
 				9F09DF4F1D2405FF00C13459 /* TPO_benchmarking.html in Resources */,
 				9F6C2ADA1D1FCD81004704BE /* GreenLandEgyptPicture6_fmt.png in Resources */,
 				9F6C2B081D1FCD81004704BE /* shutterstock_96120500_opt.jpeg in Resources */,
 				9F6C2B051D1FCD81004704BE /* shutterstock_182811533_fmt.png in Resources */,
 				9F6C2AE81D1FCD81004704BE /* IMG_7120_opt.jpeg in Resources */,
+				60CC114D1D62068200B37716 /* idGeneratedStyles.css in Resources */,
 				9F6C2AE91D1FCD81004704BE /* IMG_7946_opt.jpeg in Resources */,
 				9F6C2ADB1D1FCD81004704BE /* GreenLandEgyptPicture6_opt.jpeg in Resources */,
 				9F6C2AD51D1FCD81004704BE /* DSC_6613_opt.jpeg in Resources */,
@@ -881,6 +928,7 @@
 				9F6C2AD61D1FCD81004704BE /* DSCN0082_opt.jpeg in Resources */,
 				9F6C2AFA1D1FCD81004704BE /* shutterstock_108194393_opt.jpeg in Resources */,
 				9F6C2B071D1FCD81004704BE /* shutterstock_208577434_opt.jpeg in Resources */,
+				60CC115D1D6218BC00B37716 /* CaseStudy4.html in Resources */,
 				9F6C2AC81D1FCD81004704BE /* _DSC0131_opt.jpeg in Resources */,
 				9F6C2ACC1D1FCD81004704BE /* Chan Luu Production - _opt.jpeg in Resources */,
 				9F6C2AA91D1FCD81004704BE /* 2-Mekong-region.html in Resources */,
