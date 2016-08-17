@@ -148,6 +148,23 @@ p.Country6 {
     text-decoration:none;
     text-indent:0px;
 }
+p.Country-CS {
+    -epub-hyphens:none;
+    color:#139dec;
+    font-family:"Arial";
+    font-size:30px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+    line-height:1.4;
+    margin-bottom:0px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
 p.subtitle-Cyan {
     -epub-hyphens:none;
     color:#139DEC;
@@ -267,6 +284,23 @@ p.subtitle6 {
     text-decoration:none;
     text-indent:0px;
 }
+p.subtitle-CS {
+    -epub-hyphens:none;
+    color:#139dec;
+    font-family:"Arial";
+    font-size:16px;
+    font-style:italic;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
 p.Text-Body-Swiss {
     -epub-hyphens:none;
     color:#404040; /*<!--#404030; #333333-->;*/
@@ -372,6 +406,23 @@ p.Subtitle-story5 {
 p.Subtitle-story6 {
     -epub-hyphens:none;
     color:#c40a1f;
+    font-family:"Arial";
+    font-size:20px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.4;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    text-align:left;
+    text-decoration:none;
+    text-indent:0px;
+}
+p.Subtitle-story-CS {
+    -epub-hyphens:none;
+    color:#139dec;
     font-family:"Arial";
     font-size:20px;
     font-style:normal;
