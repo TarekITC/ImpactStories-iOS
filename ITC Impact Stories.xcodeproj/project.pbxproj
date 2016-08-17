@@ -19,6 +19,10 @@
 		60CC11611D6218BC00B37716 /* CaseStudy8.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11571D6218BC00B37716 /* CaseStudy8.html */; };
 		60CC11621D6218BC00B37716 /* CaseStudy9.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11581D6218BC00B37716 /* CaseStudy9.html */; };
 		60CC11631D6218BC00B37716 /* CaseStudy10.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11591D6218BC00B37716 /* CaseStudy10.html */; };
+		60CC11681D64B42E00B37716 /* 19-assoc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11641D64B42E00B37716 /* 19-assoc.jpg */; };
+		60CC11691D64B42E00B37716 /* bangladesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11651D64B42E00B37716 /* bangladesh.jpg */; };
+		60CC116A1D64B42E00B37716 /* Benin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11661D64B42E00B37716 /* Benin.jpg */; };
+		60CC116B1D64B42E00B37716 /* Peru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11671D64B42E00B37716 /* Peru.jpg */; };
 		9F09DF4A1D234B9900C13459 /* PageFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09DF491D234B9900C13459 /* PageFive.m */; };
 		9F09DF4D1D234BD200C13459 /* PageFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09DF4C1D234BD200C13459 /* PageFour.m */; };
 		9F09DF4F1D2405FF00C13459 /* TPO_benchmarking.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F09DF4E1D2405FF00C13459 /* TPO_benchmarking.html */; };
@@ -209,6 +213,10 @@
 		60CC11571D6218BC00B37716 /* CaseStudy8.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy8.html; sourceTree = "<group>"; };
 		60CC11581D6218BC00B37716 /* CaseStudy9.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy9.html; sourceTree = "<group>"; };
 		60CC11591D6218BC00B37716 /* CaseStudy10.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy10.html; sourceTree = "<group>"; };
+		60CC11641D64B42E00B37716 /* 19-assoc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "19-assoc.jpg"; sourceTree = "<group>"; };
+		60CC11651D64B42E00B37716 /* bangladesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bangladesh.jpg; sourceTree = "<group>"; };
+		60CC11661D64B42E00B37716 /* Benin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Benin.jpg; sourceTree = "<group>"; };
+		60CC11671D64B42E00B37716 /* Peru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Peru.jpg; sourceTree = "<group>"; };
 		9F09DF481D234B9900C13459 /* PageFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageFive.h; sourceTree = "<group>"; };
 		9F09DF491D234B9900C13459 /* PageFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageFive.m; sourceTree = "<group>"; };
 		9F09DF4B1D234BD200C13459 /* PageFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageFour.h; sourceTree = "<group>"; };
@@ -477,6 +485,10 @@
 				9F6C2A421D1FCD81004704BE /* 2463018711_7d9a7210ce__opt.jpeg */,
 				9F6C2A431D1FCD81004704BE /* 3001.png */,
 				9F6C2A441D1FCD81004704BE /* 3274.png */,
+				60CC11641D64B42E00B37716 /* 19-assoc.jpg */,
+				60CC11651D64B42E00B37716 /* bangladesh.jpg */,
+				60CC11661D64B42E00B37716 /* Benin.jpg */,
+				60CC11671D64B42E00B37716 /* Peru.jpg */,
 				9F6C2A451D1FCD81004704BE /* 3804.png */,
 				9F6C2A461D1FCD81004704BE /* 3822312257_10ce384678__opt.jpeg */,
 				9F6C2A471D1FCD81004704BE /* 3964.png */,
@@ -791,6 +803,7 @@
 				9F6C2AF91D1FCD81004704BE /* PICT0133_opt.jpeg in Resources */,
 				9F6C2B131D1FCD81004704BE /* vlcsnap-2014-11-17-12h1_opt.png in Resources */,
 				9F6C2B0D1D1FCD81004704BE /* Vivienne Westwood prod_opt.jpeg in Resources */,
+				60CC11681D64B42E00B37716 /* 19-assoc.jpg in Resources */,
 				9F6C2AEB1D1FCD81004704BE /* IMG_8676_opt.jpeg in Resources */,
 				9F6C2B1C1D1FCD81004704BE /* previous.png in Resources */,
 				60CC115F1D6218BC00B37716 /* CaseStudy6.html in Resources */,
@@ -889,6 +902,7 @@
 				9F6C2B281D213876004704BE /* ITC-logo-high.png in Resources */,
 				9F6C2AB11D1FCD81004704BE /* 12_opt.jpeg in Resources */,
 				9F6C2AD41D1FCD81004704BE /* DSC_6573_opt.jpeg in Resources */,
+				60CC116B1D64B42E00B37716 /* Peru.jpg in Resources */,
 				9F6C2AC51D1FCD81004704BE /* 7334.png in Resources */,
 				9F6C2ACD1D1FCD81004704BE /* Cheese_opt.png in Resources */,
 				9F6C2AF41D1FCD81004704BE /* P5100194_Jan Hoffmann_opt.jpeg in Resources */,
@@ -925,6 +939,7 @@
 				9F6C2AD51D1FCD81004704BE /* DSC_6613_opt.jpeg in Resources */,
 				9F6C2AF51D1FCD81004704BE /* PapuaNewGuinea-Bauka P_opt.jpeg in Resources */,
 				9F6C2AA81D1FCD81004704BE /* 2-Egypt.html in Resources */,
+				60CC116A1D64B42E00B37716 /* Benin.jpg in Resources */,
 				9F6C2AD61D1FCD81004704BE /* DSCN0082_opt.jpeg in Resources */,
 				9F6C2AFA1D1FCD81004704BE /* shutterstock_108194393_opt.jpeg in Resources */,
 				9F6C2B071D1FCD81004704BE /* shutterstock_208577434_opt.jpeg in Resources */,
@@ -933,6 +948,7 @@
 				9F6C2ACC1D1FCD81004704BE /* Chan Luu Production - _opt.jpeg in Resources */,
 				9F6C2AA91D1FCD81004704BE /* 2-Mekong-region.html in Resources */,
 				9F6C2AEF1D1FCD81004704BE /* Jane - Credit Chloe Mu_opt.jpeg in Resources */,
+				60CC11691D64B42E00B37716 /* bangladesh.jpg in Resources */,
 				9F6C2AE41D1FCD81004704BE /* IMG_3344_Nicolas_Mugni_opt.jpeg in Resources */,
 				9F6C2AB61D1FCD81004704BE /* 20130110_133540_(2)_opt.jpeg in Resources */,
 				9F6C2AE51D1FCD81004704BE /* IMG_4529_opt.jpeg in Resources */,
