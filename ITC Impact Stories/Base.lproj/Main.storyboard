@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
@@ -13,10 +10,6 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SWRevealViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="919" y="306"/>
+            <point key="canvasLocation" x="490.13333333333333" y="289.68000000000001"/>
         </scene>
         <!--Navigation View Controller-->
         <scene sceneID="yRj-f8-mgJ">
@@ -51,12 +44,9 @@
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Foreword" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ym4-Zo-6Qc">
                                             <rect key="frame" x="15" y="0.0" width="345" height="66.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular">
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -79,9 +69,6 @@
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular">
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -102,9 +89,6 @@
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular">
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -125,9 +109,6 @@
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular">
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -148,9 +129,6 @@
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular">
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -171,9 +149,6 @@
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular">
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -191,9 +166,6 @@
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular">
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -211,9 +183,6 @@
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=regular">
-                                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                            </variation>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -233,185 +202,103 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EPr-Kb-hQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1943.5" y="784.5"/>
+            <point key="canvasLocation" x="1036.5333333333333" y="742.65999999999997"/>
         </scene>
         <!--View Controller Four-->
         <scene sceneID="NxA-Nz-bR7">
             <objects>
-                <viewController storyboardIdentifier="VC4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cKE-TR-2WV" customClass="ViewControllerFour" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="v7u-NP-QdR"/>
-                        <viewControllerLayoutGuide type="bottom" id="TiM-gH-8Hb"/>
-                    </layoutGuides>
+                <viewController storyboardIdentifier="VC4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cKE-TR-2WV" customClass="ViewControllerFour" propertyAccessControl="none" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C10-bn-VRy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YL3-Df-efD">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="YL3-Df-efD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_121967665_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="y7k-gZ-kTq">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="497" width="177" height="96"/>
-                                        </variation>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_121967665_opt.jpeg" id="y7k-gZ-kTq">
+                                        <rect key="frame" x="36" y="497" width="177" height="96"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC_6573_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="wga-Z1-egT">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="253" width="177" height="106"/>
-                                        </variation>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC_6573_opt.jpeg" id="wga-Z1-egT">
+                                        <rect key="frame" x="36" y="253" width="177" height="106"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHT-6M-ndh">
-                                        <rect key="frame" x="231" y="444" width="79" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eHT-6M-ndh">
+                                        <rect key="frame" x="245" y="328" width="79" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <state key="normal" title="Read more">
                                             <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="245" y="328" width="79" height="30"/>
-                                        </variation>
                                         <connections>
                                             <action selector="readStoryOne:" destination="cKE-TR-2WV" eventType="touchUpInside" id="vVw-8c-mLx"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strengthening trade and investment support institutions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogV-2o-mCM">
-                                        <rect key="frame" x="35" y="128" width="233" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strengthening trade and investment support institutions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ogV-2o-mCM">
+                                        <rect key="frame" x="10" y="51" width="359" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="10" y="51" width="359" height="84"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TPO benchmarking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UxX-PH-7Ce">
-                                        <rect key="frame" x="35" y="367" width="275" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TPO benchmarking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UxX-PH-7Ce">
+                                        <rect key="frame" x="36" y="412" width="275" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="412" width="275" height="21"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Improved quality translates into exports for Nigerian shea butter" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDu-VZ-lBB">
-                                        <rect key="frame" x="35" y="241" width="275" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Improved quality translates into exports for Nigerian shea butter" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kDu-VZ-lBB">
+                                        <rect key="frame" x="36" y="196" width="275" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="196" width="275" height="49"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAj-rb-1Fm">
-                                        <rect key="frame" x="35" y="376" width="275" height="16"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hAj-rb-1Fm">
+                                        <rect key="frame" x="36" y="422" width="275" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="422" width="275" height="16"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helping trade and investment support institutions AIM higher" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hC8-Mx-oRt">
-                                        <rect key="frame" x="35" y="396" width="275" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helping trade and investment support institutions AIM higher" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hC8-Mx-oRt">
+                                        <rect key="frame" x="36" y="443" width="275" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="443" width="275" height="40"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8h-lU-MN3">
-                                        <rect key="frame" x="35" y="219" width="275" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l8h-lU-MN3">
+                                        <rect key="frame" x="36" y="179" width="275" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="179" width="275" height="16"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nigeria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzz-CY-Tfk">
-                                        <rect key="frame" x="35" y="212" width="275" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nigeria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tzz-CY-Tfk">
+                                        <rect key="frame" x="36" y="169" width="275" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="169" width="275" height="21"/>
-                                        </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8W-2T-Sxl">
-                                        <rect key="frame" x="231" y="289" width="79" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="H8W-2T-Sxl">
+                                        <rect key="frame" x="246" y="555" width="79" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Read more">
                                             <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="246" y="555" width="79" height="30"/>
-                                        </variation>
                                         <connections>
                                             <action selector="readStoryTwo:" destination="cKE-TR-2WV" eventType="touchUpInside" id="htH-Zy-xH1"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="y7k-gZ-kTq"/>
-                                        <exclude reference="wga-Z1-egT"/>
-                                        <exclude reference="eHT-6M-ndh"/>
-                                        <exclude reference="ogV-2o-mCM"/>
-                                        <exclude reference="UxX-PH-7Ce"/>
-                                        <exclude reference="kDu-VZ-lBB"/>
-                                        <exclude reference="hAj-rb-1Fm"/>
-                                        <exclude reference="hC8-Mx-oRt"/>
-                                        <exclude reference="l8h-lU-MN3"/>
-                                        <exclude reference="tzz-CY-Tfk"/>
-                                        <exclude reference="H8W-2T-Sxl"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                    <mask key="subviews">
-                                        <include reference="y7k-gZ-kTq"/>
-                                        <include reference="wga-Z1-egT"/>
-                                        <include reference="eHT-6M-ndh"/>
-                                        <include reference="ogV-2o-mCM"/>
-                                        <include reference="UxX-PH-7Ce"/>
-                                        <include reference="kDu-VZ-lBB"/>
-                                        <include reference="hAj-rb-1Fm"/>
-                                        <include reference="hC8-Mx-oRt"/>
-                                        <include reference="l8h-lU-MN3"/>
-                                        <include reference="tzz-CY-Tfk"/>
-                                        <include reference="H8W-2T-Sxl"/>
-                                    </mask>
-                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="YL3-Df-efD" secondAttribute="bottom" constant="-59" id="AYb-pa-mO6"/>
-                            <constraint firstItem="YL3-Df-efD" firstAttribute="leading" secondItem="C10-bn-VRy" secondAttribute="leading" id="C8i-Fv-DEz"/>
-                            <constraint firstItem="YL3-Df-efD" firstAttribute="firstBaseline" relation="lessThanOrEqual" secondItem="v7u-NP-QdR" secondAttribute="bottom" constant="1" id="P9I-nM-4eV"/>
-                            <constraint firstAttribute="trailing" secondItem="YL3-Df-efD" secondAttribute="trailing" id="a9H-Zj-DjN"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="YL3-Df-efD"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="AYb-pa-mO6"/>
-                                <exclude reference="C8i-Fv-DEz"/>
-                                <exclude reference="a9H-Zj-DjN"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="YL3-Df-efD"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="AYb-pa-mO6"/>
-                                <include reference="C8i-Fv-DEz"/>
-                                <include reference="a9H-Zj-DjN"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="O5l-u0-VZ6">
                         <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="6SS-JG-NP4"/>
@@ -438,176 +325,110 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRY-xx-qH0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2884.5" y="1456.125"/>
+            <point key="canvasLocation" x="1538.4000000000001" y="1378.4649999999999"/>
         </scene>
         <!--View Controller Five-->
         <scene sceneID="KRN-DW-KFQ">
             <objects>
                 <viewController storyboardIdentifier="VC5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Dm-8y-dwL" customClass="ViewControllerFive" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="POm-FK-a4G"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ebu-WR-8uK"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ddb-EF-VKQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S6f-Jf-iIO">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="S6f-Jf-iIO">
+                                <rect key="frame" x="0.0" y="80" width="375" height="665"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC04253_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="b3c-Ob-iQl">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="481" width="177" height="96"/>
-                                        </variation>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC04253_opt.jpeg" id="b3c-Ob-iQl">
+                                        <rect key="frame" x="36" y="481" width="177" height="96"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lila-Style-02_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Cev-D7-bJj">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="232" width="177" height="106"/>
-                                        </variation>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lila-Style-02_opt.jpeg" id="Cev-D7-bJj">
+                                        <rect key="frame" x="36" y="232" width="177" height="106"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQZ-1H-TMj">
-                                        <rect key="frame" x="231" y="444" width="79" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AQZ-1H-TMj">
+                                        <rect key="frame" x="245" y="290" width="79" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <state key="normal" title="Read more">
                                             <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="245" y="290" width="79" height="47"/>
-                                        </variation>
                                         <connections>
                                             <action selector="readStoryOne:" destination="4Dm-8y-dwL" eventType="touchUpInside" id="5rv-ye-iTo"/>
                                             <action selector="readStoryOne:" destination="cKE-TR-2WV" eventType="touchUpInside" id="PaO-Ax-3ya"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nun-sa-Oig">
-                                        <rect key="frame" x="35" y="128" width="233" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nun-sa-Oig">
+                                        <rect key="frame" x="10" y="8" width="359" height="105"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Connecting to value chains: 
 SME competitiveness, diversification and 
 links to export markets</string>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="10" y="8" width="359" height="105"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cambodia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQM-4w-SL2">
-                                        <rect key="frame" x="35" y="367" width="275" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cambodia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FQM-4w-SL2">
+                                        <rect key="frame" x="36" y="378" width="275" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="378" width="275" height="21"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boosting quality and exports in Kyrgyzstan" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUK-JL-CNY">
-                                        <rect key="frame" x="35" y="241" width="275" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boosting quality and exports in Kyrgyzstan" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kUK-JL-CNY">
+                                        <rect key="frame" x="36" y="175" width="275" height="49"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="175" width="275" height="49"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4f4-Ch-MO2">
-                                        <rect key="frame" x="35" y="376" width="275" height="16"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4f4-Ch-MO2">
+                                        <rect key="frame" x="36" y="388" width="275" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="388" width="275" height="16"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTM-q9-Iko">
-                                        <rect key="frame" x="35" y="396" width="275" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WTM-q9-Iko">
+                                        <rect key="frame" x="36" y="409" width="275" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Soft to the touch: Cambodian silk producers find 
 new buyers, increase profits</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="409" width="275" height="62"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKh-tT-pkS">
-                                        <rect key="frame" x="35" y="219" width="275" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lKh-tT-pkS">
+                                        <rect key="frame" x="36" y="158" width="275" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="158" width="275" height="16"/>
-                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyrgyzstan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSF-aJ-GKA">
-                                        <rect key="frame" x="35" y="212" width="275" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyrgyzstan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KSF-aJ-GKA">
+                                        <rect key="frame" x="36" y="148" width="275" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="36" y="148" width="275" height="21"/>
-                                        </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eb3-zG-A7V">
-                                        <rect key="frame" x="231" y="289" width="79" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eb3-zG-A7V">
+                                        <rect key="frame" x="246" y="553" width="79" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Read more">
                                             <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <variation key="heightClass=regular" fixedFrame="YES">
-                                            <rect key="frame" x="246" y="553" width="79" height="30"/>
-                                        </variation>
                                         <connections>
                                             <action selector="readStoryTwo:" destination="cKE-TR-2WV" eventType="touchUpInside" id="hWG-cw-78W"/>
                                             <action selector="readStoryTwo:" destination="4Dm-8y-dwL" eventType="touchUpInside" id="wyq-VX-RrI"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="b3c-Ob-iQl"/>
-                                        <exclude reference="Cev-D7-bJj"/>
-                                        <exclude reference="AQZ-1H-TMj"/>
-                                        <exclude reference="nun-sa-Oig"/>
-                                        <exclude reference="FQM-4w-SL2"/>
-                                        <exclude reference="kUK-JL-CNY"/>
-                                        <exclude reference="4f4-Ch-MO2"/>
-                                        <exclude reference="WTM-q9-Iko"/>
-                                        <exclude reference="lKh-tT-pkS"/>
-                                        <exclude reference="KSF-aJ-GKA"/>
-                                        <exclude reference="eb3-zG-A7V"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="80" width="375" height="665"/>
-                                    <mask key="subviews">
-                                        <include reference="b3c-Ob-iQl"/>
-                                        <include reference="Cev-D7-bJj"/>
-                                        <include reference="AQZ-1H-TMj"/>
-                                        <include reference="nun-sa-Oig"/>
-                                        <include reference="FQM-4w-SL2"/>
-                                        <include reference="kUK-JL-CNY"/>
-                                        <include reference="4f4-Ch-MO2"/>
-                                        <include reference="WTM-q9-Iko"/>
-                                        <include reference="lKh-tT-pkS"/>
-                                        <include reference="KSF-aJ-GKA"/>
-                                        <include reference="eb3-zG-A7V"/>
-                                    </mask>
-                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.53333333333333333" green="0.66666666666666663" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="S6f-Jf-iIO"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="S6f-Jf-iIO"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Bno-8m-9KA">
                         <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="9M3-IA-4Gc"/>
@@ -634,120 +455,76 @@ new buyers, increase profits</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJR-AB-t7p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2884.5" y="2088.375"/>
+            <point key="canvasLocation" x="1538.4000000000001" y="1976.9949999999999"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="G9j-F2-CHl">
             <objects>
                 <viewController id="Ghs-8v-ytO" customClass="SettingsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KeQ-em-x9l"/>
-                        <viewControllerLayoutGuide type="bottom" id="FGp-so-v1P"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LMH-e9-mAS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fonts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzh-RV-ypT">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fonts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fzh-RV-ypT">
+                                <rect key="frame" x="47" y="111" width="96" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="47" y="111" width="96" height="38"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Languages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xi-MK-YPF">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Languages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1xi-MK-YPF">
+                                <rect key="frame" x="47" y="204" width="96" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="47" y="204" width="96" height="32"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="Fzh-RV-ypT"/>
-                                <exclude reference="1xi-MK-YPF"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="Fzh-RV-ypT"/>
-                                <include reference="1xi-MK-YPF"/>
-                            </mask>
-                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="utd-0P-YGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2884.5" y="2740.125"/>
+            <point key="canvasLocation" x="1538.4000000000001" y="2593.9850000000001"/>
         </scene>
         <!--Page Five-->
         <scene sceneID="ktV-WY-APs">
             <objects>
                 <viewController storyboardIdentifier="Page5" id="ta0-LY-XP1" customClass="PageFive" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pOG-Ml-KeM"/>
-                        <viewControllerLayoutGuide type="bottom" id="QPC-W2-Qyo"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sOc-0x-i7v">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7U-Vd-Zd1">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.53333333329999999" green="0.66666666669999997" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U7U-Vd-Zd1">
+                                <rect key="frame" x="0.0" y="65" width="375" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46274509803921571" green="0.60392156862745094" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Connecting to value chains">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="65" width="375" height="40"/>
-                                </variation>
                                 <connections>
                                     <segue destination="qmd-OX-8gf" kind="unwind" unwindAction="unwindToViewControllerFive:" id="w7D-5T-tw5"/>
                                 </connections>
                             </button>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyC-ib-kiM">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <webView contentMode="scaleToFill" id="hyC-ib-kiM">
+                                <rect key="frame" x="0.0" y="135" width="375" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="135" width="375" height="533"/>
-                                </variation>
                             </webView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fli-6K-cF0">
-                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="fli-6K-cF0">
+                                <rect key="frame" x="0.0" y="106" width="375" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <segments>
                                     <segment title="Story 1"/>
                                     <segment title="Story 2"/>
                                 </segments>
                                 <color key="tintColor" red="0.53333333329999999" green="0.66666666669999997" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="106" width="375" height="29"/>
-                                </variation>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="U7U-Vd-Zd1"/>
-                                <exclude reference="hyC-ib-kiM"/>
-                                <exclude reference="fli-6K-cF0"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="U7U-Vd-Zd1"/>
-                                <include reference="hyC-ib-kiM"/>
-                                <include reference="fli-6K-cF0"/>
-                            </mask>
-                        </variation>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="5DV-yf-lK3">
@@ -779,69 +556,45 @@ new buyers, increase profits</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vK1-9i-XjV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="qmd-OX-8gf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3545.5" y="2249.5"/>
+            <point key="canvasLocation" x="1890.9333333333334" y="2129.5266666666666"/>
         </scene>
         <!--Page Four-->
         <scene sceneID="guU-P1-JG6">
             <objects>
                 <viewController storyboardIdentifier="Page4" id="XRV-Jq-fSY" customClass="PageFour" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Hru-cf-c0F"/>
-                        <viewControllerLayoutGuide type="bottom" id="OTz-WE-Skg"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="G9j-de-4tm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d57-gi-IzV">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d57-gi-IzV">
+                                <rect key="frame" x="0.0" y="65" width="375" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43529411764705883" green="0.090196078431372548" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Strengthening and investment ">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="65" width="375" height="40"/>
-                                </variation>
                                 <connections>
                                     <segue destination="H8f-2X-E2W" kind="unwind" unwindAction="unwindToViewControllerFour:" id="4Yi-UG-4i4"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qIb-Cq-UhE">
-                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="qIb-Cq-UhE">
+                                <rect key="frame" x="0.0" y="106" width="375" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <segments>
                                     <segment title="Story 1"/>
                                     <segment title="Story 2"/>
                                 </segments>
                                 <color key="tintColor" red="0.51372549019607838" green="0.16470588235294117" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="106" width="375" height="29"/>
-                                </variation>
                             </segmentedControl>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Enp-JO-R9V">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <webView contentMode="scaleToFill" id="Enp-JO-R9V">
+                                <rect key="frame" x="0.0" y="135" width="375" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="135" width="375" height="533"/>
-                                </variation>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="d57-gi-IzV"/>
-                                <exclude reference="qIb-Cq-UhE"/>
-                                <exclude reference="Enp-JO-R9V"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="d57-gi-IzV"/>
-                                <include reference="qIb-Cq-UhE"/>
-                                <include reference="Enp-JO-R9V"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="tEG-4Y-b6H">
                         <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="mSn-u8-csb"/>
@@ -871,150 +624,93 @@ new buyers, increase profits</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wsx-7J-YRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="H8f-2X-E2W" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3470.5" y="1456.125"/>
+            <point key="canvasLocation" x="1850.9333333333334" y="1378.4649999999999"/>
         </scene>
         <!--View Controller Three-->
         <scene sceneID="Lgt-Bd-Glp">
             <objects>
                 <viewController storyboardIdentifier="VC3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JsP-tc-mWx" customClass="ViewControllerThree" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ncw-kL-mLT"/>
-                        <viewControllerLayoutGuide type="bottom" id="LEP-oL-drf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="209-j0-0XL">
+                    <view key="view" contentMode="scaleToFill" id="209-j0-0XL" propertyAccessControl="none">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfk-qk-kca">
-                                <rect key="frame" x="231" y="444" width="79" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Sfk-qk-kca">
+                                <rect key="frame" x="236" y="553" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <state key="normal" title="Read more">
                                     <color key="titleColor" red="0.094930075109999998" green="0.30777651070000001" blue="0.63070154190000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="236" y="553" width="79" height="30"/>
-                                </variation>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mekong region" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxq-yT-B9o">
-                                <rect key="frame" x="35" y="367" width="275" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mekong region" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hxq-yT-B9o">
+                                <rect key="frame" x="50" y="452" width="275" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" red="0.094930075109999998" green="0.30777651070000001" blue="0.63070154190000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="452" width="275" height="21"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Say cheese: halal certification helps Egyptian dairy group quadruple sales to Malaysia, find new markets" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXf-aM-XlG">
-                                <rect key="frame" x="35" y="241" width="275" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Say cheese: halal certification helps Egyptian dairy group quadruple sales to Malaysia, find new markets" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NXf-aM-XlG">
+                                <rect key="frame" x="50" y="266" width="275" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="266" width="275" height="54"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egypt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PEK-bp-yfp">
-                                <rect key="frame" x="35" y="212" width="275" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Egypt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PEK-bp-yfp">
+                                <rect key="frame" x="50" y="237" width="275" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.16862745100000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="237" width="275" height="21"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKw-qB-ymP">
-                                <rect key="frame" x="35" y="376" width="275" height="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pKw-qB-ymP">
+                                <rect key="frame" x="50" y="461" width="275" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="461" width="275" height="16"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connecting Central and Western Africa to Mekong countries to bolster trade " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3i-ZN-SeO">
-                                <rect key="frame" x="35" y="396" width="275" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connecting Central and Western Africa to Mekong countries to bolster trade " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J3i-ZN-SeO">
+                                <rect key="frame" x="50" y="481" width="275" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="481" width="275" height="40"/>
-                                </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wI0-yO-Qe1">
-                                <rect key="frame" x="231" y="289" width="79" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wI0-yO-Qe1">
+                                <rect key="frame" x="233" y="350" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <state key="normal" title="Read more">
                                     <color key="titleColor" red="0.1805551514" green="0.16819104909999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="233" y="350" width="79" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="GKS-kH-A3z" kind="push" id="wSx-ue-F9q"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZK-QT-dmK">
-                                <rect key="frame" x="35" y="219" width="275" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oZK-QT-dmK">
+                                <rect key="frame" x="50" y="244" width="275" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.16862745100000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="244" width="275" height="21"/>
-                                </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_139420757_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="TKJ-sH-LUK">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="525" width="157" height="91"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_139420757_opt.jpeg" id="TKJ-sH-LUK">
+                                <rect key="frame" x="50" y="525" width="157" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cheese_opt.png" translatesAutoresizingMaskIntoConstraints="NO" id="yNJ-1I-13O">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="325" width="157" height="91"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cheese_opt.png" id="yNJ-1I-13O">
+                                <rect key="frame" x="50" y="325" width="157" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Supporting regional economic integration and South-South trade" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ma-75-6DO">
-                                <rect key="frame" x="35" y="128" width="233" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Supporting regional economic integration and South-South trade" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Ma-75-6DO">
+                                <rect key="frame" x="20" y="120" width="342" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.16862745100000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="120" width="342" height="66"/>
-                                </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="Sfk-qk-kca"/>
-                                <exclude reference="Hxq-yT-B9o"/>
-                                <exclude reference="NXf-aM-XlG"/>
-                                <exclude reference="PEK-bp-yfp"/>
-                                <exclude reference="pKw-qB-ymP"/>
-                                <exclude reference="J3i-ZN-SeO"/>
-                                <exclude reference="wI0-yO-Qe1"/>
-                                <exclude reference="oZK-QT-dmK"/>
-                                <exclude reference="TKJ-sH-LUK"/>
-                                <exclude reference="yNJ-1I-13O"/>
-                                <exclude reference="9Ma-75-6DO"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="Sfk-qk-kca"/>
-                                <include reference="Hxq-yT-B9o"/>
-                                <include reference="NXf-aM-XlG"/>
-                                <include reference="PEK-bp-yfp"/>
-                                <include reference="pKw-qB-ymP"/>
-                                <include reference="J3i-ZN-SeO"/>
-                                <include reference="wI0-yO-Qe1"/>
-                                <include reference="oZK-QT-dmK"/>
-                                <include reference="TKJ-sH-LUK"/>
-                                <include reference="yNJ-1I-13O"/>
-                                <include reference="9Ma-75-6DO"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="7A2-Nh-bhD">
                         <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="bHE-X3-cip"/>
@@ -1040,68 +736,44 @@ new buyers, increase profits</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UKU-NC-GLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2884.5" y="823.125"/>
+            <point key="canvasLocation" x="1538.4000000000001" y="779.22500000000002"/>
         </scene>
         <!--PageThree-->
         <scene sceneID="p0p-QY-4qc">
             <objects>
                 <viewController storyboardIdentifier="Page3" id="GKS-kH-A3z" userLabel="PageThree" customClass="PageThree" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cFP-yv-R8t"/>
-                        <viewControllerLayoutGuide type="bottom" id="3rT-n4-wuY"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Cuq-UI-BLf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfV-oe-Fjo">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.16470588235294117" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vfV-oe-Fjo">
+                                <rect key="frame" x="0.0" y="65" width="375" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0078431372550000003" green="0.1176470588" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Supporting regional economic integration">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="65" width="375" height="40"/>
-                                </variation>
                                 <connections>
                                     <segue destination="QbK-4h-fB0" kind="unwind" unwindAction="unwindToViewControllerThree:" id="wnj-bZ-WOA"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="voF-Kk-CmG">
-                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="voF-Kk-CmG">
+                                <rect key="frame" x="0.0" y="106" width="375" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <segments>
                                     <segment title="Story 1"/>
                                     <segment title="Story 2"/>
                                 </segments>
                                 <color key="tintColor" red="0.0" green="0.16470588235294117" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="106" width="375" height="29"/>
-                                </variation>
                             </segmentedControl>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZ5-Y2-Abm">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <webView contentMode="scaleToFill" id="yZ5-Y2-Abm">
+                                <rect key="frame" x="0.0" y="135" width="375" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="135" width="375" height="533"/>
-                                </variation>
                             </webView>
                         </subviews>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="vfV-oe-Fjo"/>
-                                <exclude reference="voF-Kk-CmG"/>
-                                <exclude reference="yZ5-Y2-Abm"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="vfV-oe-Fjo"/>
-                                <include reference="voF-Kk-CmG"/>
-                                <include reference="yZ5-Y2-Abm"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="MpO-th-pOU">
                         <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="QiU-7e-D70"/>
@@ -1130,151 +802,95 @@ new buyers, increase profits</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ti-8y-LgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="QbK-4h-fB0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3408.5" y="823.125"/>
+            <point key="canvasLocation" x="1817.8666666666666" y="779.22500000000002"/>
         </scene>
         <!--View Controller Two-->
         <scene sceneID="oNc-W9-KGe">
             <objects>
                 <viewController storyboardIdentifier="VC2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pZm-9K-xSF" customClass="ViewControllerTwo" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Zfk-L8-xJe"/>
-                        <viewControllerLayoutGuide type="bottom" id="l9q-5t-dba"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hvU-B8-bdr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8D-gb-Qoe">
-                                <rect key="frame" x="231" y="444" width="79" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="u8D-gb-Qoe">
+                                <rect key="frame" x="236" y="551" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <state key="normal" title="Read more">
                                     <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="236" y="551" width="79" height="30"/>
-                                </variation>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Côte d'Ivoire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mrd-nY-rfQ">
-                                <rect key="frame" x="35" y="367" width="275" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Côte d'Ivoire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mrd-nY-rfQ">
+                                <rect key="frame" x="50" y="450" width="275" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="450" width="275" height="21"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ITC market analysis tools help generate over US$60 million in goods and services exports" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OO3-gh-uUm">
-                                <rect key="frame" x="35" y="241" width="275" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ITC market analysis tools help generate over US$60 million in goods and services exports" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OO3-gh-uUm">
+                                <rect key="frame" x="50" y="264" width="275" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="264" width="275" height="40"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Market intelligence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygh-PT-1LH">
-                                <rect key="frame" x="35" y="212" width="275" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Market intelligence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ygh-PT-1LH">
+                                <rect key="frame" x="50" y="235" width="275" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="235" width="275" height="21"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LS-Cn-Er3">
-                                <rect key="frame" x="35" y="376" width="275" height="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7LS-Cn-Er3">
+                                <rect key="frame" x="50" y="459" width="275" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="459" width="275" height="16"/>
-                                </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIz-Mt-WaR">
-                                <rect key="frame" x="35" y="396" width="275" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dIz-Mt-WaR">
+                                <rect key="frame" x="50" y="479" width="275" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="479" width="275" height="40"/>
-                                </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0z-az-nMU">
-                                <rect key="frame" x="231" y="289" width="79" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="L0z-az-nMU">
+                                <rect key="frame" x="233" y="343" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                 <state key="normal" title="Read more">
                                     <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="233" y="343" width="79" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="gRD-LK-Dp9" kind="push" id="Yl9-sn-b3a"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ycv-My-XLw">
-                                <rect key="frame" x="35" y="219" width="275" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ycv-My-XLw">
+                                <rect key="frame" x="50" y="242" width="275" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="242" width="275" height="21"/>
-                                </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_151573184_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="NCC-Ai-2hx">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="523" width="157" height="91"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_151573184_opt.jpeg" id="NCC-Ai-2hx">
+                                <rect key="frame" x="50" y="523" width="157" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_9126_opt.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="fYz-5G-3Uo">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="50" y="312" width="157" height="91"/>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_9126_opt.jpeg" id="fYz-5G-3Uo">
+                                <rect key="frame" x="50" y="312" width="157" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trade &amp; market intelligence" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSh-T1-mTq">
-                                <rect key="frame" x="35" y="128" width="233" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trade &amp; market intelligence" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PSh-T1-mTq">
+                                <rect key="frame" x="43" y="141" width="288" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="43" y="141" width="288" height="27"/>
-                                </variation>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.26666666666666666" green="0.6588235294117647" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="u8D-gb-Qoe"/>
-                                <exclude reference="Mrd-nY-rfQ"/>
-                                <exclude reference="OO3-gh-uUm"/>
-                                <exclude reference="ygh-PT-1LH"/>
-                                <exclude reference="7LS-Cn-Er3"/>
-                                <exclude reference="dIz-Mt-WaR"/>
-                                <exclude reference="L0z-az-nMU"/>
-                                <exclude reference="Ycv-My-XLw"/>
-                                <exclude reference="NCC-Ai-2hx"/>
-                                <exclude reference="fYz-5G-3Uo"/>
-                                <exclude reference="PSh-T1-mTq"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="u8D-gb-Qoe"/>
-                                <include reference="Mrd-nY-rfQ"/>
-                                <include reference="OO3-gh-uUm"/>
-                                <include reference="ygh-PT-1LH"/>
-                                <include reference="7LS-Cn-Er3"/>
-                                <include reference="dIz-Mt-WaR"/>
-                                <include reference="L0z-az-nMU"/>
-                                <include reference="Ycv-My-XLw"/>
-                                <include reference="NCC-Ai-2hx"/>
-                                <include reference="fYz-5G-3Uo"/>
-                                <include reference="PSh-T1-mTq"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="3Zl-je-6ta">
                         <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="ajC-vQ-UQS"/>
@@ -1303,68 +919,42 @@ new buyers, increase profits</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8kX-kP-Pt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2884.5" y="-128.5"/>
+            <point key="canvasLocation" x="1538.4000000000001" y="-121.64666666666666"/>
         </scene>
         <!--Page Two-->
         <scene sceneID="2GE-0Z-ckA">
             <objects>
                 <viewController storyboardIdentifier="Page2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gRD-LK-Dp9" customClass="PageTwo" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="z61-6b-Q1a"/>
-                        <viewControllerLayoutGuide type="bottom" id="PNG-ec-hao"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="d5h-wW-XAb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I1-O9-mpS">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.265625" green="0.65781756739999997" blue="0.82311765940000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="0I1-O9-mpS">
+                                <rect key="frame" x="0.0" y="66" width="375" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Trade &amp; market intelligence">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="65" width="375" height="40"/>
-                                </variation>
+                                <state key="normal" title="Trade &amp; market intelligence"/>
                                 <connections>
                                     <segue destination="KFC-pS-0Dr" kind="unwind" unwindAction="unwindToViewControllerTwo:" id="EN3-NY-w5o"/>
                                 </connections>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eiN-XO-kbw">
-                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                            <webView contentMode="scaleToFill" id="p1L-5z-lBd">
+                                <rect key="frame" x="0.0" y="134" width="375" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="eiN-XO-kbw">
+                                <rect key="frame" x="0.0" y="107" width="375" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Story 1"/>
                                     <segment title="Story 2"/>
                                 </segments>
-                                <color key="tintColor" red="0.265625" green="0.65781756739999997" blue="0.82311765940000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="106" width="375" height="29"/>
-                                </variation>
+                                <color key="tintColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1L-5z-lBd">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                <variation key="heightClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="136" width="375" height="533"/>
-                                </variation>
-                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="0I1-O9-mpS"/>
-                                <exclude reference="eiN-XO-kbw"/>
-                                <exclude reference="p1L-5z-lBd"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="0I1-O9-mpS"/>
-                                <include reference="eiN-XO-kbw"/>
-                                <include reference="p1L-5z-lBd"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="vsH-rz-unQ">
                         <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="rFl-Eh-dMw"/>
@@ -1394,7 +984,7 @@ new buyers, increase profits</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lr-yT-ffv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="KFC-pS-0Dr" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3470.5" y="-128.5"/>
+            <point key="canvasLocation" x="1850.9333333333334" y="-121.64666666666666"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bux-pF-rgn">
@@ -1413,7 +1003,7 @@ new buyers, increase profits</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zSx-iU-zz2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1416.5" y="-570.5"/>
+            <point key="canvasLocation" x="755.4666666666667" y="-540.07333333333338"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BaM-1q-iQG">
@@ -1450,7 +1040,7 @@ new buyers, increase profits</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXM-kD-h7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2884.5" y="-1000.5"/>
+            <point key="canvasLocation" x="1538.4000000000001" y="-947.13999999999999"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="H8c-LB-yAT">
@@ -1470,7 +1060,7 @@ new buyers, increase profits</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CPg-AN-wdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1416.5" y="784.5"/>
+            <point key="canvasLocation" x="755.4666666666667" y="742.65999999999997"/>
         </scene>
     </scenes>
     <resources>
