@@ -423,6 +423,300 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60CC116C1D6B217C00B37716 /* Market intelligence */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A8F1D1FCD81004704BE /* shutterstock_182811533_fmt.png */,
+				9F6C2A8B1D1FCD81004704BE /* shutterstock_143067595_opt.jpeg */,
+				9F6C2A661D1FCD81004704BE /* IMG_0059_opt.jpeg */,
+				9F6C2A921D1FCD81004704BE /* shutterstock_96120500_opt.jpeg */,
+				9F6C2A721D1FCD81004704BE /* IMG_7120_opt.jpeg */,
+				9F6C2A771D1FCD81004704BE /* IMG_9126_opt.jpeg */,
+				9F6C2A7C1D1FCD81004704BE /* MAR-video_opt.jpeg */,
+				9F6C2A601D1FCD81004704BE /* DSCN0082_opt.jpeg */,
+				9F6C2A741D1FCD81004704BE /* IMG_8071_opt.jpeg */,
+			);
+			name = "Market intelligence";
+			sourceTree = "<group>";
+		};
+		60CC116D1D6B219B00B37716 /* Côte d'Ivoire */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A9B1D1FCD81004704BE /* vlcsnap-2014-11-07-14h0_opt.png */,
+				9F6C2A3C1D1FCD81004704BE /* 1370.png */,
+				9F6C2A581D1FCD81004704BE /* Cocoa-02_opt.jpeg */,
+				9F6C2A9C1D1FCD81004704BE /* vlcsnap-2014-11-07-14h1_opt.png */,
+				9F6C2A3D1D1FCD81004704BE /* 1385.png */,
+				9F6C2A8C1D1FCD81004704BE /* shutterstock_151573184_opt.jpeg */,
+			);
+			name = "Côte d'Ivoire";
+			sourceTree = "<group>";
+		};
+		60CC116E1D6B21B300B37716 /* Egypt */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A651D1FCD81004704BE /* GreenLandEgyptPicture6_opt.jpeg */,
+				9F6C2A641D1FCD81004704BE /* GreenLandEgyptPicture6_fmt.png */,
+				9F6C2A621D1FCD81004704BE /* GreenLandEgyptPicture1_opt.jpeg */,
+				9F6C2A571D1FCD81004704BE /* Cheese_opt.png */,
+				9F6C2A631D1FCD81004704BE /* GreenLandEgyptPicture5_opt.jpeg */,
+				9F6C2A6C1D1FCD81004704BE /* IMG_2578_opt.jpeg */,
+			);
+			name = Egypt;
+			sourceTree = "<group>";
+		};
+		60CC116F1D6B21BC00B37716 /* Mekong region */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A3B1D1FCD81004704BE /* 12_opt.jpeg */,
+				9F6C2A5F1D1FCD81004704BE /* DSC_6613_opt.jpeg */,
+				9F6C2A881D1FCD81004704BE /* shutterstock_128982896_opt.jpeg */,
+				9F6C2A891D1FCD81004704BE /* shutterstock_139420757_opt.jpeg */,
+				9F6C2A421D1FCD81004704BE /* 2463018711_7d9a7210ce__opt.jpeg */,
+				9F6C2A831D1FCD81004704BE /* PICT0133_opt.jpeg */,
+				9F6C2A6A1D1FCD81004704BE /* IMG_1959_opt.jpeg */,
+			);
+			name = "Mekong region";
+			sourceTree = "<group>";
+		};
+		60CC11701D6B21CA00B37716 /* Kyrgyzstan */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A591D1FCD81004704BE /* CPM Trade Fair 2014_opt.jpeg */,
+				9F6C2A7B1D1FCD81004704BE /* Lila-Style-02_opt.jpeg */,
+				9F6C2A961D1FCD81004704BE /* Training on productivi_opt.jpeg */,
+			);
+			name = Kyrgyzstan;
+			sourceTree = "<group>";
+		};
+		60CC11711D6B21D800B37716 /* Cambodia */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A6B1D1FCD81004704BE /* IMG_2303_opt.jpeg */,
+				9F6C2A711D1FCD81004704BE /* IMG_6815_opt.jpeg */,
+				9F6C2A5B1D1FCD81004704BE /* DSC04253_opt.jpeg */,
+				9F6C2A401D1FCD81004704BE /* 20130110_133540_(2)_opt.jpeg */,
+				9F6C2A531D1FCD81004704BE /* AFESIP 1_opt.jpeg */,
+				9F6C2A541D1FCD81004704BE /* AFESIP 4_opt.jpeg */,
+				9F6C2A381D1FCD81004704BE /* 04 Sewing workshop Wom_opt.jpeg */,
+				9F6C2A731D1FCD81004704BE /* IMG_7946_opt.jpeg */,
+			);
+			name = Cambodia;
+			sourceTree = "<group>";
+		};
+		60CC11721D6B21E200B37716 /* Nigeria */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A521D1FCD81004704BE /* _DSC0131_opt.jpeg */,
+				9F6C2A461D1FCD81004704BE /* 3822312257_10ce384678__opt.jpeg */,
+				9F6C2A5D1D1FCD81004704BE /* DSC_6543_opt.jpeg */,
+				9F6C2A5E1D1FCD81004704BE /* DSC_6573_opt.jpeg */,
+				9F6C2A501D1FCD81004704BE /* _DSC0075_opt.jpeg */,
+				9F6C2A511D1FCD81004704BE /* _DSC0115_opt.jpeg */,
+			);
+			name = Nigeria;
+			sourceTree = "<group>";
+		};
+		60CC11741D6B221400B37716 /* TPO benchmarking */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A851D1FCD81004704BE /* shutterstock_121967665_opt.jpeg */,
+				9F6C2A681D1FCD81004704BE /* IMG_0796_opt.jpeg */,
+				9F6C2A671D1FCD81004704BE /* IMG_0623_opt.jpeg */,
+				9F6C2A861D1FCD81004704BE /* shutterstock_127078010_opt.jpeg */,
+			);
+			name = "TPO benchmarking";
+			sourceTree = "<group>";
+		};
+		60CC11751D6B222100B37716 /* Ethical Fashion */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A7A1D1FCD81004704BE /* Jane - Credit Tahir Ka_opt.jpeg */,
+				9F6C2A791D1FCD81004704BE /* Jane - Credit Chloe Mu_opt.jpeg */,
+				9F6C2A561D1FCD81004704BE /* Chan Luu Production - _opt.jpeg */,
+				9F6C2A971D1FCD81004704BE /* Vivienne Westwood prod_opt.jpeg */,
+			);
+			name = "Ethical Fashion";
+			sourceTree = "<group>";
+		};
+		60CC11761D6B222A00B37716 /* Peru */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A391D1FCD81004704BE /* 043_opt.jpeg */,
+				9F6C2AA01D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt1.png */,
+				9F6C2A9E1D1FCD81004704BE /* vlcsnap-2014-11-17-12h2_opt.png */,
+				9F6C2AA11D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt2.png */,
+				9F6C2A9D1D1FCD81004704BE /* vlcsnap-2014-11-17-12h1_opt.png */,
+				9F6C2AA21D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt3.png */,
+				9F6C2AA31D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt4.png */,
+				9F6C2A9F1D1FCD81004704BE /* vlcsnap-2014-11-17-12h3_opt.png */,
+			);
+			name = Peru;
+			sourceTree = "<group>";
+		};
+		60CC11771D6B223200B37716 /* Papua New Guinea */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A6F1D1FCD81004704BE /* IMG_4529_opt.jpeg */,
+				9F6C2A7F1D1FCD81004704BE /* PapuaNewGuinea-Bauka P_opt.jpeg */,
+				9F6C2A701D1FCD81004704BE /* IMG_4593_opt.jpeg */,
+				9F6C2A761D1FCD81004704BE /* IMG_8952_opt.jpeg */,
+			);
+			name = "Papua New Guinea";
+			sourceTree = "<group>";
+		};
+		60CC11781D6B223D00B37716 /* Kenya */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A691D1FCD81004704BE /* IMG_1780_opt.jpeg */,
+				9F6C2A981D1FCD81004704BE /* vlcsnap-2013-07-12-11h5_opt.png */,
+				9F6C2A941D1FCD81004704BE /* tea_factory_1_opt.jpeg */,
+				9F6C2A9A1D1FCD81004704BE /* vlcsnap-2013-07-12-12h_opt1.png */,
+				9F6C2A991D1FCD81004704BE /* vlcsnap-2013-07-12-12h0_opt.png */,
+			);
+			name = Kenya;
+			sourceTree = "<group>";
+		};
+		60CC11791D6B224600B37716 /* Côte d'Ivoire2 */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A801D1FCD81004704BE /* Photo B Panneau_opt.jpeg */,
+				9F6C2A821D1FCD81004704BE /* Photo E Portes ouverte_opt.jpeg */,
+				9F6C2A5C1D1FCD81004704BE /* DSC_0135_opt.jpeg */,
+				9F6C2A811D1FCD81004704BE /* Photo D Portes ouverte_opt.jpeg */,
+				9F6C2A8E1D1FCD81004704BE /* shutterstock_165057827_opt.jpeg */,
+			);
+			name = "Côte d'Ivoire2";
+			sourceTree = "<group>";
+		};
+		60CC117A1D6B225D00B37716 /* Mauritius */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A7E1D1FCD81004704BE /* P5100194_Jan Hoffmann_opt.jpeg */,
+				9F6C2A6D1D1FCD81004704BE /* IMG_2832_Nicolas_Mugni_opt.jpeg */,
+				9F6C2A841D1FCD81004704BE /* shutterstock_108194393_opt.jpeg */,
+				9F6C2A7D1D1FCD81004704BE /* P5100157_Jan Hoffmann__opt.jpeg */,
+				9F6C2A6E1D1FCD81004704BE /* IMG_3344_Nicolas_Mugni_opt.jpeg */,
+			);
+			name = Mauritius;
+			sourceTree = "<group>";
+		};
+		60CC117B1D6B28A000B37716 /* Infographics */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A3E1D1FCD81004704BE /* 1679.png */,
+				9F6C2A471D1FCD81004704BE /* 3964.png */,
+				60CC11641D64B42E00B37716 /* 19-assoc.jpg */,
+				9F6C2A481D1FCD81004704BE /* 4425.png */,
+				9F6C2A3F1D1FCD81004704BE /* 1973.png */,
+				9F6C2A491D1FCD81004704BE /* 4620.png */,
+				9F6C2A4A1D1FCD81004704BE /* 5097.png */,
+				9F6C2A441D1FCD81004704BE /* 3274.png */,
+				9F6C2A3A1D1FCD81004704BE /* 1104.png */,
+				60CC11661D64B42E00B37716 /* Benin.jpg */,
+				60CC11671D64B42E00B37716 /* Peru.jpg */,
+				60CC11651D64B42E00B37716 /* bangladesh.jpg */,
+				9F6C2A411D1FCD81004704BE /* 2252.png */,
+				9F6C2A431D1FCD81004704BE /* 3001.png */,
+				9F6C2A451D1FCD81004704BE /* 3804.png */,
+			);
+			name = Infographics;
+			sourceTree = "<group>";
+		};
+		60CC117E1D6B35BA00B37716 /* CaseStudy1 */ = {
+			isa = PBXGroup;
+			children = (
+				60CC114E1D62079C00B37716 /* IMG_5262.jpg */,
+			);
+			name = CaseStudy1;
+			sourceTree = "<group>";
+		};
+		60CC117F1D6B35C600B37716 /* CaseStudy2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy2;
+			sourceTree = "<group>";
+		};
+		60CC11801D6B35CE00B37716 /* CaseStudy3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy3;
+			sourceTree = "<group>";
+		};
+		60CC11811D6B35D400B37716 /* CaseStudy4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy4;
+			sourceTree = "<group>";
+		};
+		60CC11821D6B35DD00B37716 /* CaseStudy5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy5;
+			sourceTree = "<group>";
+		};
+		60CC11831D6B35E300B37716 /* CaseStudy6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy6;
+			sourceTree = "<group>";
+		};
+		60CC11841D6B35EB00B37716 /* CaseStudy7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy7;
+			sourceTree = "<group>";
+		};
+		60CC11851D6B35F100B37716 /* CaseStudy8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy8;
+			sourceTree = "<group>";
+		};
+		60CC11861D6B35F800B37716 /* CaseStudy9 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy9;
+			sourceTree = "<group>";
+		};
+		60CC11871D6B361000B37716 /* CaseStudy10 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CaseStudy10;
+			sourceTree = "<group>";
+		};
+		60CC11881D6B36E200B37716 /* Foreword */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A931D1FCD81004704BE /* signatureA-Gonzales-BW_opt.jpeg */,
+				9F6C2A751D1FCD81004704BE /* IMG_8676_opt.jpeg */,
+				9F6C2A551D1FCD81004704BE /* arancha.png */,
+			);
+			name = Foreword;
+			sourceTree = "<group>";
+		};
+		60CC11891D6B3B5200B37716 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2A4F1D1FCD81004704BE /* 7334.png */,
+				9F6C2A781D1FCD81004704BE /* ITC-logo.png */,
+				9F6C2A4B1D1FCD81004704BE /* 5373.png */,
+				9F6C2A4C1D1FCD81004704BE /* 5912.png */,
+				9F6C2A4D1D1FCD81004704BE /* 5920.png */,
+				9F6C2A4E1D1FCD81004704BE /* 715.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
 		9F6C2A2E1D1FCD81004704BE /* Impact-Stories-web_1-web-resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,119 +765,41 @@
 		9F6C2A371D1FCD81004704BE /* image */ = {
 			isa = PBXGroup;
 			children = (
-				60CC114E1D62079C00B37716 /* IMG_5262.jpg */,
-				9F6C2A381D1FCD81004704BE /* 04 Sewing workshop Wom_opt.jpeg */,
-				9F6C2A391D1FCD81004704BE /* 043_opt.jpeg */,
-				9F6C2A3A1D1FCD81004704BE /* 1104.png */,
-				9F6C2A3B1D1FCD81004704BE /* 12_opt.jpeg */,
-				9F6C2A3C1D1FCD81004704BE /* 1370.png */,
-				9F6C2A3D1D1FCD81004704BE /* 1385.png */,
-				9F6C2A3E1D1FCD81004704BE /* 1679.png */,
-				9F6C2A3F1D1FCD81004704BE /* 1973.png */,
-				9F6C2A401D1FCD81004704BE /* 20130110_133540_(2)_opt.jpeg */,
-				9F6C2A411D1FCD81004704BE /* 2252.png */,
-				9F6C2A421D1FCD81004704BE /* 2463018711_7d9a7210ce__opt.jpeg */,
-				9F6C2A431D1FCD81004704BE /* 3001.png */,
-				9F6C2A441D1FCD81004704BE /* 3274.png */,
-				60CC11641D64B42E00B37716 /* 19-assoc.jpg */,
-				60CC11651D64B42E00B37716 /* bangladesh.jpg */,
-				60CC11661D64B42E00B37716 /* Benin.jpg */,
-				60CC11671D64B42E00B37716 /* Peru.jpg */,
-				9F6C2A451D1FCD81004704BE /* 3804.png */,
-				9F6C2A461D1FCD81004704BE /* 3822312257_10ce384678__opt.jpeg */,
-				9F6C2A471D1FCD81004704BE /* 3964.png */,
-				9F6C2A481D1FCD81004704BE /* 4425.png */,
-				9F6C2A491D1FCD81004704BE /* 4620.png */,
-				9F6C2A4A1D1FCD81004704BE /* 5097.png */,
-				9F6C2A4B1D1FCD81004704BE /* 5373.png */,
-				9F6C2A4C1D1FCD81004704BE /* 5912.png */,
-				9F6C2A4D1D1FCD81004704BE /* 5920.png */,
-				9F6C2A4E1D1FCD81004704BE /* 715.png */,
-				9F6C2A4F1D1FCD81004704BE /* 7334.png */,
-				9F6C2A501D1FCD81004704BE /* _DSC0075_opt.jpeg */,
-				9F6C2A511D1FCD81004704BE /* _DSC0115_opt.jpeg */,
-				9F6C2A521D1FCD81004704BE /* _DSC0131_opt.jpeg */,
-				9F6C2A531D1FCD81004704BE /* AFESIP 1_opt.jpeg */,
-				9F6C2A541D1FCD81004704BE /* AFESIP 4_opt.jpeg */,
-				9F6C2A551D1FCD81004704BE /* arancha.png */,
-				9F6C2A561D1FCD81004704BE /* Chan Luu Production - _opt.jpeg */,
-				9F6C2A571D1FCD81004704BE /* Cheese_opt.png */,
-				9F6C2A581D1FCD81004704BE /* Cocoa-02_opt.jpeg */,
-				9F6C2A591D1FCD81004704BE /* CPM Trade Fair 2014_opt.jpeg */,
+				60CC11881D6B36E200B37716 /* Foreword */,
+				60CC116C1D6B217C00B37716 /* Market intelligence */,
+				60CC116D1D6B219B00B37716 /* Côte d'Ivoire */,
+				60CC116E1D6B21B300B37716 /* Egypt */,
+				60CC116F1D6B21BC00B37716 /* Mekong region */,
+				60CC11701D6B21CA00B37716 /* Kyrgyzstan */,
+				60CC11711D6B21D800B37716 /* Cambodia */,
+				60CC11721D6B21E200B37716 /* Nigeria */,
+				60CC11741D6B221400B37716 /* TPO benchmarking */,
+				60CC11751D6B222100B37716 /* Ethical Fashion */,
+				60CC11761D6B222A00B37716 /* Peru */,
+				60CC11771D6B223200B37716 /* Papua New Guinea */,
+				60CC11781D6B223D00B37716 /* Kenya */,
+				60CC11791D6B224600B37716 /* Côte d'Ivoire2 */,
+				60CC117A1D6B225D00B37716 /* Mauritius */,
+				60CC117B1D6B28A000B37716 /* Infographics */,
+				60CC117E1D6B35BA00B37716 /* CaseStudy1 */,
+				60CC117F1D6B35C600B37716 /* CaseStudy2 */,
+				60CC11801D6B35CE00B37716 /* CaseStudy3 */,
+				60CC11811D6B35D400B37716 /* CaseStudy4 */,
+				60CC11821D6B35DD00B37716 /* CaseStudy5 */,
+				60CC11831D6B35E300B37716 /* CaseStudy6 */,
+				60CC11841D6B35EB00B37716 /* CaseStudy7 */,
+				60CC11851D6B35F100B37716 /* CaseStudy8 */,
+				60CC11861D6B35F800B37716 /* CaseStudy9 */,
+				60CC11871D6B361000B37716 /* CaseStudy10 */,
+				60CC11891D6B3B5200B37716 /* Logos */,
 				9F6C2A5A1D1FCD81004704BE /* DSC01132_opt.jpeg */,
-				9F6C2A5B1D1FCD81004704BE /* DSC04253_opt.jpeg */,
-				9F6C2A5C1D1FCD81004704BE /* DSC_0135_opt.jpeg */,
-				9F6C2A5D1D1FCD81004704BE /* DSC_6543_opt.jpeg */,
-				9F6C2A5E1D1FCD81004704BE /* DSC_6573_opt.jpeg */,
-				9F6C2A5F1D1FCD81004704BE /* DSC_6613_opt.jpeg */,
-				9F6C2A601D1FCD81004704BE /* DSCN0082_opt.jpeg */,
 				9F6C2A611D1FCD81004704BE /* F1968V38_fmt.png */,
-				9F6C2A621D1FCD81004704BE /* GreenLandEgyptPicture1_opt.jpeg */,
-				9F6C2A631D1FCD81004704BE /* GreenLandEgyptPicture5_opt.jpeg */,
-				9F6C2A641D1FCD81004704BE /* GreenLandEgyptPicture6_fmt.png */,
-				9F6C2A651D1FCD81004704BE /* GreenLandEgyptPicture6_opt.jpeg */,
-				9F6C2A661D1FCD81004704BE /* IMG_0059_opt.jpeg */,
-				9F6C2A671D1FCD81004704BE /* IMG_0623_opt.jpeg */,
-				9F6C2A681D1FCD81004704BE /* IMG_0796_opt.jpeg */,
-				9F6C2A691D1FCD81004704BE /* IMG_1780_opt.jpeg */,
-				9F6C2A6A1D1FCD81004704BE /* IMG_1959_opt.jpeg */,
-				9F6C2A6B1D1FCD81004704BE /* IMG_2303_opt.jpeg */,
-				9F6C2A6C1D1FCD81004704BE /* IMG_2578_opt.jpeg */,
-				9F6C2A6D1D1FCD81004704BE /* IMG_2832_Nicolas_Mugni_opt.jpeg */,
-				9F6C2A6E1D1FCD81004704BE /* IMG_3344_Nicolas_Mugni_opt.jpeg */,
-				9F6C2A6F1D1FCD81004704BE /* IMG_4529_opt.jpeg */,
-				9F6C2A701D1FCD81004704BE /* IMG_4593_opt.jpeg */,
-				9F6C2A711D1FCD81004704BE /* IMG_6815_opt.jpeg */,
-				9F6C2A721D1FCD81004704BE /* IMG_7120_opt.jpeg */,
-				9F6C2A731D1FCD81004704BE /* IMG_7946_opt.jpeg */,
-				9F6C2A741D1FCD81004704BE /* IMG_8071_opt.jpeg */,
-				9F6C2A751D1FCD81004704BE /* IMG_8676_opt.jpeg */,
-				9F6C2A761D1FCD81004704BE /* IMG_8952_opt.jpeg */,
-				9F6C2A771D1FCD81004704BE /* IMG_9126_opt.jpeg */,
-				9F6C2A781D1FCD81004704BE /* ITC-logo.png */,
-				9F6C2A791D1FCD81004704BE /* Jane - Credit Chloe Mu_opt.jpeg */,
-				9F6C2A7A1D1FCD81004704BE /* Jane - Credit Tahir Ka_opt.jpeg */,
-				9F6C2A7B1D1FCD81004704BE /* Lila-Style-02_opt.jpeg */,
-				9F6C2A7C1D1FCD81004704BE /* MAR-video_opt.jpeg */,
-				9F6C2A7D1D1FCD81004704BE /* P5100157_Jan Hoffmann__opt.jpeg */,
-				9F6C2A7E1D1FCD81004704BE /* P5100194_Jan Hoffmann_opt.jpeg */,
-				9F6C2A7F1D1FCD81004704BE /* PapuaNewGuinea-Bauka P_opt.jpeg */,
-				9F6C2A801D1FCD81004704BE /* Photo B Panneau_opt.jpeg */,
-				9F6C2A811D1FCD81004704BE /* Photo D Portes ouverte_opt.jpeg */,
-				9F6C2A821D1FCD81004704BE /* Photo E Portes ouverte_opt.jpeg */,
-				9F6C2A831D1FCD81004704BE /* PICT0133_opt.jpeg */,
-				9F6C2A841D1FCD81004704BE /* shutterstock_108194393_opt.jpeg */,
-				9F6C2A851D1FCD81004704BE /* shutterstock_121967665_opt.jpeg */,
-				9F6C2A861D1FCD81004704BE /* shutterstock_127078010_opt.jpeg */,
-				9F6C2A871D1FCD81004704BE /* shutterstock_128676488_opt.jpeg */,
-				9F6C2A881D1FCD81004704BE /* shutterstock_128982896_opt.jpeg */,
-				9F6C2A891D1FCD81004704BE /* shutterstock_139420757_opt.jpeg */,
-				9F6C2A8A1D1FCD81004704BE /* shutterstock_142063054_opt.jpeg */,
-				9F6C2A8B1D1FCD81004704BE /* shutterstock_143067595_opt.jpeg */,
-				9F6C2A8C1D1FCD81004704BE /* shutterstock_151573184_opt.jpeg */,
-				9F6C2A8D1D1FCD81004704BE /* shutterstock_156792503_opt.jpeg */,
-				9F6C2A8E1D1FCD81004704BE /* shutterstock_165057827_opt.jpeg */,
-				9F6C2A8F1D1FCD81004704BE /* shutterstock_182811533_fmt.png */,
 				9F6C2A901D1FCD81004704BE /* shutterstock_186754211_opt.jpeg */,
+				9F6C2A871D1FCD81004704BE /* shutterstock_128676488_opt.jpeg */,
+				9F6C2A8A1D1FCD81004704BE /* shutterstock_142063054_opt.jpeg */,
+				9F6C2A8D1D1FCD81004704BE /* shutterstock_156792503_opt.jpeg */,
 				9F6C2A911D1FCD81004704BE /* shutterstock_208577434_opt.jpeg */,
-				9F6C2A921D1FCD81004704BE /* shutterstock_96120500_opt.jpeg */,
-				9F6C2A931D1FCD81004704BE /* signatureA-Gonzales-BW_opt.jpeg */,
-				9F6C2A941D1FCD81004704BE /* tea_factory_1_opt.jpeg */,
 				9F6C2A951D1FCD81004704BE /* Thumbs.db */,
-				9F6C2A961D1FCD81004704BE /* Training on productivi_opt.jpeg */,
-				9F6C2A971D1FCD81004704BE /* Vivienne Westwood prod_opt.jpeg */,
-				9F6C2A981D1FCD81004704BE /* vlcsnap-2013-07-12-11h5_opt.png */,
-				9F6C2A991D1FCD81004704BE /* vlcsnap-2013-07-12-12h0_opt.png */,
-				9F6C2A9A1D1FCD81004704BE /* vlcsnap-2013-07-12-12h_opt1.png */,
-				9F6C2A9B1D1FCD81004704BE /* vlcsnap-2014-11-07-14h0_opt.png */,
-				9F6C2A9C1D1FCD81004704BE /* vlcsnap-2014-11-07-14h1_opt.png */,
-				9F6C2A9D1D1FCD81004704BE /* vlcsnap-2014-11-17-12h1_opt.png */,
-				9F6C2A9E1D1FCD81004704BE /* vlcsnap-2014-11-17-12h2_opt.png */,
-				9F6C2A9F1D1FCD81004704BE /* vlcsnap-2014-11-17-12h3_opt.png */,
-				9F6C2AA01D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt1.png */,
-				9F6C2AA11D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt2.png */,
-				9F6C2AA21D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt3.png */,
-				9F6C2AA31D1FCD81004704BE /* vlcsnap-2014-11-17-12h_opt4.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
