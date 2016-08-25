@@ -54,7 +54,7 @@
     
     
     // Loading webContent view
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"foreword" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"autoGallery" ofType:@"html"];
     NSURL * url = [NSURL fileURLWithPath:path];
     NSMutableURLRequest * urlRequest = [NSMutableURLRequest requestWithURL:url];
     [self.webContent loadRequest:urlRequest];
