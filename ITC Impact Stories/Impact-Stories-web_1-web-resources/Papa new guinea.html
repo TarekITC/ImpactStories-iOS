@@ -1,16 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-<link href="Impact-Stories-web_1.css" rel="stylesheet" type="text/css" />
-
-</head>
-
-<body>
-    
-			<p class="Country5">Papua New Guinea</p>
-			<p class="subtitle5">Success in a cup: first woman coffee exporter in PNG secures premium price from major international buyer</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>Swiper demo</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+                
+                <link rel="stylesheet" href="swiper.min.css">
+                    <link href="Impact-Stories-web_1.css" rel="stylesheet" type="text/css"/>
+                    
+                    <style>
+                        .swiper-container {
+                            width: 100%;
+                            height: 250px;
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+                    .swiper-slide {
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .gallery-top {
+                        height: 250px;
+                        width: 100%;
+                    }
+                    
+                    .arrow-pos {
+                        
+                        opacity:0.25;
+                        top:125px;
+                    }
+                    </style>
+                    
+                    </head>
+    <body>
+        
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(Papua_New_Guinea/Papua_New_Guinea1.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Papua_New_Guinea/Papua_New_Guinea2.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Papua_New_Guinea/Papua_New_Guinea3.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Papua_New_Guinea/Papua_New_Guinea4.jpeg)"></div>
+            </div>
+        </div>
+        
+        <div class="swiper-button-next swiper-button-white  arrow-pos"></div>
+        <div class="swiper-button-prev swiper-button-white  arrow-pos"></div>
+        <script src="swiper.js"></script>
+        <script>
+            var galleryTop = new Swiper('.gallery-top', {
+                                        nextButton: '.swiper-button-next',
+                                        prevButton: '.swiper-button-prev',
+                                        spaceBetween: 10,
+                                        loop:true,
+                                        loopedSlides: 5,
+                                        });
+            </script>
+        
+        <p class="Country5">Papua New Guinea</p>
+        <p class="subtitle5">Success in a cup: first woman coffee exporter in PNG secures premium price from major international buyer</p>
 		
 			<p class="Text-Body-Swiss">Coffee farmer Marey Yogiyo has been selling coffee to buyers in her native Papua New Guinea for 16 years. Earlier this year, she became the first ever woman in the coffee sector to receive an export licence – and promptly saw the price she received rise 63% above the local rate.</p>
             <p class="Text-Body-Swiss">Olam International, one of the world’s leading agribusiness companies, bought 60 bags of coffee from her company for US$18,000.</p>

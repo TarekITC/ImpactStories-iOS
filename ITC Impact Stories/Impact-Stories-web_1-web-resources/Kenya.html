@@ -1,15 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-<link href="Impact-Stories-web_1.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-
-			<p class="Country5">Kenya</p>
-			<p class="subtitle5">Hot tea: Kenya’s tea sector adapts to climate change</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>Swiper demo</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+                
+                <link rel="stylesheet" href="swiper.min.css">
+                    <link href="Impact-Stories-web_1.css" rel="stylesheet" type="text/css"/>
+                    
+                    <style>
+                        .swiper-container {
+                            width: 100%;
+                            height: 250px;
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+                    .swiper-slide {
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .gallery-top {
+                        height: 250px;
+                        width: 100%;
+                    }
+                    
+                    .arrow-pos {
+                        
+                        opacity:0.25;
+                        top:125px;
+                    }
+                    </style>
+                    
+                    </head>
+    <body>
+        
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(Kenya/Kenya1.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Kenya/Kenya2.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Kenya/Kenya3.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Kenya/Kenya4.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Kenya/Kenya5.jpeg)"></div>
+            </div>
+        </div>
+        
+        <div class="swiper-button-next swiper-button-white  arrow-pos"></div>
+        <div class="swiper-button-prev swiper-button-white  arrow-pos"></div>
+        <script src="swiper.js"></script>
+        <script>
+            var galleryTop = new Swiper('.gallery-top', {
+                                        nextButton: '.swiper-button-next',
+                                        prevButton: '.swiper-button-prev',
+                                        spaceBetween: 10,
+                                        loop:true,
+                                        loopedSlides: 5,
+                                        });
+            </script>
+        
+        <p class="Country5">Kenya</p>
+        <p class="subtitle5">Hot tea: Kenya’s tea sector adapts to climate change</p>
 			
             <p class="Text-Body-Swiss">Many of the two million tea farmers across Kenya are struggling to cope with the higher temperatures and more erratic rainfall brought about by climate change. ‘When I started tea farming, harvests were bountiful, but over the years the quantity has dwindled,’ said Joyce Njeri Muchina, a tea farmer in Makomboki, 90 kilometers north of Nairobi. In hot weather ‘when the mist falls on the tea it burns the leaves,’ she said.</p>
             <p class="Text-Body-Swiss">An ITC project is helping farmers to adapt to the impacts of climate change, and to reduce greenhouse gas emissions along the value chain. The work is funded by the Governments of Denmark and Norway, and implemented jointly with the Ethical Tea Partnership (ETP) and the Kenya Tea Development Agency (KTDA).</p>

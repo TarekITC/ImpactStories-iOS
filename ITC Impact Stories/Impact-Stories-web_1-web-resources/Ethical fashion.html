@@ -1,15 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-<link href="Impact-Stories-web_1.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-
-			<p class="Country5">Ethical Fashion</p>
-			<p class="subtitle5">Perfect fit: tailor from Nairobi slum finds stable work, better pay</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>Swiper demo</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+                
+                <link rel="stylesheet" href="swiper.min.css">
+                    <link href="Impact-Stories-web_1.css" rel="stylesheet" type="text/css"/>
+                    
+                    <style>
+                        .swiper-container {
+                            width: 100%;
+                            height: 250px;
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+                    .swiper-slide {
+                        background-size: cover;
+                        background-position: center;
+                        height:250px;
+                    }
+                    .gallery-top {
+                        height: 250px;
+                        width: 100%;
+                    }
+                    
+                    .arrow-pos {
+                        
+                        opacity:0.25;
+                        top:125px;
+                    }
+                    </style>
+                    
+                    </head>
+    <body>
+        
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(Ethical_Fashion/Ethical_Fashion1.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Ethical_Fashion/Ethical_Fashion2.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Ethical_Fashion/Ethical_Fashion3.jpeg)"></div>
+                <div class="swiper-slide" style="background-image:url(Ethical_Fashion/Ethical_Fashion4.jpeg)"></div>
+            </div>
+        </div>
+        
+        <div class="swiper-button-next swiper-button-white  arrow-pos"></div>
+        <div class="swiper-button-prev swiper-button-white  arrow-pos"></div>
+        <script src="swiper.js"></script>
+        <script>
+            var galleryTop = new Swiper('.gallery-top', {
+                                        nextButton: '.swiper-button-next',
+                                        prevButton: '.swiper-button-prev',
+                                        spaceBetween: 10,
+                                        loop:true,
+                                        loopedSlides: 5,
+                                        });
+            </script>
+        
+        <p class="Country5">Ethical Fashion</p>
+        <p class="subtitle5">Perfect fit: tailor from Nairobi slum finds stable work, better pay</p>
 			
             <p class="Text-Body-Swiss">After years of low-paid, unpredictable work in Nairobi garment workshops, a job through ITC’s Ethical Fashion Initiative has helped Jane Nthege upgrade her tailoring skills, move to a better home, and send all five of her children to school.</p>
             <p class="Text-Body-Swiss">She now makes US$150 a month, less than her more skilled colleagues earn but more than double her previous wage, working regular hours with paid holidays. She is one of Ethical Fashion Africa Limited’s 1,200 workers in Kenya, spread across 13 groups in Nairobi slums as well as rural areas. ‘It is not only the better pay’, she said. ‘This job has given me back my self-confidence and dignity.’</p>
