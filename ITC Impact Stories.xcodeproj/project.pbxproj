@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60CC114D1D62068200B37716 /* idGeneratedStyles.css in Resources */ = {isa = PBXBuildFile; fileRef = 60CC114C1D62068200B37716 /* idGeneratedStyles.css */; };
 		60CC115A1D6218BC00B37716 /* CaseStudy1.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11501D6218BC00B37716 /* CaseStudy1.html */; };
 		60CC115B1D6218BC00B37716 /* CaseStudy2.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11511D6218BC00B37716 /* CaseStudy2.html */; };
 		60CC115C1D6218BC00B37716 /* CaseStudy3.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11521D6218BC00B37716 /* CaseStudy3.html */; };
@@ -21,8 +20,6 @@
 		60CC11E41D6DD82E00B37716 /* Case studies in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11E31D6DD82E00B37716 /* Case studies */; };
 		60CC11E61D6EDEB200B37716 /* autoGallery.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11E51D6EDEB200B37716 /* autoGallery.html */; };
 		60CC11E81D6EE19C00B37716 /* Infographics in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11E71D6EE19C00B37716 /* Infographics */; };
-		60CC11EB1D6EE54400B37716 /* swiper.css in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11E91D6EE54400B37716 /* swiper.css */; };
-		60CC11EC1D6EE54400B37716 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11EA1D6EE54400B37716 /* swiper.min.css */; };
 		60CC11F21D6EE57F00B37716 /* swiper.jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11EE1D6EE57F00B37716 /* swiper.jquery.js */; };
 		60CC11F31D6EE57F00B37716 /* swiper.jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11EF1D6EE57F00B37716 /* swiper.jquery.min.js */; };
 		60CC11F41D6EE57F00B37716 /* swiper.js in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11F01D6EE57F00B37716 /* swiper.js */; };
@@ -91,6 +88,10 @@
 		9FC068AC1D1E59CF00DA1EFA /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC068AB1D1E59CF00DA1EFA /* ViewControllerThree.m */; };
 		9FC068AF1D1E5DE900DA1EFA /* ViewControllerFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC068AE1D1E5DE900DA1EFA /* ViewControllerFour.m */; };
 		9FC068B21D1E675D00DA1EFA /* RightToLeftSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC068B11D1E675D00DA1EFA /* RightToLeftSegue.m */; };
+		9FD2CF1B1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
+		9FD2CF1C1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
+		9FD2CF1E1D72046800F476E2 /* swiper.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1D1D72046800F476E2 /* swiper.css */; };
+		9FD2CF1F1D72046800F476E2 /* swiper.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1D1D72046800F476E2 /* swiper.css */; };
 		9FFF7DE71D216C060041E3DB /* PageThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF7DE61D216C060041E3DB /* PageThree.m */; };
 /* End PBXBuildFile section */
 
@@ -112,7 +113,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		60CC114C1D62068200B37716 /* idGeneratedStyles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = idGeneratedStyles.css; sourceTree = "<group>"; };
 		60CC11501D6218BC00B37716 /* CaseStudy1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy1.html; sourceTree = "<group>"; };
 		60CC11511D6218BC00B37716 /* CaseStudy2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy2.html; sourceTree = "<group>"; };
 		60CC11521D6218BC00B37716 /* CaseStudy3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy3.html; sourceTree = "<group>"; };
@@ -126,8 +126,6 @@
 		60CC11E31D6DD82E00B37716 /* Case studies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Case studies"; sourceTree = "<group>"; };
 		60CC11E51D6EDEB200B37716 /* autoGallery.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = autoGallery.html; sourceTree = "<group>"; };
 		60CC11E71D6EE19C00B37716 /* Infographics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Infographics; sourceTree = "<group>"; };
-		60CC11E91D6EE54400B37716 /* swiper.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.css; sourceTree = "<group>"; };
-		60CC11EA1D6EE54400B37716 /* swiper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.min.css; sourceTree = "<group>"; };
 		60CC11EE1D6EE57F00B37716 /* swiper.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.jquery.js; path = js/swiper.jquery.js; sourceTree = "<group>"; };
 		60CC11EF1D6EE57F00B37716 /* swiper.jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.jquery.min.js; path = js/swiper.jquery.min.js; sourceTree = "<group>"; };
 		60CC11F01D6EE57F00B37716 /* swiper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.js; path = js/swiper.js; sourceTree = "<group>"; };
@@ -216,6 +214,8 @@
 		9FC068AE1D1E5DE900DA1EFA /* ViewControllerFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFour.m; sourceTree = "<group>"; };
 		9FC068B01D1E675D00DA1EFA /* RightToLeftSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightToLeftSegue.h; sourceTree = "<group>"; };
 		9FC068B11D1E675D00DA1EFA /* RightToLeftSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightToLeftSegue.m; sourceTree = "<group>"; };
+		9FD2CF1A1D72045B00F476E2 /* swiper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.min.css; sourceTree = "<group>"; };
+		9FD2CF1D1D72046800F476E2 /* swiper.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.css; sourceTree = "<group>"; };
 		9FFF7DE51D216C060041E3DB /* PageThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageThree.h; sourceTree = "<group>"; };
 		9FFF7DE61D216C060041E3DB /* PageThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -297,9 +297,8 @@
 		9F6C2A341D1FCD81004704BE /* css */ = {
 			isa = PBXGroup;
 			children = (
-				60CC11E91D6EE54400B37716 /* swiper.css */,
-				60CC11EA1D6EE54400B37716 /* swiper.min.css */,
-				60CC114C1D62068200B37716 /* idGeneratedStyles.css */,
+				9FD2CF1D1D72046800F476E2 /* swiper.css */,
+				9FD2CF1A1D72045B00F476E2 /* swiper.min.css */,
 				9F6C2A351D1FCD81004704BE /* Impact-Stories-web_1.css */,
 			);
 			path = css;
@@ -553,6 +552,7 @@
 				60CC121D1D6F285000B37716 /* Cambodia in Resources */,
 				60CC122D1D6F28CC00B37716 /* Mauritius in Resources */,
 				9F09DF5D1D24063D00C13459 /* Cote_divoire_2.html in Resources */,
+				9FD2CF1B1D72045B00F476E2 /* swiper.min.css in Resources */,
 				60CC11E41D6DD82E00B37716 /* Case studies in Resources */,
 				9F09DF561D24061900C13459 /* Papa new guinea.html in Resources */,
 				60CC12171D6F21CD00B37716 /* Egypt in Resources */,
@@ -565,6 +565,7 @@
 				9F6C2A2B1D1FB699004704BE /* previous.png in Resources */,
 				60CC11F21D6EE57F00B37716 /* swiper.jquery.js in Resources */,
 				60CC12271D6F289A00B37716 /* Papua_New_Guinea in Resources */,
+				9FD2CF1E1D72046800F476E2 /* swiper.css in Resources */,
 				9F09DF5B1D24062F00C13459 /* kyrgistan-1.html in Resources */,
 				9F6C2B241D20A163004704BE /* back_button.png in Resources */,
 				60CC11631D6218BC00B37716 /* CaseStudy10.html in Resources */,
@@ -586,7 +587,6 @@
 				9F6C2AAD1D1FCD81004704BE /* foreword.html in Resources */,
 				9FC068761D1DB3F500DA1EFA /* Main.storyboard in Resources */,
 				9F6C2AAB1D1FCD81004704BE /* Cote_dIvoire.html in Resources */,
-				60CC11EC1D6EE54400B37716 /* swiper.min.css in Resources */,
 				9F6C2A291D1FB681004704BE /* icon-menu.png in Resources */,
 				60CC11E61D6EDEB200B37716 /* autoGallery.html in Resources */,
 				9F09DF551D24061900C13459 /* Kenya.html in Resources */,
@@ -602,8 +602,6 @@
 				9F09DF4F1D2405FF00C13459 /* TPO_benchmarking.html in Resources */,
 				60CC12011D6EF55100B37716 /* 0_Foreword in Resources */,
 				60CC11E81D6EE19C00B37716 /* Infographics in Resources */,
-				60CC11EB1D6EE54400B37716 /* swiper.css in Resources */,
-				60CC114D1D62068200B37716 /* idGeneratedStyles.css in Resources */,
 				9F6C2AA81D1FCD81004704BE /* 2-Egypt.html in Resources */,
 				60CC115D1D6218BC00B37716 /* CaseStudy4.html in Resources */,
 				9F6C2AA91D1FCD81004704BE /* 2-Mekong-region.html in Resources */,
@@ -614,6 +612,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD2CF1C1D72045B00F476E2 /* swiper.min.css in Resources */,
+				9FD2CF1F1D72046800F476E2 /* swiper.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
