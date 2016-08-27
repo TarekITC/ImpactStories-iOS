@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-     menu = @[@"first", @"second", @"third",@"four",@"five",@"six",@"seven",@"eight"];
+     menu = @[@"first", @"second", @"third",@"four",@"five",@"six",@"seven",@"eight",@"story9",@"story10",@"story11",@"story12",@"story13",@"story14",@"story15",@"story16",@"story17",@"story18",@"story19",@"story20",@"story21",@"story22",@"story23",@"story24",@"story25",@"story26"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
