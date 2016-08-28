@@ -8,7 +8,7 @@
 
 #import "CaseTableViewController_1.h"
 #import "SWRevealViewController.h"
-#import "ThemeCell.h"
+#import "StoryCell.h"
 #import "ViewController.h"
 #import "ViewControllerTwo.h"
 
@@ -60,9 +60,11 @@
     
     [self.headerView setFrame:newFrame];
     
+    self.headerLabel.text = @"Trade and market intelligence";
+    
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
-    self.tableView.separatorColor = [UIColor clearColor];
+    //self.tableView.separatorColor = [UIColor clearColor];
     
     
 }
@@ -94,21 +96,23 @@
     //UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
     
-    ThemeCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    StoryCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
     if ([cellIdentifier isEqualToString:@"cell"]) {
         
+        NSLog(@"Cell 1 ");
         
-        
-        cell.themeCellTitle.text = @"Market Intelligence";
-        cell.themeCellSubTitle.text = @"ITC market analysis tools help generate over US$60 million in goods and services exports";
-        cell.themeCellImage.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
+        cell.storyTitle.text = @"Market Intelligence";
+        cell.storyDescription.text = @"ITC market analysis tools help generate over US$60 million in goods and services exports";
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
-        cell.themeCellTitle.text = @"Côte d'Ivoire";
-        cell.themeCellSubTitle.text = @"Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures";
-        cell.themeCellImage.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        NSLog(@"Cell 2 ");
+        
+        cell.storyTitle.text = @"Côte d'Ivoire";
+        cell.storyDescription.text = @"Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures";
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
         
         
     }

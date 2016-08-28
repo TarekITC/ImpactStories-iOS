@@ -96,6 +96,8 @@
 		9FD2CF271D7337A700F476E2 /* CaseTableViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */; };
 		9FD2CF2A1D7338F300F476E2 /* ThemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF291D7338F300F476E2 /* ThemeCell.m */; };
 		9FD2CF2B1D7338F300F476E2 /* ThemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF291D7338F300F476E2 /* ThemeCell.m */; };
+		9FD2CF2E1D739AFF00F476E2 /* StoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF2D1D739AFF00F476E2 /* StoryCell.m */; };
+		9FD2CF2F1D739AFF00F476E2 /* StoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF2D1D739AFF00F476E2 /* StoryCell.m */; };
 		9FFF7DE71D216C060041E3DB /* PageThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF7DE61D216C060041E3DB /* PageThree.m */; };
 /* End PBXBuildFile section */
 
@@ -224,6 +226,8 @@
 		9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_1.m; sourceTree = "<group>"; };
 		9FD2CF281D7338F300F476E2 /* ThemeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeCell.h; sourceTree = "<group>"; };
 		9FD2CF291D7338F300F476E2 /* ThemeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeCell.m; sourceTree = "<group>"; };
+		9FD2CF2C1D739AFF00F476E2 /* StoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryCell.h; sourceTree = "<group>"; };
+		9FD2CF2D1D739AFF00F476E2 /* StoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryCell.m; sourceTree = "<group>"; };
 		9FFF7DE51D216C060041E3DB /* PageThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageThree.h; sourceTree = "<group>"; };
 		9FFF7DE61D216C060041E3DB /* PageThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -418,6 +422,8 @@
 				9F12B16F1D25478F00BB6FED /* SettingsViewController.m */,
 				9FD2CF241D7337A700F476E2 /* CaseTableViewController_1.h */,
 				9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */,
+				9FD2CF2C1D739AFF00F476E2 /* StoryCell.h */,
+				9FD2CF2D1D739AFF00F476E2 /* StoryCell.m */,
 			);
 			path = "ITC Impact Stories";
 			sourceTree = "<group>";
@@ -654,6 +660,7 @@
 				9FC068A31D1DB40D00DA1EFA /* SWRevealViewController.m in Sources */,
 				9F12B16D1D2512D400BB6FED /* ViewControllerFive.m in Sources */,
 				9F12B1701D25478F00BB6FED /* SettingsViewController.m in Sources */,
+				9FD2CF2E1D739AFF00F476E2 /* StoryCell.m in Sources */,
 				9FC068A91D1E59BA00DA1EFA /* ViewControllerTwo.m in Sources */,
 				9FD2CF261D7337A700F476E2 /* CaseTableViewController_1.m in Sources */,
 				9F09DF4D1D234BD200C13459 /* PageFour.m in Sources */,
@@ -672,6 +679,7 @@
 				9FD2CF2B1D7338F300F476E2 /* ThemeCell.m in Sources */,
 				9FC068891D1DB3F500DA1EFA /* ITC_Impact_StoriesTests.m in Sources */,
 				9FD2CF271D7337A700F476E2 /* CaseTableViewController_1.m in Sources */,
+				9FD2CF2F1D739AFF00F476E2 /* StoryCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
