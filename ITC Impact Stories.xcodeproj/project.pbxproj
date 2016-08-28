@@ -132,7 +132,7 @@
 		60CC11E71D6EE19C00B37716 /* Infographics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Infographics; sourceTree = "<group>"; };
 		60CC11EE1D6EE57F00B37716 /* swiper.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.jquery.js; path = js/swiper.jquery.js; sourceTree = "<group>"; };
 		60CC11EF1D6EE57F00B37716 /* swiper.jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.jquery.min.js; path = js/swiper.jquery.min.js; sourceTree = "<group>"; };
-		60CC11F01D6EE57F00B37716 /* swiper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.js; path = js/swiper.js; sourceTree = "<group>"; };
+		60CC11F01D6EE57F00B37716 /* swiper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.js; path = ../js/swiper.js; sourceTree = "<group>"; };
 		60CC11F11D6EE57F00B37716 /* swiper.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.min.js; path = js/swiper.min.js; sourceTree = "<group>"; };
 		60CC12001D6EF55100B37716 /* 0_Foreword */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 0_Foreword; sourceTree = "<group>"; };
 		60CC12061D6EFA6C00B37716 /* Market_intelligence */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Market_intelligence; sourceTree = "<group>"; };
@@ -266,7 +266,6 @@
 		9F6C2A2E1D1FCD81004704BE /* Impact-Stories-web_1-web-resources */ = {
 			isa = PBXGroup;
 			children = (
-				60CC11F01D6EE57F00B37716 /* swiper.js */,
 				9F6C2A371D1FCD81004704BE /* image */,
 				9F6C2A341D1FCD81004704BE /* css */,
 				60CC11ED1D6EE56200B37716 /* js */,
@@ -305,6 +304,7 @@
 		9F6C2A341D1FCD81004704BE /* css */ = {
 			isa = PBXGroup;
 			children = (
+				60CC11F01D6EE57F00B37716 /* swiper.js */,
 				9FD2CF1D1D72046800F476E2 /* swiper.css */,
 				9FD2CF1A1D72045B00F476E2 /* swiper.min.css */,
 				9F6C2A351D1FCD81004704BE /* Impact-Stories-web_1.css */,

@@ -39,7 +39,7 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 40.0f)];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     
-    UIImage * logo = [UIImage imageNamed:@"5912.png"];
+    UIImage * logo = [UIImage imageNamed:@"ITC-logo-high.png"];
     
     [imageView setImage:logo];
     
@@ -102,13 +102,13 @@
         
         cell.themeCellTitle.text = @"Market Intelligence";
         cell.themeCellSubTitle.text = @"ITC market analysis tools help generate over US$60 million in goods and services exports";
-        cell.themeCellImage.image = [UIImage imageNamed:@"IMG_9126_opt.jpeg"];
+        cell.themeCellImage.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
         cell.themeCellTitle.text = @"Côte d'Ivoire";
         cell.themeCellSubTitle.text = @"Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures";
-        cell.themeCellImage.image = [UIImage imageNamed:@"shutterstock_151573184_opt.jpeg"];
+        cell.themeCellImage.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
         
         
     }
