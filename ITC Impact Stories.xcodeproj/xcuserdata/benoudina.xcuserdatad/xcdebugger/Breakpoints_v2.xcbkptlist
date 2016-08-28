@@ -162,11 +162,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ITC Impact Stories/PageTwo.m"
-            timestampString = "488733097.498576"
+            timestampString = "494118273.569053"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
             landmarkName = "@implementation PageTwo"
             landmarkType = "3">
          </BreakpointContent>
@@ -200,22 +200,6 @@
             startingLineNumber = "24"
             endingLineNumber = "24"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ITC Impact Stories/PageTwo.m"
-            timestampString = "488733097.498576"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "-backButtonTapped:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

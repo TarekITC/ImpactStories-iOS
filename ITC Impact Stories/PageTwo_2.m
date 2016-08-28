@@ -1,22 +1,21 @@
 //
-//  PageTwo.m
+//  PageTwo_2.m
 //  ITC Impact Stories
 //
-//  Created by Tarek Benoudina on 26/06/16.
+//  Created by Tarek Benoudina on 29/08/16.
 //  Copyright © 2016 ITC/United Nations. All rights reserved.
 //
 
-#import "PageTwo.h"
+#import "PageTwo_2.h"
 #import "SWRevealViewController.h"
-#import "ViewControllerTwo.h"
-#import "ViewControllerThree.h"
 #import "ViewController.h"
+#import "ViewControllerThree.h"
 
-@interface PageTwo ()
+@interface PageTwo_2 ()
 
 @end
 
-@implementation PageTwo
+@implementation PageTwo_2
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -45,15 +44,11 @@
     _menuButton.action = @selector(revealToggle:);
     
     // Loading webContent view
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"Market_Intelligence" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"Cote_dIvoire" ofType:@"html"];
     NSURL * url = [NSURL fileURLWithPath:path];
     NSMutableURLRequest * urlRequest = [NSMutableURLRequest requestWithURL:url];
     [self.webContent loadRequest:urlRequest];
     
-    
-    // setting target and action for the segmented header
-    
-   // [self.segmentedHeader addTarget:self action:@selector(segmentedControlTapped:) forControlEvents:UIControlEventValueChanged];
     
     UISwipeGestureRecognizer * swiperRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeToRight:)];
     swiperRight.numberOfTouchesRequired = 1;
@@ -61,30 +56,16 @@
     
     [self.view addGestureRecognizer:swiperRight];
     
+    
+    
     UISwipeGestureRecognizer * swiperLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeToLeft:)];
     swiperLeft.numberOfTouchesRequired = 1;
     swiperLeft.direction = UISwipeGestureRecognizerDirectionRight;
     
     [self.view addGestureRecognizer:swiperLeft];
     
-    
 }
 
-
--  (void) swipeToRight:(UISwipeGestureRecognizer*) recogniser {
-    CATransition* transition = [CATransition animation];
-    transition.duration = .45;
-    transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-    transition.type = kCATransitionFade;
-    [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
-    
-    
-    ViewController *nextVC =[self.storyboard instantiateViewControllerWithIdentifier:@"Page2_2"];
-    [self.navigationController pushViewController:nextVC animated:NO];
-    
-    NSLog(@"Swipe to right !!!!!!!!");
-    
-}
 
 -  (void) swipeToLeft:(UISwipeGestureRecognizer*) recogniser {
     CATransition* transition = [CATransition animation];
@@ -94,13 +75,27 @@
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
     
-    ViewController *nextVC =[self.storyboard instantiateViewControllerWithIdentifier:@"CTV1"];
+    ViewController *nextVC =[self.storyboard instantiateViewControllerWithIdentifier:@"Page2"];
+    [self.navigationController pushViewController:nextVC animated:NO];
+    
+    NSLog(@"Swipe to left !!!!!!!!");
+    
+}
+
+-  (void) swipeToRight:(UISwipeGestureRecognizer*) recogniser {
+    CATransition* transition = [CATransition animation];
+    transition.duration = .45;
+    transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    transition.type = kCATransitionFade;
+    [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
+    
+    
+    ViewControllerThree *nextVC =[self.storyboard instantiateViewControllerWithIdentifier:@"VC3"];
     [self.navigationController pushViewController:nextVC animated:NO];
     
     NSLog(@"Swipe to right !!!!!!!!");
     
 }
-
 
 
 - (void)didReceiveMemoryWarning {
@@ -144,32 +139,6 @@
 
 
 
-// SegmentControl method
-//- (void) segmentedControlTapped:(UISegmentedControl *)paramSender{
-//    
-//    switch (paramSender.selectedSegmentIndex) {
-//        case 0:
-//        {
-//            NSLog(@"left pressed");
-//            NSString *path = [[NSBundle mainBundle] pathForResource:@"Market_Intelligence" ofType:@"html" ];
-//            NSURL *url = [NSURL fileURLWithPath:path];
-//            NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:url];
-//            [self.webContent loadRequest:urlRequest];
-//        }
-//        break;
-//        
-//        case 1:
-//        {
-//            NSLog(@"Right pressed");
-//            NSString *path = [[NSBundle mainBundle] pathForResource:@"Cote_dIvoire" ofType:@"html"];
-//            NSURL *url = [NSURL fileURLWithPath:path];
-//            NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:url];
-//            [self.webContent loadRequest:urlRequest];
-//        }
-//        break;
-//    }
-//    
-//}
 
 
 

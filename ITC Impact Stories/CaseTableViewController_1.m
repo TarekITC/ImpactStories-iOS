@@ -10,7 +10,7 @@
 #import "SWRevealViewController.h"
 #import "StoryCell.h"
 #import "ViewController.h"
-#import "ViewControllerTwo.h"
+#import "ViewControllerThree.h"
 
 
 @interface CaseTableViewController_1 ()
@@ -126,7 +126,7 @@
 // setting the height of the cell
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 170;
+    return 160;
 }
 
 
@@ -154,7 +154,7 @@
     transition.type = kCATransitionFade;
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
-    ViewControllerTwo *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"VC2"];
+    ViewControllerThree *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"VC3"];
     [self.navigationController pushViewController:nextViewController animated:NO];
     
     
