@@ -85,7 +85,7 @@
     transition.type = kCATransitionFromLeft;
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
-    ViewControllerTwo *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"VC2"];
+    ViewControllerTwo *nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"TVC"];
     [self.navigationController pushViewController:nextViewController animated:NO];
     
     

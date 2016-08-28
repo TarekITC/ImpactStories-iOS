@@ -92,6 +92,10 @@
 		9FD2CF1C1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
 		9FD2CF1E1D72046800F476E2 /* swiper.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1D1D72046800F476E2 /* swiper.css */; };
 		9FD2CF1F1D72046800F476E2 /* swiper.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1D1D72046800F476E2 /* swiper.css */; };
+		9FD2CF261D7337A700F476E2 /* CaseTableViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */; };
+		9FD2CF271D7337A700F476E2 /* CaseTableViewController_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */; };
+		9FD2CF2A1D7338F300F476E2 /* ThemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF291D7338F300F476E2 /* ThemeCell.m */; };
+		9FD2CF2B1D7338F300F476E2 /* ThemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2CF291D7338F300F476E2 /* ThemeCell.m */; };
 		9FFF7DE71D216C060041E3DB /* PageThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF7DE61D216C060041E3DB /* PageThree.m */; };
 /* End PBXBuildFile section */
 
@@ -216,6 +220,10 @@
 		9FC068B11D1E675D00DA1EFA /* RightToLeftSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightToLeftSegue.m; sourceTree = "<group>"; };
 		9FD2CF1A1D72045B00F476E2 /* swiper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.min.css; sourceTree = "<group>"; };
 		9FD2CF1D1D72046800F476E2 /* swiper.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.css; sourceTree = "<group>"; };
+		9FD2CF241D7337A700F476E2 /* CaseTableViewController_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_1.h; sourceTree = "<group>"; };
+		9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_1.m; sourceTree = "<group>"; };
+		9FD2CF281D7338F300F476E2 /* ThemeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeCell.h; sourceTree = "<group>"; };
+		9FD2CF291D7338F300F476E2 /* ThemeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeCell.m; sourceTree = "<group>"; };
 		9FFF7DE51D216C060041E3DB /* PageThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageThree.h; sourceTree = "<group>"; };
 		9FFF7DE61D216C060041E3DB /* PageThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -384,6 +392,8 @@
 				9FC0686B1D1DB3F500DA1EFA /* Supporting Files */,
 				9FC068711D1DB3F500DA1EFA /* ViewController.h */,
 				9FC068721D1DB3F500DA1EFA /* ViewController.m */,
+				9FD2CF281D7338F300F476E2 /* ThemeCell.h */,
+				9FD2CF291D7338F300F476E2 /* ThemeCell.m */,
 				9FC068A71D1E59BA00DA1EFA /* ViewControllerTwo.h */,
 				9FC068A81D1E59BA00DA1EFA /* ViewControllerTwo.m */,
 				9FC068AA1D1E59CF00DA1EFA /* ViewControllerThree.h */,
@@ -406,6 +416,8 @@
 				9F09DF491D234B9900C13459 /* PageFive.m */,
 				9F12B16E1D25478F00BB6FED /* SettingsViewController.h */,
 				9F12B16F1D25478F00BB6FED /* SettingsViewController.m */,
+				9FD2CF241D7337A700F476E2 /* CaseTableViewController_1.h */,
+				9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */,
 			);
 			path = "ITC Impact Stories";
 			sourceTree = "<group>";
@@ -631,6 +643,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD2CF2A1D7338F300F476E2 /* ThemeCell.m in Sources */,
 				9FC068B21D1E675D00DA1EFA /* RightToLeftSegue.m in Sources */,
 				9F6C2B1F1D1FD560004704BE /* PageTwo.m in Sources */,
 				9FC068AF1D1E5DE900DA1EFA /* ViewControllerFour.m in Sources */,
@@ -642,6 +655,7 @@
 				9F12B16D1D2512D400BB6FED /* ViewControllerFive.m in Sources */,
 				9F12B1701D25478F00BB6FED /* SettingsViewController.m in Sources */,
 				9FC068A91D1E59BA00DA1EFA /* ViewControllerTwo.m in Sources */,
+				9FD2CF261D7337A700F476E2 /* CaseTableViewController_1.m in Sources */,
 				9F09DF4D1D234BD200C13459 /* PageFour.m in Sources */,
 				9FC068701D1DB3F500DA1EFA /* AppDelegate.m in Sources */,
 				9F09DF4A1D234B9900C13459 /* PageFive.m in Sources */,
@@ -655,7 +669,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD2CF2B1D7338F300F476E2 /* ThemeCell.m in Sources */,
 				9FC068891D1DB3F500DA1EFA /* ITC_Impact_StoriesTests.m in Sources */,
+				9FD2CF271D7337A700F476E2 /* CaseTableViewController_1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

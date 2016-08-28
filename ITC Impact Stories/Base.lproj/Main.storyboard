@@ -510,7 +510,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EPr-Kb-hQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1149.5" y="742.5"/>
+            <point key="canvasLocation" x="1273.5" y="1124.5"/>
         </scene>
         <!--View Controller Four-->
         <scene sceneID="NxA-Nz-bR7">
@@ -633,7 +633,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRY-xx-qH0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538.4000000000001" y="1378.4649999999999"/>
+            <point key="canvasLocation" x="1749.5" y="1478.5"/>
         </scene>
         <!--View Controller Five-->
         <scene sceneID="KRN-DW-KFQ">
@@ -932,7 +932,7 @@ new buyers, increase profits</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wsx-7J-YRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="H8f-2X-E2W" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1850.9333333333334" y="1378.4649999999999"/>
+            <point key="canvasLocation" x="2246.5" y="1470.5"/>
         </scene>
         <!--View Controller Three-->
         <scene sceneID="Lgt-Bd-Glp">
@@ -1044,7 +1044,7 @@ new buyers, increase profits</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UKU-NC-GLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1580.5" y="752.5"/>
+            <point key="canvasLocation" x="1754.5" y="752.5"/>
         </scene>
         <!--PageThree-->
         <scene sceneID="p0p-QY-4qc">
@@ -1110,7 +1110,7 @@ new buyers, increase profits</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ti-8y-LgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="QbK-4h-fB0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1817.8666666666666" y="779.22500000000002"/>
+            <point key="canvasLocation" x="2246.5" y="752.5"/>
         </scene>
         <!--View Controller Two-->
         <scene sceneID="oNc-W9-KGe">
@@ -1227,7 +1227,7 @@ new buyers, increase profits</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8kX-kP-Pt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538.4000000000001" y="-121.64666666666666"/>
+            <point key="canvasLocation" x="1669.5" y="-528.5"/>
         </scene>
         <!--Page Two-->
         <scene sceneID="2GE-0Z-ckA">
@@ -1292,7 +1292,7 @@ new buyers, increase profits</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lr-yT-ffv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="KFC-pS-0Dr" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1850.9333333333334" y="-121.64666666666666"/>
+            <point key="canvasLocation" x="2237.5" y="-122.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bux-pF-rgn">
@@ -1311,7 +1311,7 @@ new buyers, increase profits</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zSx-iU-zz2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="755.4666666666667" y="-540.07333333333338"/>
+            <point key="canvasLocation" x="1014.5" y="-1360.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BaM-1q-iQG">
@@ -1348,7 +1348,7 @@ new buyers, increase profits</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mXM-kD-h7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538.4000000000001" y="-947.13999999999999"/>
+            <point key="canvasLocation" x="1577.5" y="-1360.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="H8c-LB-yAT">
@@ -1368,7 +1368,216 @@ new buyers, increase profits</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CPg-AN-wdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="755.4666666666667" y="742.65999999999997"/>
+            <point key="canvasLocation" x="838.5" y="1124.5"/>
+        </scene>
+        <!--Case Table View Controller1-->
+        <scene sceneID="Fb0-h3-kfm">
+            <objects>
+                <tableViewController storyboardIdentifier="TVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WA8-gL-CL4" customClass="CaseTableViewController_1" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="140" sectionHeaderHeight="28" sectionFooterHeight="28" id="nY4-Ie-ZOl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="CWn-WU-TM0">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trade and market intelligence" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qsp-j9-qJd">
+                                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular" fixedFrame="YES">
+                                        <rect key="frame" x="15" y="25" width="345" height="120"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <variation key="default">
+                                <mask key="subviews">
+                                    <exclude reference="qsp-j9-qJd"/>
+                                </mask>
+                            </variation>
+                            <variation key="heightClass=regular">
+                                <mask key="subviews">
+                                    <include reference="qsp-j9-qJd"/>
+                                </mask>
+                            </variation>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="175" id="Sub-ul-q2q" customClass="ThemeCell">
+                                <rect key="frame" x="0.0" y="156" width="375" height="175"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sub-ul-q2q" id="vtZ-vS-IPk">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="J4I-Pv-gvh">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <variation key="heightClass=regular" fixedFrame="YES">
+                                                <rect key="frame" x="15" y="60" width="150" height="90"/>
+                                            </variation>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rer-F9-WUF">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular" fixedFrame="YES">
+                                                <rect key="frame" x="175" y="55" width="190" height="100"/>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="________________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ku6-UR-nlh">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular" fixedFrame="YES">
+                                                <rect key="frame" x="15" y="35" width="350" height="18"/>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F8U-qX-VaO">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular" fixedFrame="YES">
+                                                <rect key="frame" x="15" y="25" width="301" height="25"/>
+                                            </variation>
+                                        </label>
+                                    </subviews>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="J4I-Pv-gvh"/>
+                                            <exclude reference="rer-F9-WUF"/>
+                                            <exclude reference="Ku6-UR-nlh"/>
+                                            <exclude reference="F8U-qX-VaO"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular">
+                                        <mask key="subviews">
+                                            <include reference="J4I-Pv-gvh"/>
+                                            <include reference="rer-F9-WUF"/>
+                                            <include reference="Ku6-UR-nlh"/>
+                                            <include reference="F8U-qX-VaO"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="themeCellImage" destination="J4I-Pv-gvh" id="v11-Le-sfe"/>
+                                    <outlet property="themeCellSubTitle" destination="rer-F9-WUF" id="ELW-cn-vQ9"/>
+                                    <outlet property="themeCellTitle" destination="F8U-qX-VaO" id="WXx-uC-kGu"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_2" rowHeight="175" id="gSU-CA-ibe" customClass="ThemeCell">
+                                <rect key="frame" x="0.0" y="331" width="375" height="175"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gSU-CA-ibe" id="d6w-E9-foX">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="ibM-3x-JMb">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <variation key="heightClass=regular" fixedFrame="YES">
+                                                <rect key="frame" x="15" y="60" width="150" height="90"/>
+                                            </variation>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mq0-qj-tLh">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular" fixedFrame="YES">
+                                                <rect key="frame" x="175" y="55" width="190" height="100"/>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="________________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="C4b-q6-ehl">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular" fixedFrame="YES">
+                                                <rect key="frame" x="15" y="35" width="350" height="18"/>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hMg-ea-BF7">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular" fixedFrame="YES">
+                                                <rect key="frame" x="15" y="25" width="301" height="25"/>
+                                            </variation>
+                                        </label>
+                                    </subviews>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="ibM-3x-JMb"/>
+                                            <exclude reference="Mq0-qj-tLh"/>
+                                            <exclude reference="C4b-q6-ehl"/>
+                                            <exclude reference="hMg-ea-BF7"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular">
+                                        <mask key="subviews">
+                                            <include reference="ibM-3x-JMb"/>
+                                            <include reference="Mq0-qj-tLh"/>
+                                            <include reference="C4b-q6-ehl"/>
+                                            <include reference="hMg-ea-BF7"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="themeCellImage" destination="ibM-3x-JMb" id="9Nn-Rb-ivC"/>
+                                    <outlet property="themeCellSubTitle" destination="Mq0-qj-tLh" id="aT8-gW-4Wg"/>
+                                    <outlet property="themeCellTitle" destination="hMg-ea-BF7" id="AS2-j7-bC6"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="WA8-gL-CL4" id="jZr-Fl-uOT"/>
+                            <outlet property="delegate" destination="WA8-gL-CL4" id="yKG-Yo-SnG"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="GaY-0V-qPy">
+                        <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="DTs-vR-mTe"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="right-30.png" id="uto-hB-Hwr">
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="WA8-gL-CL4" id="h2R-hR-32S"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="left-30.png" id="aki-Bl-Rid">
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="WA8-gL-CL4" id="Efo-WG-uku"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backButton" destination="aki-Bl-Rid" id="Whh-Nt-qCc"/>
+                        <outlet property="headerLabel" destination="qsp-j9-qJd" id="2L9-7v-D8A"/>
+                        <outlet property="headerView" destination="CWn-WU-TM0" id="lMc-Cd-9aU"/>
+                        <outlet property="menuButton" destination="DTs-vR-mTe" id="o0M-H2-Bl1"/>
+                        <outlet property="nextButton" destination="uto-hB-Hwr" id="DGP-lw-g8B"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tHY-rd-RZ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2237.5" y="-854.5"/>
         </scene>
     </scenes>
     <resources>
@@ -1385,8 +1594,8 @@ new buyers, increase profits</string>
         <image name="shutterstock_151573184_opt.jpeg" width="375" height="250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hQy-Dd-egM"/>
-        <segue reference="3Uf-V2-X1F"/>
+        <segue reference="M3B-cA-p2y"/>
+        <segue reference="8w4-bD-3cD"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
