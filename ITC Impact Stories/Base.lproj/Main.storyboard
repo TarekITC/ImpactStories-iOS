@@ -75,7 +75,7 @@
                                     <color key="backgroundColor" red="0.85882352939999995" green="0.0" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="pZm-9K-xSF" kind="custom" customClass="SWRevealViewControllerSegue" id="Jiz-0h-vlq"/>
+                                    <segue destination="KfY-CR-MEh" kind="custom" customClass="SWRevealViewControllerSegue" id="K9w-K7-93I"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="third" textLabel="YZA-Mk-6We" rowHeight="80" style="IBUITableViewCellStyleDefault" id="nSE-aE-Mxl">
@@ -1170,9 +1170,6 @@ new buyers, increase profits</string>
                                 <state key="normal" title="Read more">
                                     <color key="titleColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="gRD-LK-Dp9" kind="push" id="Yl9-sn-b3a"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ycv-My-XLw">
                                 <rect key="frame" x="50" y="242" width="275" height="21"/>
@@ -1238,7 +1235,7 @@ new buyers, increase profits</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="0I1-O9-mpS">
-                                <rect key="frame" x="0.0" y="66" width="375" height="40"/>
+                                <rect key="frame" x="0.0" y="65" width="375" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1248,19 +1245,10 @@ new buyers, increase profits</string>
                                 </connections>
                             </button>
                             <webView contentMode="scaleToFill" id="p1L-5z-lBd">
-                                <rect key="frame" x="0.0" y="134" width="375" height="533"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="105" width="375" height="533"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="eiN-XO-kbw">
-                                <rect key="frame" x="0.0" y="107" width="375" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Story 1"/>
-                                    <segment title="Story 2"/>
-                                </segments>
-                                <color key="tintColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
-                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1285,7 +1273,6 @@ new buyers, increase profits</string>
                         <outlet property="backButton" destination="1fY-Yb-vVA" id="3um-vf-yHa"/>
                         <outlet property="menuButton" destination="rFl-Eh-dMw" id="E29-5L-qRl"/>
                         <outlet property="nextButton" destination="rjp-Su-mrE" id="lZz-XP-GIq"/>
-                        <outlet property="segmentedHeader" destination="eiN-XO-kbw" id="eQy-ca-8Sh"/>
                         <outlet property="webContent" destination="p1L-5z-lBd" id="G29-ac-rbI"/>
                     </connections>
                 </viewController>
@@ -1592,15 +1579,15 @@ new buyers, increase profits</string>
                             <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="170" id="fHE-Cd-6qa" customClass="StoryCell">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" rowHeight="170" id="fHE-Cd-6qa" customClass="StoryCell">
                                 <rect key="frame" x="0.0" y="272" width="375" height="170"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fHE-Cd-6qa" id="k6e-5d-npU">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="170"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p97-d6-xUx">
-                                            <rect key="frame" x="15" y="25" width="345" height="25"/>
+                                            <rect key="frame" x="15" y="25" width="313" height="25"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1614,7 +1601,7 @@ new buyers, increase profits</string>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hVS-xb-eVS">
-                                            <rect key="frame" x="175" y="55" width="190" height="100"/>
+                                            <rect key="frame" x="175" y="55" width="159" height="100"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1631,6 +1618,7 @@ new buyers, increase profits</string>
                                     <outlet property="storyDescription" destination="hVS-xb-eVS" id="JMj-IM-cPK"/>
                                     <outlet property="storyThumbnail" destination="4Uy-jU-J8C" id="Csr-ta-ZsZ"/>
                                     <outlet property="storyTitle" destination="p97-d6-xUx" id="lNO-fR-Avn"/>
+                                    <segue destination="gRD-LK-Dp9" kind="push" id="g2K-6o-4I1"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_2" rowHeight="170" id="RlM-9a-1RK" customClass="StoryCell">
@@ -1705,7 +1693,7 @@ new buyers, increase profits</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="flq-Ah-mTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2037" y="-1410"/>
+            <point key="canvasLocation" x="2154.5" y="-1360.5"/>
         </scene>
     </scenes>
     <resources>
@@ -1722,8 +1710,9 @@ new buyers, increase profits</string>
         <image name="shutterstock_151573184_opt.jpeg" width="375" height="250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="M3B-cA-p2y"/>
         <segue reference="8w4-bD-3cD"/>
+        <segue reference="M3B-cA-p2y"/>
+        <segue reference="nFd-XC-acU"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
