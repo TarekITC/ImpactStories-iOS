@@ -106,7 +106,7 @@
         
         cell.storyTitle.text = @"Kyrgyzstan";
         cell.storyDescription.text = @"Boosting quality and exports";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Kyrgyzstan/Kyrgyzstan1.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
@@ -114,7 +114,7 @@
         
         cell.storyTitle.text = @"Cambodia";
         cell.storyDescription.text = @"Soft to the touch - Cambodian silk producers find new buyers, increase profits";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Cambodia/Cambodia1.jpeg"];
         
         
     }
@@ -142,7 +142,7 @@
     [self.navigationController.view.layer addAnimation:transition forKey:kCATransition];
     
     
-    CaseTableViewController_2 *nextVC =[self.storyboard instantiateViewControllerWithIdentifier:@"CVT2"];
+    CaseTableViewController_2 *nextVC =[self.storyboard instantiateViewControllerWithIdentifier:@"CTV2"];
     [self.navigationController pushViewController:nextVC animated:NO];
 }
 

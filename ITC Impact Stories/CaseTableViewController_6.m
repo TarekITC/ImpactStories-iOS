@@ -106,7 +106,7 @@
         
         cell.storyTitle.text = @"Côte d'Ivoire";
         cell.storyDescription.text = @"Solving commercial disputes quickly and cheaply through mediation";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire2/Cote_dIvoire21.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
@@ -114,7 +114,7 @@
         
         cell.storyTitle.text = @"Mauritius";
         cell.storyDescription.text = @"Speedz implementation of Trade Facilitation Agreement key to competitiveness";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Mauritius/Mauritius1.jpeg"];
         
         
     }

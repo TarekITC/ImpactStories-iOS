@@ -105,7 +105,7 @@
         
         cell.storyTitle.text = @"Egypt";
         cell.storyDescription.text = @"Say cheese: Halal certification helps Egyptian dairy quadruple sales to Malaysia, find new markets";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Egypt/Egypt1.png"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
@@ -113,7 +113,7 @@
         
         cell.storyTitle.text = @"Mekong region";
         cell.storyDescription.text = @"Linking Central and Western Africa to the Mekong's francophone countries";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Mekong_region/Mekong_region1.jpeg"];
         
         
     }

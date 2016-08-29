@@ -106,7 +106,7 @@
         
         cell.storyTitle.text = @"Nigeria";
         cell.storyDescription.text = @"Improved quality translates into exports for Nigerian shea butter";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Nigeria/Nigeria1.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
@@ -114,7 +114,7 @@
         
         cell.storyTitle.text = @"TPO benchmarking";
         cell.storyDescription.text = @"Helping trade and investment support institutions AIM higher";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"TPO_benchmarking/TPO_benchmarking1.jpeg"];
         
         
     }

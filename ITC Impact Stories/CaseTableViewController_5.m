@@ -107,7 +107,7 @@
         
         cell.storyTitle.text = @"Ethical Fashion";
         cell.storyDescription.text = @"Perfect fit - tailor from Nairobi slum finds stable work, better pay";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Ethical_Fashion/Ethical_Fashion1.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
@@ -115,25 +115,25 @@
         
         cell.storyTitle.text = @"Peru";
         cell.storyDescription.text = @"US safety certificate could quintuple Peru's exports of indigenous food product";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Peru/Peru1.jpeg"];
         
         
     } else if ([cellIdentifier isEqualToString:@"cell_3"]) {
         
         NSLog(@"Cell 3 / case 5");
         
-        cell.storyTitle.text = @"Peru";
-        cell.storyDescription.text = @"US safety certificate could quintuple Peru's exports of indigenous food product";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        cell.storyTitle.text = @"Papua New Guinea";
+        cell.storyDescription.text = @"Success in a cup: first woman coffee exporter in PNG secures premium price from major international buyer";
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Papua_New_Guinea/Papua_New_Guinea1.jpeg"];
         
         
     } else if ([cellIdentifier isEqualToString:@"cell_4"]) {
         
         NSLog(@"Cell 4 / case 5");
         
-        cell.storyTitle.text = @"Peru";
-        cell.storyDescription.text = @"US safety certificate could quintuple Peru's exports of indigenous food product";
-        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        cell.storyTitle.text = @"Kenya";
+        cell.storyDescription.text = @"Hot tea: Kenya's tea sector adapts to climate change";
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Kenya/Kenya1.jpeg"];
         
         
     }
