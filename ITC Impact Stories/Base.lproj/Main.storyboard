@@ -941,7 +941,7 @@ new buyers, increase profits</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="0I1-O9-mpS">
                                 <rect key="frame" x="0.0" y="65" width="375" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Trade &amp; market intelligence"/>
                                 <connections>
@@ -1110,8 +1110,8 @@ new buyers, increase profits</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6Hx-mX-gfh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="hXM-bh-HN8">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1119,13 +1119,13 @@ new buyers, increase profits</string>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fWX-ZK-bXr">
                                     <rect key="frame" x="15" y="25" width="345" height="120"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="160" id="RlM-9a-1RK" customClass="StoryCell">
@@ -1138,7 +1138,7 @@ new buyers, increase profits</string>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hha-ks-HQM">
                                             <rect key="frame" x="15" y="25" width="345" height="24"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1153,7 +1153,7 @@ new buyers, increase profits</string>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A2J-du-Eci">
                                             <rect key="frame" x="175" y="55" width="190" height="100"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1161,12 +1161,12 @@ new buyers, increase profits</string>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="cXx-GV-9hG">
                                             <rect key="frame" x="15" y="60" width="150" height="90"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="A2J-du-Eci" id="GPG-mO-Cv0"/>
                                     <outlet property="storyThumbnail" destination="cXx-GV-9hG" id="qht-2I-CQU"/>
@@ -1191,7 +1191,7 @@ new buyers, increase profits</string>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="________________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UwS-cI-Ec8">
                                             <rect key="frame" x="15" y="35" width="350" height="18"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1199,7 +1199,7 @@ new buyers, increase profits</string>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cHF-mF-uFF">
                                             <rect key="frame" x="175" y="55" width="190" height="100"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -1207,11 +1207,11 @@ new buyers, increase profits</string>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="AsX-19-5NX">
                                             <rect key="frame" x="15" y="60" width="150" height="90"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="cHF-mF-uFF" id="g7N-k5-HHp"/>
                                     <outlet property="storyThumbnail" destination="AsX-19-5NX" id="BjF-fp-1cl"/>
@@ -1265,7 +1265,7 @@ new buyers, increase profits</string>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="V81-ZJ-yCk">
                                 <rect key="frame" x="0.0" y="65" width="375" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.61568627450000002" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.73333333333333328" green="0.80392156862745101" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Trade &amp; market intelligence"/>
                                 <connections>
@@ -1316,8 +1316,8 @@ new buyers, increase profits</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="QaF-g0-8DI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="lNo-4E-Olu">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1330,7 +1330,7 @@ new buyers, increase profits</string>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.44313725490196076" green="0.77254901960784317" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="160" id="eKw-PD-gfI" customClass="StoryCell">
@@ -1367,7 +1367,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.4431372549" green="0.7725490196" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="ZYA-Ib-Sdl" id="blG-HC-oxR"/>
                                     <outlet property="storyThumbnail" destination="Ixg-Nq-duA" id="Pvh-W0-9Hb"/>
@@ -1408,7 +1408,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.57619927380000002" green="0.39556787900000001" blue="0.6713101642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.4431372549" green="0.7725490196" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="4dp-oc-q2y" id="EJb-gg-D1p"/>
                                     <outlet property="storyThumbnail" destination="lOI-xN-o92" id="bkK-pH-GhB"/>
@@ -1457,8 +1457,8 @@ new buyers, increase profits</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qpL-qE-tZb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40784313725490196" green="0.43137254901960786" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.40784313725490196" green="0.43137254901960786" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="9az-No-gg4">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1471,7 +1471,7 @@ new buyers, increase profits</string>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.40784313725490196" green="0.43137254901960786" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="160" id="EI4-8o-bVw" customClass="StoryCell">
@@ -1508,7 +1508,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.40784313729999999" green="0.43137254899999999" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="23N-ej-R9Q" id="aFk-bz-NXx"/>
                                     <outlet property="storyThumbnail" destination="meD-ya-cNO" id="FX4-nI-Neo"/>
@@ -1549,7 +1549,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.40784313729999999" green="0.43137254899999999" blue="0.65490196079999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="DtP-UV-agZ" id="SWV-sH-Unj"/>
                                     <outlet property="storyThumbnail" destination="oTd-ON-7Pu" id="9VQ-B7-tDI"/>
@@ -1598,8 +1598,8 @@ new buyers, increase profits</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="3UJ-tp-mhk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.67843137254901964" green="0.43137254901960786" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.67843137254901964" green="0.43137254901960786" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="bmU-tp-OxM">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1612,7 +1612,7 @@ new buyers, increase profits</string>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.67843137254901964" green="0.43137254901960786" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="160" id="TKf-jG-FGp" customClass="StoryCell">
@@ -1649,7 +1649,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.67843137254901964" green="0.43137254901960786" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="hSp-ys-rnW" id="c4g-G4-iyg"/>
                                     <outlet property="storyThumbnail" destination="B0Y-gh-Idi" id="A6w-Bo-5X5"/>
@@ -1690,7 +1690,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="0.89818281099999997" blue="0.57949114830000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.67843137254901964" green="0.43137254901960786" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="17S-Y6-i2C" id="4yS-9V-wVf"/>
                                     <outlet property="storyThumbnail" destination="2eO-SU-lPd" id="dQK-OU-VIR"/>
@@ -1739,8 +1739,8 @@ new buyers, increase profits</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="aEw-XX-m6D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cyan="0.31852051079999999" magenta="0.2221784608" yellow="0.0" black="0.46855841970000001" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
-                        <color key="sectionIndexBackgroundColor" cyan="0.31852051079999999" magenta="0.2221784608" yellow="0.0" black="0.46855841970000001" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                        <color key="backgroundColor" red="0.92549019607843142" green="0.32156862745098036" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.92549019607843142" green="0.32156862745098036" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="qjt-6r-Mks">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1753,7 +1753,7 @@ new buyers, increase profits</string>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" cyan="0.31852051079999999" magenta="0.2221784608" yellow="0.0" black="0.46855841970000001" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                            <color key="backgroundColor" red="0.92549019607843142" green="0.32156862745098036" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="160" id="9oa-3X-5Da" customClass="StoryCell">
@@ -1790,7 +1790,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" cyan="0.31852051079999999" magenta="0.2221784608" yellow="0.0" black="0.46855841970000001" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.32156862749999998" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="aGO-E5-wAG" id="nlM-Xs-gsK"/>
                                     <outlet property="storyThumbnail" destination="RdU-7E-vpB" id="l7e-g0-0JY"/>
@@ -1831,7 +1831,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" cyan="0.31852051079999999" magenta="0.2221784608" yellow="0.0" black="0.46855841970000001" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.32156862749999998" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="3Fr-b3-fz8" id="uhU-tn-Q9S"/>
                                     <outlet property="storyThumbnail" destination="mbC-i1-Uth" id="C69-nJ-gZp"/>
@@ -1872,7 +1872,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" cyan="0.31852051079999999" magenta="0.2221784608" yellow="0.0" black="0.46855841970000001" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.32156862749999998" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="l81-CX-k60" id="95t-Ox-Qhd"/>
                                     <outlet property="storyThumbnail" destination="ieM-xJ-hcj" id="bNR-Y8-CDV"/>
@@ -1913,7 +1913,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" cyan="0.31852051079999999" magenta="0.2221784608" yellow="0.0" black="0.46855841970000001" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.32156862749999998" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="aQh-va-aMn" id="pHl-d9-0Uc"/>
                                     <outlet property="storyThumbnail" destination="PHc-zM-Efj" id="CVN-tL-Jm4"/>
@@ -1962,8 +1962,8 @@ new buyers, increase profits</string>
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ogw-KE-sDL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.87058823529411766" green="0.41568627450980389" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.87058823529411766" green="0.41568627450980389" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="ptN-ni-QJV">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1976,7 +1976,7 @@ new buyers, increase profits</string>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.87058823529411766" green="0.41568627450980389" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="160" id="WHH-9R-g9G" customClass="StoryCell">
@@ -2013,7 +2013,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.87058823529411766" green="0.41568627450980389" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="W3H-BJ-mjd" id="MTh-xC-nUu"/>
                                     <outlet property="storyThumbnail" destination="B8n-8M-SlE" id="ol1-rd-vMU"/>
@@ -2054,7 +2054,7 @@ new buyers, increase profits</string>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.41568627450000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="storyDescription" destination="eWD-Hx-7ka" id="WSl-gH-VdR"/>
                                     <outlet property="storyThumbnail" destination="gJR-RD-yqJ" id="qRU-iH-VN2"/>
