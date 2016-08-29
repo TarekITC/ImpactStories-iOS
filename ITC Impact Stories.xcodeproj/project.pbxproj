@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		605C1B911D74B51B0066DB56 /* foreword_images in Resources */ = {isa = PBXBuildFile; fileRef = 605C1B901D74B51B0066DB56 /* foreword_images */; };
 		60CC115A1D6218BC00B37716 /* CaseStudy1.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11501D6218BC00B37716 /* CaseStudy1.html */; };
 		60CC115B1D6218BC00B37716 /* CaseStudy2.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11511D6218BC00B37716 /* CaseStudy2.html */; };
 		60CC115C1D6218BC00B37716 /* CaseStudy3.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11521D6218BC00B37716 /* CaseStudy3.html */; };
@@ -24,7 +25,6 @@
 		60CC11F31D6EE57F00B37716 /* swiper.jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11EF1D6EE57F00B37716 /* swiper.jquery.min.js */; };
 		60CC11F41D6EE57F00B37716 /* swiper.js in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11F01D6EE57F00B37716 /* swiper.js */; };
 		60CC11F51D6EE57F00B37716 /* swiper.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 60CC11F11D6EE57F00B37716 /* swiper.min.js */; };
-		60CC12011D6EF55100B37716 /* 0_Foreword in Resources */ = {isa = PBXBuildFile; fileRef = 60CC12001D6EF55100B37716 /* 0_Foreword */; };
 		60CC12071D6EFA6C00B37716 /* Market_intelligence in Resources */ = {isa = PBXBuildFile; fileRef = 60CC12061D6EFA6C00B37716 /* Market_intelligence */; };
 		60CC120B1D6F173B00B37716 /* Cote_dIvoire in Resources */ = {isa = PBXBuildFile; fileRef = 60CC120A1D6F173B00B37716 /* Cote_dIvoire */; };
 		60CC12171D6F21CD00B37716 /* Egypt in Resources */ = {isa = PBXBuildFile; fileRef = 60CC12161D6F21CD00B37716 /* Egypt */; };
@@ -129,6 +129,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		605C1B901D74B51B0066DB56 /* foreword_images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = foreword_images; sourceTree = "<group>"; };
 		60CC11501D6218BC00B37716 /* CaseStudy1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy1.html; sourceTree = "<group>"; };
 		60CC11511D6218BC00B37716 /* CaseStudy2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy2.html; sourceTree = "<group>"; };
 		60CC11521D6218BC00B37716 /* CaseStudy3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CaseStudy3.html; sourceTree = "<group>"; };
@@ -146,7 +147,6 @@
 		60CC11EF1D6EE57F00B37716 /* swiper.jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.jquery.min.js; path = js/swiper.jquery.min.js; sourceTree = "<group>"; };
 		60CC11F01D6EE57F00B37716 /* swiper.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.js; path = ../js/swiper.js; sourceTree = "<group>"; };
 		60CC11F11D6EE57F00B37716 /* swiper.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = swiper.min.js; path = js/swiper.min.js; sourceTree = "<group>"; };
-		60CC12001D6EF55100B37716 /* 0_Foreword */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 0_Foreword; sourceTree = "<group>"; };
 		60CC12061D6EFA6C00B37716 /* Market_intelligence */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Market_intelligence; sourceTree = "<group>"; };
 		60CC120A1D6F173B00B37716 /* Cote_dIvoire */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cote_dIvoire; sourceTree = "<group>"; };
 		60CC12161D6F21CD00B37716 /* Egypt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Egypt; sourceTree = "<group>"; };
@@ -347,6 +347,7 @@
 		9F6C2A371D1FCD81004704BE /* image */ = {
 			isa = PBXGroup;
 			children = (
+				605C1B901D74B51B0066DB56 /* foreword_images */,
 				60CC122C1D6F28CC00B37716 /* Mauritius */,
 				60CC122E1D6F2DCA00B37716 /* Cote_dIvoire2 */,
 				60CC12281D6F28AF00B37716 /* Kenya */,
@@ -361,7 +362,6 @@
 				60CC12161D6F21CD00B37716 /* Egypt */,
 				60CC120A1D6F173B00B37716 /* Cote_dIvoire */,
 				60CC12061D6EFA6C00B37716 /* Market_intelligence */,
-				60CC12001D6EF55100B37716 /* 0_Foreword */,
 				60CC11E71D6EE19C00B37716 /* Infographics */,
 				60CC11E31D6DD82E00B37716 /* Case_studies */,
 			);
@@ -653,6 +653,7 @@
 				9F6C2AAB1D1FCD81004704BE /* Cote_dIvoire.html in Resources */,
 				9F6C2A291D1FB681004704BE /* icon-menu.png in Resources */,
 				60CC11E61D6EDEB200B37716 /* autoGallery.html in Resources */,
+				605C1B911D74B51B0066DB56 /* foreword_images in Resources */,
 				9F09DF551D24061900C13459 /* Kenya.html in Resources */,
 				9F6C2B281D213876004704BE /* ITC-logo-high.png in Resources */,
 				60CC11F51D6EE57F00B37716 /* swiper.min.js in Resources */,
@@ -664,7 +665,6 @@
 				9F6C2AAA1D1FCD81004704BE /* 4-Nigeria.html in Resources */,
 				60CC11601D6218BC00B37716 /* CaseStudy7.html in Resources */,
 				9F09DF4F1D2405FF00C13459 /* TPO_benchmarking.html in Resources */,
-				60CC12011D6EF55100B37716 /* 0_Foreword in Resources */,
 				60CC11E81D6EE19C00B37716 /* Infographics in Resources */,
 				9F6C2AA81D1FCD81004704BE /* 2-Egypt.html in Resources */,
 				60CC115D1D6218BC00B37716 /* CaseStudy4.html in Resources */,
