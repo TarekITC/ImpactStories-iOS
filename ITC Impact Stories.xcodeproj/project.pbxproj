@@ -89,6 +89,11 @@
 		9FC068AF1D1E5DE900DA1EFA /* ViewControllerFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC068AE1D1E5DE900DA1EFA /* ViewControllerFour.m */; };
 		9FC068B21D1E675D00DA1EFA /* RightToLeftSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC068B11D1E675D00DA1EFA /* RightToLeftSegue.m */; };
 		9FC8F04A1D74486A00B5521D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F0491D74486A00B5521D /* MenuCell.m */; };
+		9FC8F0501D7468C600B5521D /* CaseTableViewController_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F04F1D7468C600B5521D /* CaseTableViewController_2.m */; };
+		9FC8F0531D7468D900B5521D /* CaseTableViewController_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F0521D7468D900B5521D /* CaseTableViewController_3.m */; };
+		9FC8F0561D7468E700B5521D /* CaseTableViewController_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F0551D7468E700B5521D /* CaseTableViewController_4.m */; };
+		9FC8F0591D7468F600B5521D /* CaseTableViewController_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F0581D7468F600B5521D /* CaseTableViewController_5.m */; };
+		9FC8F05C1D74690500B5521D /* CaseTableViewController_6.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F05B1D74690500B5521D /* CaseTableViewController_6.m */; };
 		9FD2CF1B1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
 		9FD2CF1C1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
 		9FD2CF1E1D72046800F476E2 /* swiper.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1D1D72046800F476E2 /* swiper.css */; };
@@ -225,6 +230,16 @@
 		9FC068B11D1E675D00DA1EFA /* RightToLeftSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightToLeftSegue.m; sourceTree = "<group>"; };
 		9FC8F0481D74486A00B5521D /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
 		9FC8F0491D74486A00B5521D /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		9FC8F04E1D7468C600B5521D /* CaseTableViewController_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_2.h; sourceTree = "<group>"; };
+		9FC8F04F1D7468C600B5521D /* CaseTableViewController_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_2.m; sourceTree = "<group>"; };
+		9FC8F0511D7468D900B5521D /* CaseTableViewController_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_3.h; sourceTree = "<group>"; };
+		9FC8F0521D7468D900B5521D /* CaseTableViewController_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_3.m; sourceTree = "<group>"; };
+		9FC8F0541D7468E700B5521D /* CaseTableViewController_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_4.h; sourceTree = "<group>"; };
+		9FC8F0551D7468E700B5521D /* CaseTableViewController_4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_4.m; sourceTree = "<group>"; };
+		9FC8F0571D7468F600B5521D /* CaseTableViewController_5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_5.h; sourceTree = "<group>"; };
+		9FC8F0581D7468F600B5521D /* CaseTableViewController_5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_5.m; sourceTree = "<group>"; };
+		9FC8F05A1D74690500B5521D /* CaseTableViewController_6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_6.h; sourceTree = "<group>"; };
+		9FC8F05B1D74690500B5521D /* CaseTableViewController_6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_6.m; sourceTree = "<group>"; };
 		9FD2CF1A1D72045B00F476E2 /* swiper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.min.css; sourceTree = "<group>"; };
 		9FD2CF1D1D72046800F476E2 /* swiper.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.css; sourceTree = "<group>"; };
 		9FD2CF241D7337A700F476E2 /* CaseTableViewController_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_1.h; sourceTree = "<group>"; };
@@ -429,12 +444,22 @@
 				9F09DF491D234B9900C13459 /* PageFive.m */,
 				9F12B16E1D25478F00BB6FED /* SettingsViewController.h */,
 				9F12B16F1D25478F00BB6FED /* SettingsViewController.m */,
-				9FD2CF241D7337A700F476E2 /* CaseTableViewController_1.h */,
-				9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */,
 				9FD2CF2C1D739AFF00F476E2 /* StoryCell.h */,
 				9FD2CF2D1D739AFF00F476E2 /* StoryCell.m */,
 				9FC8F0481D74486A00B5521D /* MenuCell.h */,
 				9FC8F0491D74486A00B5521D /* MenuCell.m */,
+				9FD2CF241D7337A700F476E2 /* CaseTableViewController_1.h */,
+				9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */,
+				9FC8F04E1D7468C600B5521D /* CaseTableViewController_2.h */,
+				9FC8F04F1D7468C600B5521D /* CaseTableViewController_2.m */,
+				9FC8F0511D7468D900B5521D /* CaseTableViewController_3.h */,
+				9FC8F0521D7468D900B5521D /* CaseTableViewController_3.m */,
+				9FC8F0541D7468E700B5521D /* CaseTableViewController_4.h */,
+				9FC8F0551D7468E700B5521D /* CaseTableViewController_4.m */,
+				9FC8F0571D7468F600B5521D /* CaseTableViewController_5.h */,
+				9FC8F0581D7468F600B5521D /* CaseTableViewController_5.m */,
+				9FC8F05A1D74690500B5521D /* CaseTableViewController_6.h */,
+				9FC8F05B1D74690500B5521D /* CaseTableViewController_6.m */,
 			);
 			path = "ITC Impact Stories";
 			sourceTree = "<group>";
@@ -663,13 +688,18 @@
 				9FD2CF2A1D7338F300F476E2 /* ThemeCell.m in Sources */,
 				9FC068B21D1E675D00DA1EFA /* RightToLeftSegue.m in Sources */,
 				9F6C2B1F1D1FD560004704BE /* PageTwo.m in Sources */,
+				9FC8F0501D7468C600B5521D /* CaseTableViewController_2.m in Sources */,
 				9FC068AF1D1E5DE900DA1EFA /* ViewControllerFour.m in Sources */,
 				9FC8F04A1D74486A00B5521D /* MenuCell.m in Sources */,
 				9FC068791D1DB3F500DA1EFA /* ITC_Impact_Stories.xcdatamodeld in Sources */,
+				9FC8F0591D7468F600B5521D /* CaseTableViewController_5.m in Sources */,
 				9FC068731D1DB3F500DA1EFA /* ViewController.m in Sources */,
 				9F6C2B221D1FF472004704BE /* BackgroundLayer.m in Sources */,
 				9FC068A61D1DBCE200DA1EFA /* NavigationViewController.m in Sources */,
+				9FC8F05C1D74690500B5521D /* CaseTableViewController_6.m in Sources */,
 				9FC068A31D1DB40D00DA1EFA /* SWRevealViewController.m in Sources */,
+				9FC8F0561D7468E700B5521D /* CaseTableViewController_4.m in Sources */,
+				9FC8F0531D7468D900B5521D /* CaseTableViewController_3.m in Sources */,
 				9F12B16D1D2512D400BB6FED /* ViewControllerFive.m in Sources */,
 				9F12B1701D25478F00BB6FED /* SettingsViewController.m in Sources */,
 				9FD2CF2E1D739AFF00F476E2 /* StoryCell.m in Sources */,

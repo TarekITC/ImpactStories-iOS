@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-     menu = @[@"cell_0", @"cell_1", @"cell_2",@"cell_3",@"cell_4",@"cell_5",@"cell_6",@"setting"];
+     menu = @[@"cell_0", @"cell_1", @"cell_2",@"cell_3",@"cell_4",@"cell_5",@"cell_6",@"settings"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
