@@ -10,4 +10,12 @@
 
 @interface CaseTableViewController_6 : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UIView *headerView;
+@property (weak, nonatomic) IBOutlet UILabel *headerLabel;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *menuButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *nextButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *backButton;
+
+
 @end

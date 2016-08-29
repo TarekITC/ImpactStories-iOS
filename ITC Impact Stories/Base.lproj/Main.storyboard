@@ -1854,8 +1854,17 @@ new buyers, increase profits</string>
                     <navigationItem key="navigationItem" id="MK2-X4-K3P">
                         <barButtonItem key="leftBarButtonItem" image="menu-30.png" id="xn9-Im-c5U"/>
                         <rightBarButtonItems>
-                            <barButtonItem image="right-30.png" id="Hqc-nf-BlI"/>
-                            <barButtonItem image="left-30.png" id="pSB-Jc-Ufk"/>
+                            <barButtonItem image="right-30.png" id="Hqc-nf-BlI">
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="FDV-fT-6JA" id="Gsu-KG-jhp"/>
+                                    <segue destination="avG-ik-TIc" kind="push" id="TBW-pC-pJF"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="left-30.png" id="pSB-Jc-Ufk">
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="FDV-fT-6JA" id="Xm2-xh-OlC"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -1881,7 +1890,7 @@ new buyers, increase profits</string>
                         <color key="backgroundColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.51372549020000002" green="0.1647058824" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="ptN-ni-QJV">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                            <rect key="frame" x="0.0" y="64" width="375" height="180"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SaH-IN-g7P">
@@ -1896,7 +1905,7 @@ new buyers, increase profits</string>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="160" id="WHH-9R-g9G" customClass="StoryCell">
-                                <rect key="frame" x="0.0" y="208" width="375" height="160"/>
+                                <rect key="frame" x="0.0" y="272" width="375" height="160"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WHH-9R-g9G" id="Gpu-zE-H67">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
@@ -1937,7 +1946,7 @@ new buyers, increase profits</string>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_2" rowHeight="160" id="QW8-oC-UMU" customClass="StoryCell">
-                                <rect key="frame" x="0.0" y="368" width="375" height="160"/>
+                                <rect key="frame" x="0.0" y="432" width="375" height="160"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QW8-oC-UMU" id="TOD-am-9BH">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="160"/>
@@ -1988,7 +1997,7 @@ new buyers, increase profits</string>
                         <rightBarButtonItems>
                             <barButtonItem image="right-30.png" id="g0R-ai-ex0">
                                 <connections>
-                                    <action selector="nextButtonTapped:" destination="avG-ik-TIc" id="mPa-UO-3ez"/>
+                                    <action selector="nextButtonTapped:" destination="avG-ik-TIc" id="tJW-g0-YWo"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem image="left-30.png" id="jqg-ad-FYR">
@@ -2000,16 +2009,16 @@ new buyers, increase profits</string>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="backButton" destination="jqg-ad-FYR" id="6Qk-gF-pg1"/>
-                        <outlet property="headerLabel" destination="SaH-IN-g7P" id="5jM-Xr-ax4"/>
-                        <outlet property="headerView" destination="ptN-ni-QJV" id="D1N-Ic-FVH"/>
-                        <outlet property="menuButton" destination="7yf-dQ-KEH" id="fBq-0j-T7D"/>
-                        <outlet property="nextButton" destination="g0R-ai-ex0" id="ZiG-Xb-Gnr"/>
+                        <outlet property="backButton" destination="jqg-ad-FYR" id="09H-JH-OCR"/>
+                        <outlet property="headerLabel" destination="SaH-IN-g7P" id="Mav-ge-zsz"/>
+                        <outlet property="headerView" destination="ptN-ni-QJV" id="HjA-aN-qFZ"/>
+                        <outlet property="menuButton" destination="7yf-dQ-KEH" id="IPC-aS-sLR"/>
+                        <outlet property="nextButton" destination="g0R-ai-ex0" id="fLu-iV-QSA"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jim-DU-DVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1605.5" y="3960.5"/>
+            <point key="canvasLocation" x="1578.5" y="3647.5"/>
         </scene>
     </scenes>
     <resources>
@@ -2032,6 +2041,7 @@ new buyers, increase profits</string>
         <segue reference="M3B-cA-p2y"/>
         <segue reference="5WC-Qv-xGK"/>
         <segue reference="IaP-bt-WNG"/>
+        <segue reference="TBW-pC-pJF"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
