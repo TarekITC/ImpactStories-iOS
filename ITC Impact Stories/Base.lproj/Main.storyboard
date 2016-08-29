@@ -337,7 +337,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eMa-IK-Zud">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="79"/>
+                                            <rect key="frame" x="15" y="0.0" width="345" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -354,7 +354,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LUl-Cb-kgh">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="79"/>
+                                            <rect key="frame" x="15" y="0.0" width="345" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
@@ -371,7 +371,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P4t-eH-dQH">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="79"/>
+                                            <rect key="frame" x="15" y="0.0" width="345" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
                                             <color key="textColor" red="0.3586933725" green="0.41005138419999998" blue="0.52503670300000005" alpha="1" colorSpace="calibratedRGB"/>
