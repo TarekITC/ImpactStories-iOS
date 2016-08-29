@@ -94,6 +94,8 @@
 		9FC8F0561D7468E700B5521D /* CaseTableViewController_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F0551D7468E700B5521D /* CaseTableViewController_4.m */; };
 		9FC8F0591D7468F600B5521D /* CaseTableViewController_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F0581D7468F600B5521D /* CaseTableViewController_5.m */; };
 		9FC8F05C1D74690500B5521D /* CaseTableViewController_6.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F05B1D74690500B5521D /* CaseTableViewController_6.m */; };
+		9FC8F05F1D747FBF00B5521D /* PageThree_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F05E1D747FBF00B5521D /* PageThree_1.m */; };
+		9FC8F0621D747FD500B5521D /* PageThree_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F0611D747FD500B5521D /* PageThree_2.m */; };
 		9FD2CF1B1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
 		9FD2CF1C1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
 		9FD2CF1E1D72046800F476E2 /* swiper.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1D1D72046800F476E2 /* swiper.css */; };
@@ -240,6 +242,10 @@
 		9FC8F0581D7468F600B5521D /* CaseTableViewController_5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_5.m; sourceTree = "<group>"; };
 		9FC8F05A1D74690500B5521D /* CaseTableViewController_6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_6.h; sourceTree = "<group>"; };
 		9FC8F05B1D74690500B5521D /* CaseTableViewController_6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTableViewController_6.m; sourceTree = "<group>"; };
+		9FC8F05D1D747FBF00B5521D /* PageThree_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageThree_1.h; sourceTree = "<group>"; };
+		9FC8F05E1D747FBF00B5521D /* PageThree_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageThree_1.m; sourceTree = "<group>"; };
+		9FC8F0601D747FD500B5521D /* PageThree_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageThree_2.h; sourceTree = "<group>"; };
+		9FC8F0611D747FD500B5521D /* PageThree_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageThree_2.m; sourceTree = "<group>"; };
 		9FD2CF1A1D72045B00F476E2 /* swiper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.min.css; sourceTree = "<group>"; };
 		9FD2CF1D1D72046800F476E2 /* swiper.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.css; sourceTree = "<group>"; };
 		9FD2CF241D7337A700F476E2 /* CaseTableViewController_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_1.h; sourceTree = "<group>"; };
@@ -460,6 +466,10 @@
 				9FC8F0581D7468F600B5521D /* CaseTableViewController_5.m */,
 				9FC8F05A1D74690500B5521D /* CaseTableViewController_6.h */,
 				9FC8F05B1D74690500B5521D /* CaseTableViewController_6.m */,
+				9FC8F05D1D747FBF00B5521D /* PageThree_1.h */,
+				9FC8F05E1D747FBF00B5521D /* PageThree_1.m */,
+				9FC8F0601D747FD500B5521D /* PageThree_2.h */,
+				9FC8F0611D747FD500B5521D /* PageThree_2.m */,
 			);
 			path = "ITC Impact Stories";
 			sourceTree = "<group>";
@@ -686,10 +696,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FD2CF2A1D7338F300F476E2 /* ThemeCell.m in Sources */,
+				9FC8F05F1D747FBF00B5521D /* PageThree_1.m in Sources */,
 				9FC068B21D1E675D00DA1EFA /* RightToLeftSegue.m in Sources */,
 				9F6C2B1F1D1FD560004704BE /* PageTwo.m in Sources */,
 				9FC8F0501D7468C600B5521D /* CaseTableViewController_2.m in Sources */,
 				9FC068AF1D1E5DE900DA1EFA /* ViewControllerFour.m in Sources */,
+				9FC8F0621D747FD500B5521D /* PageThree_2.m in Sources */,
 				9FC8F04A1D74486A00B5521D /* MenuCell.m in Sources */,
 				9FC068791D1DB3F500DA1EFA /* ITC_Impact_Stories.xcdatamodeld in Sources */,
 				9FC8F0591D7468F600B5521D /* CaseTableViewController_5.m in Sources */,
