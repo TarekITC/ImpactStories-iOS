@@ -8,6 +8,7 @@
 
 #import "NavigationViewController.h"
 #import "SWRevealViewController.h"
+#import "MenuCell.h"
 
 @interface NavigationViewController ()
 
@@ -20,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-     menu = @[@"first", @"second", @"third",@"four",@"five",@"six",@"seven",@"eight",@"story9",@"story10",@"story11",@"story12",@"story13",@"story14",@"story15",@"story16",@"story17",@"story18",@"story19",@"story20",@"story21",@"story22",@"story23",@"story24",@"story25",@"story26"];
+     menu = @[@"cell_0", @"cell_1", @"cell_2",@"cell_3",@"cell_4",@"cell_5",@"cell_6",@"setting"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -51,7 +52,39 @@
    
     
     NSString *cellIdentifier = [menu objectAtIndex:indexPath.row];
-     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    MenuCell *cell =  [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    if ([cellIdentifier isEqualToString:@"cell_0"]) {
+        
+    
+        cell.menuTitle.text = @"Foreword";
+    }else if ([cellIdentifier isEqualToString:@"cell_1"]){
+        
+    cell.menuTitle.text = @"Providing Trade and Market Intelligence";
+    
+    
+    }else if ([cellIdentifier isEqualToString:@"cell_2"]){
+    
+        cell.menuTitle.text = @"Building a Conducive Business Environment";
+        
+    }else if ([cellIdentifier isEqualToString:@"cell_3"]){
+    cell.menuTitle.text = @"Strengthening Trade and Investment Support Institutions";
+    
+    
+    }else if ([cellIdentifier isEqualToString:@"cell_4"]){
+    
+    cell.menuTitle.text = @"Connecting to International Values Chains";
+    
+    }else if ([cellIdentifier isEqualToString:@"cell_5"]){
+    cell.menuTitle.text = @"Promoting and Mainstreaming Inclusive and Green Trade";
+    
+    }else if ([cellIdentifier isEqualToString:@"cell_6"]){
+    cell.menuTitle.text = @"Supporting Regional Economic Integration and South-South links";
+    
+    
+    }else if ([cellIdentifier isEqualToString:@"setting"]){
+        cell.menuTitle.text = @"Settings";
+        
+    }
     
     return cell;
 }

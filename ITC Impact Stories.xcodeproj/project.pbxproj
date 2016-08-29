@@ -88,6 +88,7 @@
 		9FC068AC1D1E59CF00DA1EFA /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC068AB1D1E59CF00DA1EFA /* ViewControllerThree.m */; };
 		9FC068AF1D1E5DE900DA1EFA /* ViewControllerFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC068AE1D1E5DE900DA1EFA /* ViewControllerFour.m */; };
 		9FC068B21D1E675D00DA1EFA /* RightToLeftSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC068B11D1E675D00DA1EFA /* RightToLeftSegue.m */; };
+		9FC8F04A1D74486A00B5521D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8F0491D74486A00B5521D /* MenuCell.m */; };
 		9FD2CF1B1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
 		9FD2CF1C1D72045B00F476E2 /* swiper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1A1D72045B00F476E2 /* swiper.min.css */; };
 		9FD2CF1E1D72046800F476E2 /* swiper.css in Resources */ = {isa = PBXBuildFile; fileRef = 9FD2CF1D1D72046800F476E2 /* swiper.css */; };
@@ -222,6 +223,8 @@
 		9FC068AE1D1E5DE900DA1EFA /* ViewControllerFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFour.m; sourceTree = "<group>"; };
 		9FC068B01D1E675D00DA1EFA /* RightToLeftSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightToLeftSegue.h; sourceTree = "<group>"; };
 		9FC068B11D1E675D00DA1EFA /* RightToLeftSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightToLeftSegue.m; sourceTree = "<group>"; };
+		9FC8F0481D74486A00B5521D /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		9FC8F0491D74486A00B5521D /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
 		9FD2CF1A1D72045B00F476E2 /* swiper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.min.css; sourceTree = "<group>"; };
 		9FD2CF1D1D72046800F476E2 /* swiper.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = swiper.css; sourceTree = "<group>"; };
 		9FD2CF241D7337A700F476E2 /* CaseTableViewController_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTableViewController_1.h; sourceTree = "<group>"; };
@@ -430,6 +433,8 @@
 				9FD2CF251D7337A700F476E2 /* CaseTableViewController_1.m */,
 				9FD2CF2C1D739AFF00F476E2 /* StoryCell.h */,
 				9FD2CF2D1D739AFF00F476E2 /* StoryCell.m */,
+				9FC8F0481D74486A00B5521D /* MenuCell.h */,
+				9FC8F0491D74486A00B5521D /* MenuCell.m */,
 			);
 			path = "ITC Impact Stories";
 			sourceTree = "<group>";
@@ -659,6 +664,7 @@
 				9FC068B21D1E675D00DA1EFA /* RightToLeftSegue.m in Sources */,
 				9F6C2B1F1D1FD560004704BE /* PageTwo.m in Sources */,
 				9FC068AF1D1E5DE900DA1EFA /* ViewControllerFour.m in Sources */,
+				9FC8F04A1D74486A00B5521D /* MenuCell.m in Sources */,
 				9FC068791D1DB3F500DA1EFA /* ITC_Impact_Stories.xcdatamodeld in Sources */,
 				9FC068731D1DB3F500DA1EFA /* ViewController.m in Sources */,
 				9F6C2B221D1FF472004704BE /* BackgroundLayer.m in Sources */,
