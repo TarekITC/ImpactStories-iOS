@@ -1,15 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>Untitled Document</title>
-        <link href="Impact-Stories-web_1.css" rel="stylesheet" type="text/css"/>
-    </head>
-    
+        <meta charset="utf-8">
+            <title>Swiper demo</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+                
+                <link rel="stylesheet" href="swiper.css">
+                    <link href="Impact-Stories-web_1.css" rel="stylesheet" type="text/css"/>
+                    
+                    <style>
+                        .swiper-container {
+                            width: 100%;
+                            height: 250px;
+                            margin-left: 0px;
+                            margin-right: 0px;
+                        }
+                    .swiper-slide {
+                        background-size: cover;
+                        background-position: center;
+                        
+                    }
+                    .gallery-top {
+                        height: 250px;
+                        width: 100%;
+                    }
+                    
+                    .arrow-pos {
+                        
+                        opacity:0.25;
+                        top:125px;
+                    }
+                    </style>
+                    
+                    </head>
     <body>
-
-    <p class="Country-CS">CASE STUDY</p>
-    <p class="subtitle-CS">SITA: Forging new trade and investment connections between East Africa and India</p>
+        
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(Case_studies/CS9_1.png)"></div>
+                <div class="swiper-slide" style="background-image:url(Case_studies/CS9_2.png)"></div>
+                <div class="swiper-slide" style="background-image:url(Case_studies/CS9_3.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(Case_studies/CS9_4.png)"></div>
+            </div>
+        </div>
+        
+        <div class="swiper-button-next swiper-button-white  arrow-pos"></div>
+        <div class="swiper-button-prev swiper-button-white  arrow-pos"></div>
+        <script src="swiper.js"></script>
+        <script>
+            var galleryTop = new Swiper('.gallery-top', {
+                                        nextButton: '.swiper-button-next',
+                                        prevButton: '.swiper-button-prev',
+                                        spaceBetween: 10,
+                                        loop:true,
+                                        loopedSlides: 5,
+                                        });
+            </script>
+        
+        <p class="Country-CS">CASE STUDY</p>
+        <p class="subtitle-CS">SITA: Forging new trade and investment connections between East Africa and India</p>
     
     <p class="Subtitle-story-CS">The challenge</p>
     
