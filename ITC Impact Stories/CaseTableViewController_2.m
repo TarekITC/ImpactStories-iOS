@@ -61,7 +61,7 @@
     
     [self.headerView setFrame:newFrame];
     
-    self.headerLabel.text = @"Trade and market intelligence";
+    self.headerLabel.text = @"Supporting regional economic integration and South-South trade";
     
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
@@ -103,16 +103,16 @@
         
         NSLog(@"Cell 1 / case 2 ");
         
-        cell.storyTitle.text = @"Market Intelligence";
-        cell.storyDescription.text = @"ITC market analysis tools help generate over US$60 million in goods and services exports";
+        cell.storyTitle.text = @"Egypt";
+        cell.storyDescription.text = @"Say cheese: Halal certification helps Egyptian dairy quadruple sales to Malaysia, find new markets";
         cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
         NSLog(@"Cell 2 / case 2");
         
-        cell.storyTitle.text = @"Côte d'Ivoire";
-        cell.storyDescription.text = @"Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures";
+        cell.storyTitle.text = @"Mekong region";
+        cell.storyDescription.text = @"Linking Central and Western Africa to the Mekong's francophone countries";
         cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
         
         

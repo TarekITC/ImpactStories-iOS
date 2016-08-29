@@ -30,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    menu = @[@"cell", @"cell_2"];
+    menu = @[@"cell", @"cell_2", @"cell_3", @"cell_4"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -63,7 +63,7 @@
     
     [self.headerView setFrame:newFrame];
     
-    self.headerLabel.text = @"Trade and market intelligence";
+    self.headerLabel.text = @"Promoting and mainstreaming inclusive and green trade";
     
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
@@ -103,18 +103,36 @@
     
     if ([cellIdentifier isEqualToString:@"cell"]) {
         
-        NSLog(@"Cell 1 / case 2 ");
+        NSLog(@"Cell 1 / case 5 ");
         
-        cell.storyTitle.text = @"Market Intelligence";
-        cell.storyDescription.text = @"ITC market analysis tools help generate over US$60 million in goods and services exports";
+        cell.storyTitle.text = @"Ethical Fashion";
+        cell.storyDescription.text = @"Perfect fit - tailor from Nairobi slum finds stable work, better pay";
         cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
-        NSLog(@"Cell 2 / case 2");
+        NSLog(@"Cell 2 / case 5");
         
-        cell.storyTitle.text = @"Côte d'Ivoire";
-        cell.storyDescription.text = @"Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures";
+        cell.storyTitle.text = @"Peru";
+        cell.storyDescription.text = @"US safety certificate could quintuple Peru's exports of indigenous food product";
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        
+        
+    } else if ([cellIdentifier isEqualToString:@"cell_3"]) {
+        
+        NSLog(@"Cell 3 / case 5");
+        
+        cell.storyTitle.text = @"Peru";
+        cell.storyDescription.text = @"US safety certificate could quintuple Peru's exports of indigenous food product";
+        cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
+        
+        
+    } else if ([cellIdentifier isEqualToString:@"cell_4"]) {
+        
+        NSLog(@"Cell 4 / case 5");
+        
+        cell.storyTitle.text = @"Peru";
+        cell.storyDescription.text = @"US safety certificate could quintuple Peru's exports of indigenous food product";
         cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
         
         

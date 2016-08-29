@@ -62,7 +62,7 @@
     
     [self.headerView setFrame:newFrame];
     
-    self.headerLabel.text = @"Trade and market intelligence";
+    self.headerLabel.text = @"connecting to value chains: SME competitiveness, diversification and links to export markets";
     
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
@@ -104,16 +104,16 @@
         
         NSLog(@"Cell 1 / case 2 ");
         
-        cell.storyTitle.text = @"Market Intelligence";
-        cell.storyDescription.text = @"ITC market analysis tools help generate over US$60 million in goods and services exports";
+        cell.storyTitle.text = @"Kyrgyzstan";
+        cell.storyDescription.text = @"Boosting quality and exports";
         cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
         NSLog(@"Cell 2 / case 2");
         
-        cell.storyTitle.text = @"Côte d'Ivoire";
-        cell.storyDescription.text = @"Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures";
+        cell.storyTitle.text = @"Cambodia";
+        cell.storyDescription.text = @"Soft to the touch - Cambodian silk producers find new buyers, increase profits";
         cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
         
         

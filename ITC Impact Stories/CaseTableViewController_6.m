@@ -62,7 +62,7 @@
     
     [self.headerView setFrame:newFrame];
     
-    self.headerLabel.text = @"Trade and market intelligence";
+    self.headerLabel.text = @"Building a conducive policy and business environment through public-private partnerships";
     
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
@@ -104,16 +104,16 @@
         
         NSLog(@"Cell 1 / case 2 ");
         
-        cell.storyTitle.text = @"Market Intelligence";
-        cell.storyDescription.text = @"ITC market analysis tools help generate over US$60 million in goods and services exports";
+        cell.storyTitle.text = @"Côte d'Ivoire";
+        cell.storyDescription.text = @"Solving commercial disputes quickly and cheaply through mediation";
         cell.storyThumbnail.image = [UIImage imageNamed:@"Market_intelligence/IMG_9126_opt.jpeg"];
         
     } else if ([cellIdentifier isEqualToString:@"cell_2"]) {
         
         NSLog(@"Cell 2 / case 2");
         
-        cell.storyTitle.text = @"Côte d'Ivoire";
-        cell.storyDescription.text = @"Côte d'Ivoire sets up Trade Obstacles Alert service to tackle non-tariff measures";
+        cell.storyTitle.text = @"Mauritius";
+        cell.storyDescription.text = @"Speedz implementation of Trade Facilitation Agreement key to competitiveness";
         cell.storyThumbnail.image = [UIImage imageNamed:@"Cote_dIvoire/shutterstock_151573184_opt.jpeg"];
         
         
